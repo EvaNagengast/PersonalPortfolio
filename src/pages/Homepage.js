@@ -6,14 +6,16 @@ export default function Homepage() {
   let navigate = useNavigate();
   return (
     <div>
-      <h1> EVA NAGENGAST</h1>
-      <h2> Aspiring Front-End Developer</h2>
-      <br /> <br /> <br />{" "}
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      {/* <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <button
+            class="navbar-brand"
+            onClick={() => {
+              navigate("./Cv");
+            }}
+          >
             Navbar
-          </a>
+          </button>
           <button
             class="navbar-toggler"
             type="button"
@@ -28,40 +30,49 @@ export default function Homepage() {
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
+                <button
+                  class="nav-link active"
+                  aria-current="page"
+                  onClick={() => {
+                    navigate("./Cv");
+                  }}
+                >
                   Home
-                </a>
+                </button>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <button
+                  class="nav-link"
+                  onClick={() => {
+                    navigate("./Cv");
+                  }}
+                >
                   Features
-                </a>
+                </button>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <button
+                  class="nav-link"
+                  onClick={() => {
+                    navigate("./Cv");
+                  }}
+                >
                   Pricing
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
+                </button>
               </li>
             </ul>
           </div>
         </div>
-      </nav>
-      <br /> <br /> <br /> <br /> <br />
+      </nav> */}
+      <h1> EVA NAGENGAST</h1>
+      <h2> Aspiring Front-End Developer</h2>
+      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
       <div className="row">
         <div className="col">dad</div>
         <div className="col">sadsa</div>
       </div>{" "}
       <br /> <br /> <br /> <br /> <br /> <br />
-      <button
-        onClick={() => {
-          navigate("./Cv");
-        }}
-      >
-        Work experience
-      </button>
+      <button>Work experience</button>
     </div>
   );
 }

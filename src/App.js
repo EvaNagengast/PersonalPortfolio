@@ -24,7 +24,7 @@ export default function App() {
   );
   return (
     <div className="container">
-      <nav>
+      {/* <nav>
         <a href="/">Home</a>
         {""}
         <a href="/aboutme" className="red">
@@ -34,7 +34,7 @@ export default function App() {
         <a href="/contact">Contact</a>
         {""}
         <a href="/projects">Projects</a>
-      </nav>
+      </nav> */}
       <Router>{routes}</Router> <Footer />
     </div>
   );
