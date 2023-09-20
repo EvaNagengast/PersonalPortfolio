@@ -4,29 +4,36 @@ import Homepage from "./pages/Homepage";
 import AboutMe from "./pages/Aboutme";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
+import Cv from "./pages/Cv";
+import Footer from "./pages/Footer";
 import Error from "./pages/Error";
 import "./App.css";
 
 export default function App() {
   return (
-    <Router>
-      <nav>
-        <Link to="/">Home</Link>
-        {""} 
-        <Link to="/aboutme" className="red">AboutMe</Link>
-        {""} 
-        <Link to="/contact">Contact</Link>
-        {""} 
-        <Link to="/projects">Projects</Link>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/aboutme" element={<AboutMe />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="*" element={<Error />} />
-      </Routes>
-      <footer>hello this is a footer</footer>
-    </Router>
+    <div className="container">
+      <Router>
+        <nav>
+          <Link to="/">Home</Link>
+          {""}
+          <Link to="/aboutme" className="red">
+            AboutMe
+          </Link>
+          {""}
+          <Link to="/contact">Contact</Link>
+          {""}
+          <Link to="/projects">Projects</Link>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/aboutme" element={<AboutMe />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/cv" element={<Cv />} />
+          <Route path="*" element={<Error />} />
+        </Routes>
+        <Footer />
+      </Router>
+    </div>
   );
 }

@@ -1,7 +1,10 @@
-footer {
-  color: red;
-  background-color: green;
+.container {
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
 }
+
+
 nav {
   padding: 20px;
 
@@ -11,4 +14,6 @@ nav a {
   color: aquamarine;
   padding: 5px;
 }
-.red{color: red;}
+.red {
+  color: red;
+}
