@@ -1,6 +1,5 @@
 import React from "react";
 
 export default function Cv() {
-
-  return <div>work EXPERIENCE</div>;
+  return <div className="container">work EXPERIENCE</div>;
 }

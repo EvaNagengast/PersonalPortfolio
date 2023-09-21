@@ -72,7 +72,13 @@ export default function Homepage() {
         <div className="col">sadsa</div>
       </div>{" "}
       <br /> <br /> <br /> <br /> <br /> <br />
-      <button>Work experience</button>
+      <button
+        onClick={() => {
+          navigate("../Cv");
+        }}
+      >
+        Work experience
+      </button>
     </div>
   );
 }
