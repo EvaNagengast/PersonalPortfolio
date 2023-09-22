@@ -1,6 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap");
+
 .Homepage {
   text-align: center;
 }
+.Homepage .container {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+.hero {
+  background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgb(0, 0, 0, 0.1) 100%
+    ),
+    url("../media/blue.png");
+  margin-top: -70px;
+  padding:170px 0 100px 0;
+}
+
 .heading {
   color: var(---secondary);
   margin-top: 30px;
@@ -18,4 +36,45 @@
   white-space: nowrap;
   animation: typewriter 4s steps(30) 1.2s 1 normal both,
     blinkTextCursor 700ms infinite;
+}
+
+.green {
+  background-color: forestgreen;
+}
+/*  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+main {
+  
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  gap: 50px;
+  overflow: hidden;
+}
+
+main div {
+  flex: 1;
+  height: 80%;
+  border: 2px solid #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  Transition: all ease-in 1s;
+}
+
+.slide-in {
+  transform: translateX(0) !important;
 }

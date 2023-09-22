@@ -1,10 +1,12 @@
 :root {
   ---base: #f7cc57;
   ---baselight: #fce9b7;
----basedark:#ffbb00;;
+  ---basedark: #ffbb00;
   ---secondary: #ef9191;
 }
-.App{max-width: 100%;}
+.App {
+  max-width: 100%;
+}
 div .container {
   min-height: 100vh;
   display: flex;

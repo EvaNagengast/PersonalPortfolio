@@ -1,9 +1,10 @@
 nav {
   padding: 5px;
-  box-shadow: 3px 3px 10px var(---baselight);
-  background-color: var(---base);
+  box-shadow: 3px 3px 10px  rgba(0, 0, 0, 0.352);
+  background-color: rgba(255, 255, 255, 0.032);
   position: sticky;
   top: 0;
+  height: 70px;
 }
 nav a {
   color: black;
