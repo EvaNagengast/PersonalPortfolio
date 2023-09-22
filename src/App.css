@@ -1,21 +1,12 @@
-
-
-nav {
-  padding: 20px;
-
-  background-color: pink;
+:root {
+  ---base: #f7cc57;
+  ---baselight: #fce9b7;
+---basedark:#ffbb00;;
+  ---secondary: #ef9191;
 }
-nav a {
-  color: green;
-  padding: 5px;
-}div .container {
+.App{max-width: 100%;}
+div .container {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
-.red {
-  color: red;
-}
-#navbar a.active {
-  color: azure;
 }

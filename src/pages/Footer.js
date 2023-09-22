@@ -3,8 +3,7 @@ import "./Footer.css"
 export default function Footer() {
   return (
     <footer className="Footer">
-      This page was crafted with care and built using the JavaScript React
-      library, it is open-sourced on{" "}
+      This page was crafted with care and built using JavaScript React, Bootstrap it is open-sourced on
       <a
         href="https://github.com/EvaNagengast/PersonalPortfolio"
         target="_blank"

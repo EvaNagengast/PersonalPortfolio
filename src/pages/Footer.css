@@ -1,6 +1,6 @@
 footer {
   margin-top: auto;
-  color: red;
-  background-color: green;
+  background-color: var(---baselight);
+  color: green;
   position: relative;
 }

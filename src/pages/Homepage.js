@@ -7,8 +7,8 @@ import { useNavigate } from "react-router-dom";
 export default function Homepage() {
   let navigate = useNavigate();
   return (
-    <div>
-      <h1> EVA NAGENGAST</h1>
+    <div className="Homepage"><header>
+      <h1> Eva Nagengast</h1></header>
       <h2> Aspiring Front-End Developer</h2>
       <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
       <div className="row">
