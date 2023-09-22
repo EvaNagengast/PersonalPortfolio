@@ -2,20 +2,21 @@ import React, { useEffect, useRef } from "react";
 import Footer from "./Footer";
 import TypeIt from "typeit-react";
 import { motion, useAnimation, useInView } from "framer-motion";
+
 import "./Homepage.css";
 
-import {useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Homepage() {
   const ref = useRef(null);
   const isInView = useInView(ref);
-
   const mainControls = useAnimation();
 
   useEffect(() => {
-    if (isInView) { mainControls.start("visible")
+    if (isInView) {
+      mainControls.start("visible");
     }
-  }, [isInView]);
+  }, [isInView, mainControls]);
 
   let navigate = useNavigate();
   return (
@@ -37,6 +38,7 @@ export default function Homepage() {
             <h3>based in London</h3>
             <button>let's connect</button>
           </motion.div>
+         
         </div>
         <main>
           <div className="child-one">

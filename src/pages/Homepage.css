@@ -30,6 +30,7 @@
       rgb(0, 0, 0, 0.1) 100%
     ),
     url("../media/blue.png");
+    z-index: -2;
 }
 .Homepage .heading {
   margin-top: 30px;
@@ -38,6 +39,7 @@
   font-size: 50px;
   font-weight: 700;
 }
+
 
 /*  */
 
