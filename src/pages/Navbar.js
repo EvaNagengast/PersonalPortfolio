@@ -32,7 +32,6 @@ export default function Navbar() {
         <nav className="navigation">
           <NavLink to="/" id="main">
             <img src={Logo} alt="logo"></img>
-     
           </NavLink>
           <NavLink to="/" id="main">
             Home
@@ -40,6 +39,9 @@ export default function Navbar() {
           <NavLink to="/aboutme">About</NavLink>
           <NavLink to="/contact">Contact</NavLink>
           <NavLink to="/projects">Projects</NavLink>
+          <button>
+            <NavLink to="/cv">Resume</NavLink>
+          </button>
         </nav>
         {routes}
       </Router>

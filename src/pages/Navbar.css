@@ -1,7 +1,14 @@
 nav {
   padding: 5px;
-  box-shadow: 3px 3px 10px  rgba(0, 0, 0, 0.352);
-  background-color: rgba(255, 255, 255, 0.032);
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.237);
+  background-image: linear-gradient(
+    to bottom,
+    #ffffffe7,
+    #ffffff55,
+    #ededed30,
+    #ffffff13,
+    #00000000
+  );
   position: sticky;
   top: 0;
   height: 70px;
@@ -21,7 +28,11 @@ nav img {
   padding: 0;
   margin: 0;
 }
+
+button {
+  text-align: right;
+}
 .navigation a.active {
-  color: azure;
+  color: var(---baselight);
   font-size: 20px;
 }
