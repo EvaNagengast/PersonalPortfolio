@@ -12,7 +12,7 @@ nav {
   top: 0;
   height: fit-content;
   padding: 5px;
-  
+  z-index: 10;
 }
 nav a {
   color: black;
@@ -34,7 +34,7 @@ button {
   display: inline-block block;
 
   margin: 20px;
-  background-color: #b1cdd17e;
+  background-color: #ffffff37;
   border: none;
   box-shadow: 1px 0px 11px 3px #61808533;
   padding: 5px 10px;
@@ -44,9 +44,7 @@ button:hover {
   background-color: #c9f8ff9b;
 }
 .navigation a.active {
-  color: var(---baselight);
-  font-size: 20px;
+  color: white;
+ 
 }
-.navigation button.active {
-  color: var(---baselight);
-}
+

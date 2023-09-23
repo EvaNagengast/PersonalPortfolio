@@ -6,6 +6,7 @@
 }
 .App {
   max-width: 100%;
+  background-color: #d0eff4;
 }
 div .container {
   min-height: 100vh;

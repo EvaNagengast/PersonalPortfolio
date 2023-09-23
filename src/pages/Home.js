@@ -4,9 +4,9 @@ import { motion, useAnimation, useInView } from "framer-motion";
 import TypeIt from "typeit-react";
 import Footer from "./Footer";
 import Profilepic from "../media/profilepic.png";
-import Divider from "../media/clouds.png";
 
-import "./Homepage.css";
+
+import "./Home.css";
 
 export default function Homepage() {
   const ref = useRef(null);
@@ -21,7 +21,7 @@ export default function Homepage() {
 
   let navigate = useNavigate();
   return (
-    <div className="Homepage">
+    <div className="Home">
       <div className="container">
         <div className="hero">
           <TypeIt className="heading">Eva Nagengast</TypeIt>
@@ -50,25 +50,12 @@ export default function Homepage() {
             </button>
           </motion.div>
         </div>
-        <div className="divider">
-          <motion.img
-            src={Divider}
-            variants={{
-              noshow: { opacity: 0, y: 100 },
-              show: { opacity: 1, y: 0 },
-            }}
-            initial="noshow"
-            animate="show"
-            transition={{ duration: 2, delay: 1.25 }}
-            className="subheader"
-            alt="Profile Picture"
-          ></motion.img>
-        </div>
+      
         <main>
           <div className="aboutsection" id="about-one">
             <div className="row">
               <div className="col-3">
-                <img src={Profilepic} alt="profile"></img>
+                <img src={Profilepic}></img>
               </div>
               <div className="col-9">
                 Hi, I'm Eva! <br />I have experience designing and developing
@@ -76,11 +63,10 @@ export default function Homepage() {
                 apps. Have Fun exploring my page or
                 <button
                   onClick={() => {
-                    navigate("./Cv");
+                    navigate("/cv");
                   }}
                 >
-                  {" "}
-                  learn more about me{" "}
+                  learn more about me
                 </button>
               </div>
             </div>

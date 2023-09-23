@@ -1,9 +1,9 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap"); */
 
-.Homepage {
+.Home {
   text-align: center;
 }
-.Homepage h1 {
+.Home h1 {
   position: relative;
   letter-spacing: 7px;
   overflow: hidden;
@@ -12,29 +12,37 @@
   animation: typewriter 4s steps(30) 1.2s 1 normal both,
     blinkTextCursor 700ms infinite;
 }
-.Homepage main {
+.Home main {
   height: 800px;
 }
-.Homepage .container {
+.Home .container {
   max-width: 100%;
   margin: 0;
   padding: 0;
 }
-.Homepage .hero {
+.Home .hero {
   min-height: 600px;
   margin-top: -100px;
   padding: 170px 0 100px 0;
-  background: url("../media/blue.png");
+  background-color:#d5e4ca;
+background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgb(0, 0, 0, 0.1) 100%
+    ),
+    url("../media/backgroundspeckles.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.Homepage .divider img {
+.Home .divider img {
   position: absolute;
   left: -1px;
   top: 450px;
   max-height: 400px;
   width: 100%;
 }
-.Homepage .heading {
+.Home .heading {
   margin-top: 30px;
   color: var(---secondary);
   font-family: "Josefin Sans", sans-serif;
@@ -42,7 +50,7 @@
   font-weight: 700;
 }
 
-.Homepage .hero button {
+.Home .hero button {
   display: inline-block block;
   margin: 20px;
   background-color: #ffffff42;
@@ -51,29 +59,24 @@
   padding: 5px 10px;
   border-radius: 7px;
 }
-.Homepage .hero a {
+.Home .hero a {
   color: black;
   text-decoration: none;
   transition:    all 8s ease;
 }
 
-.Homepage .hero button:hover {
+.Home .hero button:hover {
   color: var(---baselight);
   background-color: #c9f8ff9b;
 }
 /*  */
-.Homepage .aboutsection {
-  background: linear-gradient(
-      172deg,
-      rgba(255, 255, 255, 0.7) 0%,
-      rgba(255, 255, 255, 0.7) 100%
-    ),
-    url("../media/blue.png");
+.Home .aboutsection {
+ 
   background-color: #b2d0d7;
   padding: 200px 60px 60px 60px;
 }
 
-.Homepage .aboutsection img {
+.Home .aboutsection img {
   height: 250px;
 }
 .child-two {
