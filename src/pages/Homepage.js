@@ -1,11 +1,12 @@
 import React, { useEffect, useRef } from "react";
-import Footer from "./Footer";
-import TypeIt from "typeit-react";
+import { useNavigate } from "react-router-dom";
 import { motion, useAnimation, useInView } from "framer-motion";
+import TypeIt from "typeit-react";
+import Footer from "./Footer";
+import Profilepic from "../media/profilepic.png";
+import Divider from "../media/clouds.png";
 
 import "./Homepage.css";
-
-import { useNavigate } from "react-router-dom";
 
 export default function Homepage() {
   const ref = useRef(null);
@@ -36,13 +37,39 @@ export default function Homepage() {
           >
             <h2>Aspiring Front-End Developer</h2>
             <h3>based in London</h3>
-            <button>let's connect</button>
+            <button
+              onClick={() => {
+                navigate("./Cv");
+              }}
+            >
+              let's connect
+            </button>
+            <button> explore my page</button>
           </motion.div>
-         
+        </div>
+        <div className="divider">
+          <img src={Divider}></img>
         </div>
         <main>
-          <div className="child-one">
-            txt
+          <div className="aboutsection">
+            <div className="row">
+              <div className="col-3">
+                <img src={Profilepic}></img>
+              </div>
+              <div className="col-9">
+                Hi, I'm Eva! <br />I have experience designing and developing
+                visually appealing and eye catching responsive websites and
+                apps. Have Fun exploring my page or
+                <button
+                  onClick={() => {
+                    navigate("./Cv");
+                  }}
+                >
+                  {" "}
+                  learn more about me{" "}
+                </button>
+              </div>
+            </div>
             <br /> txt txt
             <br /> txt txt
             <br /> txt txt
@@ -75,15 +102,6 @@ export default function Homepage() {
             <br /> txt txt
             <br /> txt txt
             <br /> txt txt
-            <br /> txt txt
-            <br /> txt txt
-            <br /> txt txt
-            <br /> txt txt
-            <br /> txt txt
-            <br /> txt txt
-            <br /> txt txt
-            <br /> txt txt
-            <br /> txt
           </motion.div>
           <div className="child-three">see about me</div>
         </main>

@@ -1,5 +1,4 @@
 nav {
-  padding: 5px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.237);
   background-image: linear-gradient(
     to bottom,
@@ -11,7 +10,9 @@ nav {
   );
   position: sticky;
   top: 0;
-  height: 70px;
+  height: fit-content;
+  padding: 5px;
+  
 }
 nav a {
   color: black;
@@ -30,9 +31,22 @@ nav img {
 }
 
 button {
-  text-align: right;
+  display: inline-block block;
+
+  margin: 20px;
+  background-color: #b1cdd17e;
+  border: none;
+  box-shadow: 1px 0px 11px 3px #61808533;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+button:hover {
+  background-color: #c9f8ff9b;
 }
 .navigation a.active {
   color: var(---baselight);
   font-size: 20px;
+}
+.navigation button.active {
+  color: var(---baselight);
 }

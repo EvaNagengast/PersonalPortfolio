@@ -14,7 +14,6 @@
 }
 .Homepage main {
   height: 800px;
-  padding: 30px;
 }
 .Homepage .container {
   max-width: 100%;
@@ -22,15 +21,19 @@
   padding: 0;
 }
 .Homepage .hero {
-  margin-top: -70px;
+  min-height: 600px;
+  margin-top: -100px;
   padding: 170px 0 100px 0;
-  background: linear-gradient(
-      172deg,
-      rgba(0, 0, 0, 0.1) 0%,
-      rgb(0, 0, 0, 0.1) 100%
-    ),
-    url("../media/blue.png");
-    z-index: -2;
+  background: url("../media/blue.png");
+}
+
+.Homepage .divider img {
+  position: absolute;
+left: -44px;
+top: 400px;
+  height: 400px;
+  z-index: 0;
+  
 }
 .Homepage .heading {
   margin-top: 30px;
@@ -40,9 +43,34 @@
   font-weight: 700;
 }
 
-
+.Homepage .hero button {
+  display: inline-block block;
+  margin: 20px;
+  background-color: #b1cdd17e;
+  border: none;
+  box-shadow: 1px 0px 11px 3px #61808533;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+.Homepage .hero button:hover {
+  color: var(---baselight);
+  background-color: #c9f8ff9b;
+}
 /*  */
+.Homepage .aboutsection {
+  background: linear-gradient(
+      172deg,
+      rgba(255, 255, 255, 0.7) 0%,
+      rgba(255, 255, 255, 0.7) 100%
+    ),
+    url("../media/blue.png");
+  background-color: #b2d0d7;
+  padding: 60px;
+}
 
+.Homepage .aboutsection img {
+  height: 250px;
+}
 .child-two {
   background-color: pink;
 }
