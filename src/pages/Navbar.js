@@ -42,7 +42,7 @@ export default function Navbar() {
           <NavLink to="/contact">Contact</NavLink>
           <NavLink to="/projects">Projects</NavLink>
           <NavLink to="/homepage">Home2</NavLink>
-          <button>
+          <button className="navbutton">
             <NavLink to="/cv">Resume</NavLink>
           </button>
         </nav>

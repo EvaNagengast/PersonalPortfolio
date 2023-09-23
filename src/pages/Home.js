@@ -1,10 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, useAnimation, useInView } from "framer-motion";
-import TypeIt from "typeit-react";
 import Footer from "./Footer";
 import Profilepic from "../media/profilepic.png";
-
 
 import "./Home.css";
 
@@ -24,7 +22,7 @@ export default function Homepage() {
     <div className="Home">
       <div className="container">
         <div className="hero">
-          <TypeIt className="heading">Eva Nagengast</TypeIt>
+          <h1 className="heading">Eva Nagengast</h1>
           <motion.div
             variants={{
               noshow: { opacity: 0, y: 100 },
@@ -50,29 +48,65 @@ export default function Homepage() {
             </button>
           </motion.div>
         </div>
-      
+
         <main>
-          <div className="aboutsection" id="about-one">
+          <div className="aboutsection" id="about-one" ref={ref}>
             <div className="row">
               <div className="col-3">
-                <img src={Profilepic}></img>
+                <motion.img
+                  src={Profilepic}
+                  variants={{
+                    hidden: { opacity: 0, x: -70 },
+                    visible: { opacity: 1, x: 0 },
+                  }}
+                  initial="hidden"
+                  animate={mainControls}
+                  transition={{ duration: 1.5, delay: 0.5 }}
+                  alt="profile"
+                ></motion.img>
               </div>
-              <div className="col-9">
-                Hi, I'm Eva! <br />I have experience designing and developing
-                visually appealing and eye catching responsive websites and
-                apps. Have Fun exploring my page or
+              <div className="col-9 pt-5 abouttext">
+                Hi, I'm Eva! <br />I love designing and developing visually
+                appealing and eye catching responsive websites and apps. Have
+                Fun exploring my page or learn more
                 <button
                   onClick={() => {
                     navigate("/cv");
                   }}
                 >
-                  learn more about me
+                  about me
                 </button>
+                <div className="codeHeader row">
+                  <div className="col-10">Eva Nagengast</div>{" "}
+                  <div className="col-2">x</div>
+                </div>
+                <div className="codeHeader"></div>
+                <div className="codesnippet">
+                  {/* ["nagengasteva@gmail.com", "LinkedIn", "GitHub"] basicInfo{" "} */}
+                
+                  <br />
+                  location: "London"{"}"}
+                  <br />
+                  contactInfo {"{"}
+                  <br />
+                  mail: "nagengasteva@gmail.com"
+                  <br />
+                  LinkedIn: "/evanagengast"
+                  <br />
+                  GitHub: "/EvaNagengast"{"}"}
+                  <br />
+                  .CV {"["}"evaNagengast.pdf"{"]"}
+                  <br />
+                  .interests {"["}"Web Development", "Music", "Suirrels",
+                  "Crafts"{"]"}
+                  .skills ["React.js",
+                  "HTML && CSS", "JavaScript", "GitHub"]
+                </div>
               </div>
             </div>
           </div>
+          <div className="projectsection"></div>
           <motion.div
-            ref={ref}
             variants={{
               hidden: { opacity: 0, y: 70 },
               visible: { opacity: 1, y: 0 },

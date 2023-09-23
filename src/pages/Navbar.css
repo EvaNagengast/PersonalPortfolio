@@ -1,12 +1,12 @@
-nav {
+.Navbar nav {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.237);
   background-image: linear-gradient(
     to bottom,
-    #ffffffe7,
-    #ffffff55,
-    #ededed30,
-    #ffffff13,
-    #00000000
+    #fffcec,
+    #fffcece0,
+    #fffceccc,
+    #fffcecba,
+    #fffcec90
   );
   position: sticky;
   top: 0;
@@ -14,23 +14,23 @@ nav {
   padding: 5px;
   z-index: 10;
 }
-nav a {
+.Navbar nav a {
   color: black;
   padding: 5px;
   text-decoration: none;
 }
-nav a:hover {
+.Navbar nav a:hover {
   color: var(---baselight);
   padding: 5px;
   text-decoration: none;
 }
-nav img {
+.Navbar nav img {
   height: 60px;
   padding: 0;
   margin: 0;
 }
 
-button {
+.Navbar .navbutton {
   display: inline-block block;
 
   margin: 20px;
@@ -40,11 +40,10 @@ button {
   padding: 5px 10px;
   border-radius: 7px;
 }
-button:hover {
+.Navbar .navbutton:hover {
   background-color: #c9f8ff9b;
 }
-.navigation a.active {
-  color: white;
- 
+.Navbar .navigation a.active {
+  color: var(---basedark);
+  font-weight: 900;
 }
-

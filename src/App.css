@@ -1,12 +1,14 @@
 :root {
-  ---base: #f7cc57;
-  ---baselight: #7fbdc6;
-  ---basedark: #ffbb00;
-  ---secondary: #ef9191;
+  ---base: #fffcec;
+  ---baselight: #ee6c6c;
+  ---basedark: #106bb7;
+  ---secondary: #ee6c6c;
+
 }
 .App {
   max-width: 100%;
-  background-color: #d0eff4;
+  background-color: #fffcec;
+
 }
 div .container {
   min-height: 100vh;
