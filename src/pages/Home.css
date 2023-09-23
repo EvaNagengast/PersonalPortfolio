@@ -3,7 +3,15 @@
 .Home {
   text-align: center;
 }
-
+.Home h1 {
+  position: relative;
+  letter-spacing: 7px;
+  overflow: hidden;
+  border-right: 2px solid black;
+  white-space: nowrap;
+  animation: typewriter 4s steps(30) 1.2s 1 normal both,
+    blinkTextCursor 700ms infinite;
+}
 .Home main {
   height: 800px;
 }
@@ -16,98 +24,60 @@
   min-height: 600px;
   margin-top: -100px;
   padding: 170px 0 100px 0;
-
-  background-image: conic-gradient(
-      at calc(100% - 1px) calc(100% - 1px),
-      #106bb720 270deg,
-      rgba(0, 0, 0, 0) 0
+  background-color:#d5e4ca;
+background: linear-gradient(
+      172deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgb(0, 0, 0, 0.1) 100%
     ),
-    conic-gradient(
-      at calc(100% - 1px) calc(100% - 1px),
-      #106cb790 270deg,
-      rgba(255, 0, 0, 0) 0
-    );
-  background-size: 100px 100px, 20px 20px;
+    url("../media/backgroundspeckles.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.Home .hero h2 {
-  font-size: 50px;
-}
-.Home .hero h3 {
-  font-size: 40px;
+
+.Home .divider img {
+  position: absolute;
+  left: -1px;
+  top: 450px;
+  max-height: 400px;
+  width: 100%;
 }
 .Home .heading {
   margin-top: 30px;
-  color: #106bb7;
-  font-family: "Montserrat", sans-serif;
-  font-size: 120px;
-  font-weight: 900;
-  letter-spacing: -1px;
+  color: var(---secondary);
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
 }
 
 .Home .hero button {
-  font-size: 20px;
   display: inline-block block;
   margin: 20px;
-  color: var(---basedark);
-  background-color: var(---base);
-  border: 1px solid var(---basedark);
+  background-color: #ffffff42;
+  border: none;
   box-shadow: 1px 0px 11px 3px #61808533;
   padding: 5px 10px;
-  border-radius: 10px;
-  transition: all 0.3s ease;
+  border-radius: 7px;
 }
 .Home .hero a {
-  color: var(---basedark);
+  color: black;
   text-decoration: none;
-  transition: all 0.3s ease;
+  transition:    all 8s ease;
 }
 
 .Home .hero button:hover {
-  color: var(---base);
-  background-color: var(---baselight);
-}
-.Home .hero a:hover {
-  color: var(---base);
+  color: var(---baselight);
+  background-color: #c9f8ff9b;
 }
 /*  */
 .Home .aboutsection {
-  background-color: var(---base);
-  padding: 0, 60px;
+ 
+  background-color: #b2d0d7;
+  padding: 200px 60px 60px 60px;
 }
 
 .Home .aboutsection img {
-  height: 650px;
-  filter: drop-shadow(-15px -8px 1px var(---baselight));
-  z-index: -1;
-}
-.Home .aboutsection button {
-  display: inline-block;
-  padding: 0;
-  background-color: #00000000;
-  border: none;
-  color: var(---baselight);
-}
-.Home .aboutsection button:hover {
-  display: inline-block;
-  padding: 0;
-  background-color: var(---baselight);
-  border: none;
-  color: var(---base);
-}
-.Home .aboutsection .abouttext {
-  padding: 50px;
-  font-size: 30px;
-}
-.Home .aboutsection .codesnippet {
-    text-align: left;
-  margin-top: 20px;
-  padding: 10px 10px 10px 10px;
-  background: url("../media/codethree.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  position: relative;
-  z-index: 5;
+  height: 250px;
 }
 .child-two {
   background-color: pink;

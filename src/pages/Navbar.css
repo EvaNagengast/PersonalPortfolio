@@ -1,12 +1,12 @@
-.Navbar nav {
+nav {
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.237);
   background-image: linear-gradient(
     to bottom,
-    #fffcec,
-    #fffcece0,
-    #fffceccc,
-    #fffcecba,
-    #fffcec90
+    #ffffffe7,
+    #ffffff55,
+    #ededed30,
+    #ffffff13,
+    #00000000
   );
   position: sticky;
   top: 0;
@@ -14,23 +14,23 @@
   padding: 5px;
   z-index: 10;
 }
-.Navbar nav a {
+nav a {
   color: black;
   padding: 5px;
   text-decoration: none;
 }
-.Navbar nav a:hover {
+nav a:hover {
   color: var(---baselight);
   padding: 5px;
   text-decoration: none;
 }
-.Navbar nav img {
+nav img {
   height: 60px;
   padding: 0;
   margin: 0;
 }
 
-.Navbar .navbutton {
+button {
   display: inline-block block;
 
   margin: 20px;
@@ -40,10 +40,11 @@
   padding: 5px 10px;
   border-radius: 7px;
 }
-.Navbar .navbutton:hover {
+button:hover {
   background-color: #c9f8ff9b;
 }
-.Navbar .navigation a.active {
-  color: var(---basedark);
-  font-weight: 900;
+.navigation a.active {
+  color: white;
+ 
 }
+
