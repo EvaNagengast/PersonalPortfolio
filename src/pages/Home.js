@@ -96,11 +96,18 @@ export default function Homepage() {
             </div>
           </div>
 
-          <div className="projectsection">
-            <h4>Projects</h4>
-            <p>
+          <div className="projectsection pt-5">
+            <h4 className="py-5">Projects</h4>
+            <p className="pb-4">
               Browse through some assorted projects I created or find all of my
-              projects here
+              projects{" "}
+              <button
+                onClick={() => {
+                  navigate("/projects");
+                }}
+              >
+                here
+              </button>
             </p>
             <div className="projectOne row">
               <div className="col-6">
@@ -111,15 +118,25 @@ export default function Homepage() {
                 />
               </div>
               <div className="col-6 text-start">
-                teeeeeeeeeeeeeeeeext
+                <h5>London Music Journey</h5>
+                <p>
+                  A page to whow... to learn how to embed implemented: grids,
+                  media queries, cards Built with HTML, CSS, Java, Embeds,
+                  Bootstrap{" "}
+                </p>
                 <br />
               </div>
             </div>
             <div className="projectTwo row">
               <div className="col-6 text-end">
-                teeeeeeeeeeeeeeeeext
-                <br />
-              </div>{" "}
+                <h5>Dictionary</h5>
+                <p>
+                  A page to find used to vertiefen React knowledge, implement
+                  Apis,multiple components, map objects
+                  <br />
+                  Built with HTML, CSS, JSReact,APIs & npm Libraries{" "}
+                </p>
+              </div>
               <div className="col-6">
                 {" "}
                 <img
@@ -139,32 +156,19 @@ export default function Homepage() {
                 />
               </div>
               <div className="col-6 text-start">
-                teeeeeeeeeeeeeeeeext
-                <br />
-                teeeeeeeeeeeeeeeeext
-                <br />
-                teeeeeeeeeeeeeeeeext
-                <br />
-                teeeeeeeeeeeeeeeeext
-                <br />
-                teeeeeeeeeeeeeeeeext
-                <br />
-                teeeeeeeeeeeeeeeeext
-                <br />
+                <h5>Pigeon Showcase</h5>
+                <p>
+                  A page built after a learn to build by design, tools: SEO,
+                  media queries, flexbox, wireframe,
+                  <br />
+                  Built with HTML, CSS, JavaScript & Figma{" "}
+                </p>
               </div>
             </div>
             <div className="projectFour row">
               <div className="col-6 text-end">
-                teeeeeeeeeeeeeeeeext
-                <br />
-                teeeeeeeeeeeeeeeeext
-                <br />
-                teeeeeeeeeeeeeeeeext
-                <br />
-                teeeeeeeeeeeeeeeeext
-                <br />
-                teeeeeeeeeeeeeeeeext
-                <br />
+                <h5>World Clock</h5>
+                <p>Built with HTML, CSS and JavaScript </p>
               </div>{" "}
               <div className="col-6">
                 {" "}

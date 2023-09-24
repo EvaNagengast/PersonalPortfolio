@@ -50,11 +50,11 @@
   padding: 5px 10px;
   border: 1px solid var(---basedark);
   border-radius: 10px;
- box-shadow: 2px 1px 5px 1px #4e59612f;
+  box-shadow: 2px 1px 5px 1px #4e59612f;
   background-color: var(---base);
   font-size: 20px;
   color: var(---basedark);
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
 }
 .Home .hero a {
   color: var(---basedark);
@@ -70,7 +70,7 @@
   color: var(---base);
 }
 /*  */
-.Home .aboutsection{
+.Home .aboutsection {
   margin-bottom: 50px;
 }
 .Home .aboutsection .profilepicture {
@@ -94,6 +94,7 @@
   border: none;
   background-color: #00000000;
   color: var(---baselight);
+  transition: all 0.4s ease;
 }
 
 .Home .aboutsection .abouttext button:hover {
@@ -109,21 +110,40 @@
   z-index: 1;
 }
 .Home .aboutsection .abouttext .codesnippet:hover {
-cursor: pointer;
+  cursor: pointer;
 }
 /*  */
 .Home .projectsection {
   background-color: var(---basedark);
   color: var(---base);
-   padding-bottom: 40px;
+  padding-bottom: 40px;
 }
-.Home .projectsection p{
+.Home .projectsection p {
   margin-bottom: 50px;
- 
 }
-.Home .projectsection img{
+
+.Home .projectsection h4 {
+  font-size: 60px;
+}
+.Home .projectsection img {
   max-width: 50%;
 }
-.Home .projectsection div{ margin: -10px;
-align-items: center;
+.Home .projectsection div {
+  margin: -10px;
+  align-items: center;
+}
+.Home .projectsection button {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 5px 4px 5px;
+  border: none;
+  background-color: #00000000;
+  color: var(---baselight);
+  transition: all 0.3s ease;
+}
+
+.Home .projectsection button:hover {
+  border: none;
+  background-color: var(---base);
+  color: var(---basedark);
 }
