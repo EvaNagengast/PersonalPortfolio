@@ -2,11 +2,14 @@ import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, useAnimation, useInView } from "framer-motion";
 import Footer from "./Footer";
-
 import Profilepic from "../media/profilepic.png";
 import ProjectOneImg from "../media/projectOne.png";
+import ProjectTwoImg from "../media/projectTwo.png";
+import ProjectThreeImg from "../media/ProjectThree.png";
+import ProjectFourImg from "../media/ProjectFour.png";
 import Codeimage from "../media/codefour.png";
 import "./Home.css";
+
 export default function Homepage() {
   const ref = useRef(null);
   const isInView = useInView(ref);
@@ -80,7 +83,7 @@ export default function Homepage() {
                 </div>
 
                 <div>
-                  <img src={Codeimage} className="codesnippet"></img>
+                  <img src={Codeimage} className="codesnippet" alt="codesnippet"></img>
                 </div>
               </div>
             </div>
@@ -93,12 +96,34 @@ export default function Homepage() {
               Browse through some assorted projects I created or find all of my
               projects here
             </p>
-
             <div className="projectOne">
-              <img src={ProjectOneImg} alt="project example"></img>
+              <img
+                src={ProjectOneImg}
+                alt="project example"
+                className="img-fluid"
+              ></img>
             </div>
-            <div className="projectTwo"></div>
-            <div className="projectThree"></div>
+            <div className="projectTwo">
+              <img
+                src={ProjectTwoImg}
+                alt="project example "
+                className="img-fluid"
+              ></img>
+            </div>
+            <div className="projectThree">
+              <img
+                src={ProjectThreeImg}
+                alt="project example"
+                className="img-fluid"
+              ></img>
+            </div>{" "}
+            <div className="projectFour">
+              <img
+                src={ProjectFourImg}
+                alt="project example"
+                className="img-fluid"
+              ></img>
+            </div>
           </div>
         </main>
       </div>

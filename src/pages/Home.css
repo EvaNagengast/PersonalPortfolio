@@ -114,3 +114,6 @@
   background-color: var(---basedark);
   color: var(---base);
 }
+.Home .projectsection img{
+  max-width: 20%;
+}
