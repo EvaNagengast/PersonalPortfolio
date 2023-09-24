@@ -74,7 +74,7 @@ export default function Homepage() {
                     exploring my page or learn more
                     <button
                       onClick={() => {
-                        navigate("/cv");
+                        navigate("/aboutme");
                       }}
                     >
                       about me
