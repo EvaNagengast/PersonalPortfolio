@@ -1,84 +1,116 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap"); */
-
 .Home {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   text-align: center;
 }
-.Home h1 {
-  position: relative;
-  letter-spacing: 7px;
-  overflow: hidden;
-  border-right: 2px solid black;
-  white-space: nowrap;
-  animation: typewriter 4s steps(30) 1.2s 1 normal both,
-    blinkTextCursor 700ms infinite;
-}
-.Home main {
-  height: 800px;
-}
-.Home .container {
+
+.Home .homepage {
   max-width: 100%;
   margin: 0;
   padding: 0;
 }
+
 .Home .hero {
   min-height: 600px;
   margin-top: -100px;
   padding: 170px 0 100px 0;
-  background-color:#d5e4ca;
-background: linear-gradient(
-      172deg,
-      rgba(0, 0, 0, 0.1) 0%,
-      rgb(0, 0, 0, 0.1) 100%
+  background-image: conic-gradient(
+      at calc(100% - 1px) calc(100% - 1px),
+      #106bb720 270deg,
+      rgba(0, 0, 0, 0) 0
     ),
-    url("../media/backgroundspeckles.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+    conic-gradient(
+      at calc(100% - 1px) calc(100% - 1px),
+      #106cb790 270deg,
+      rgba(255, 0, 0, 0) 0
+    );
+  background-size: 100px 100px, 20px 20px;
 }
 
-.Home .divider img {
-  position: absolute;
-  left: -1px;
-  top: 450px;
-  max-height: 400px;
-  width: 100%;
-}
-.Home .heading {
+.Home .hero h1 {
   margin-top: 30px;
-  color: var(---secondary);
-  font-family: "Josefin Sans", sans-serif;
+  font-size: 120px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  color: var(---basedark);
+  letter-spacing: -7px;
+}
+.Home .hero h2 {
   font-size: 50px;
-  font-weight: 700;
+  color: var(---baselight);
+}
+.Home .hero h3 {
+  font-size: 40px;
 }
 
 .Home .hero button {
   display: inline-block block;
   margin: 20px;
-  background-color: #ffffff42;
-  border: none;
-  box-shadow: 1px 0px 11px 3px #61808533;
   padding: 5px 10px;
-  border-radius: 7px;
+  border: 1px solid var(---basedark);
+  border-radius: 10px;
+  box-shadow: 1px 0px 11px 3px #61808533;
+  background-color: var(---base);
+  font-size: 20px;
+  color: var(---basedark);
+  transition: all 0.3s ease;
 }
 .Home .hero a {
-  color: black;
+  color: var(---basedark);
   text-decoration: none;
-  transition:    all 8s ease;
+  transition: all 0.3s ease;
 }
 
 .Home .hero button:hover {
-  color: var(---baselight);
-  background-color: #c9f8ff9b;
+  background-color: var(---baselight);
+  color: var(---base);
+}
+.Home .hero a:hover {
+  color: var(---base);
 }
 /*  */
-.Home .aboutsection {
- 
-  background-color: #b2d0d7;
-  padding: 200px 60px 60px 60px;
+.Home .aboutsection{
+  margin-bottom: 50px;
+}
+.Home .aboutsection .profilepicture {
+  height: 650px;
+  filter: drop-shadow(-25px -20px 1px var(---baselight));
+  z-index: -10;
+}
+.Home .aboutsection .abouttext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Home .aboutsection .abouttext p {
+  padding: 90px 120px 0 140px;
+  font-size: 30px;
+}
+.Home .aboutsection .abouttext button {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 20px 4px 20px;
+  border: none;
+  background-color: #00000000;
+  color: var(---baselight);
 }
 
-.Home .aboutsection img {
-  height: 250px;
+.Home .aboutsection .abouttext button:hover {
+  display: inline-block;
+  border: none;
+  background-color: var(---baselight);
+  color: var(---base);
 }
-.child-two {
-  background-color: pink;
+
+.Home .aboutsection .abouttext .codesnippet {
+  position: relative;
+  margin: 40px 0 0 80px;
+  height: 360px;
+  z-index: 1;
+}
+/*  */
+.Home .projectsection {
+  background-color: var(---basedark);
+  color: var(---base);
 }

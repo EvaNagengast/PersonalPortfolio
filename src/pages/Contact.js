@@ -1,11 +1,13 @@
 import React from "react";
-import { motion } from "framer-motion";
-import FishOne from "../media/fishone.png";
+// import { motion } from "framer-motion";
+// import FishOne from "../media/fishone.png";
 import "./Contact.css";
 export default function Contact() {
   return (
     <div className="Contact">
-      <motion.img
+      <h1>hello</h1>
+
+      {/* <motion.img
         src={FishOne}
         alt="Fish"
         variants={{
@@ -14,9 +16,9 @@ export default function Contact() {
         }}
         initial="fishout"
         animate="fishin"
-        transition={{ duration: 6, delay: 5 }}
-        className="subheader"
-      />
+        transition={{ duration: 6, delay: 1 }}
+        className="fishimage"
+      /> */}
     </div>
   );
 }

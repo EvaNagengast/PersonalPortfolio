@@ -1,7 +1,12 @@
-.Contact img {
+.Contact .fishimage {
   position: relative;
+  top: 100px;
   left: 40px;
-  top:100px;
   height: 60px;
-
 }
+.Contact h1 {  
+  font-size: 120px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  color: var(---basedark);
+  letter-spacing: -7px;}

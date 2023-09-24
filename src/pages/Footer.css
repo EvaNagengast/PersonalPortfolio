@@ -1,6 +1,5 @@
 footer {
-  position: relative;
-  margin-top: auto;
+  margin: auto ;
   background-color: var(---baselight);
   color: green;
-}
+ }

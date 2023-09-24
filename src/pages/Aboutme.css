@@ -1,0 +1,28 @@
+.Aboutme {
+  background-image: conic-gradient(
+      at calc(100% - 1px) calc(100% - 1px),
+      #106bb720 270deg,
+      rgba(0, 0, 0, 0) 0
+    ),
+    conic-gradient(
+      at calc(100% - 1px) calc(100% - 1px),
+      #106cb790 270deg,
+      rgba(255, 0, 0, 0) 0
+    );
+  background-size: 100px 100px, 20px 20px;
+}
+.Aboutme .aboutmepage {
+  margin-top: -120px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+.Aboutme .aboutmepage h1 {
+      margin-top: 120px;
+  font-size: 120px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  color: var(---basedark);
+  letter-spacing: -7px;
+}

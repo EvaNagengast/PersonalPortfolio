@@ -1,0 +1,24 @@
+.Projects {
+  background-color: var(---basedark);
+  color: var(---base);
+}
+.Projects .projectspage {
+    margin-top: -120px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+.Projects .projectspage h1 {
+  font-size: 120px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+ text-align: left;
+  letter-spacing: -7px;
+}
+.Projects .projectspage h2 {
+    margin-top: 140px;
+    font-size: 15px;
+     font-weight: 100;
+  text-align: left;
+}
