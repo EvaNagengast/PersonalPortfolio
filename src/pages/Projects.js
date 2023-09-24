@@ -5,7 +5,7 @@ export default function Projects() {
   return (
     <div className="Projects">
       <div className="projectspage">
-        <h2>Eva Nagengast</h2>
+        <h2>EVA NAGENGAST</h2>
         <h1>Projects</h1>
       </div>
       <Footer />

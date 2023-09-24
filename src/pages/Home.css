@@ -50,7 +50,7 @@
   padding: 5px 10px;
   border: 1px solid var(---basedark);
   border-radius: 10px;
-  box-shadow: 1px 0px 11px 3px #61808533;
+ box-shadow: 2px 1px 5px 1px #4e59612f;
   background-color: var(---base);
   font-size: 20px;
   color: var(---basedark);
@@ -97,7 +97,6 @@
 }
 
 .Home .aboutsection .abouttext button:hover {
-  display: inline-block;
   border: none;
   background-color: var(---baselight);
   color: var(---base);
@@ -109,11 +108,22 @@
   height: 360px;
   z-index: 1;
 }
+.Home .aboutsection .abouttext .codesnippet:hover {
+cursor: pointer;
+}
 /*  */
 .Home .projectsection {
   background-color: var(---basedark);
   color: var(---base);
+   padding-bottom: 40px;
+}
+.Home .projectsection p{
+  margin-bottom: 50px;
+ 
 }
 .Home .projectsection img{
-  max-width: 20%;
+  max-width: 50%;
+}
+.Home .projectsection div{ margin: -10px;
+align-items: center;
 }

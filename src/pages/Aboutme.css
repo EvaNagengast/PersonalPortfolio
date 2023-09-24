@@ -10,6 +10,7 @@
       rgba(255, 0, 0, 0) 0
     );
   background-size: 100px 100px, 20px 20px;
+
 }
 .Aboutme .aboutmepage {
   margin-top: -120px;
@@ -19,23 +20,65 @@
   text-align: center;
 }
 .Aboutme .aboutmepage h1 {
-  margin-top: 120px;
-
+    margin-left: 30px;
+  margin-top: 140px;
+  text-align: left;
   font-size: 120px;
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
   color: var(---basedark);
   letter-spacing: -7px;
 }
-.Aboutme .aboutmepage .aboutinfotext {
-  margin: 80px;
+
+/*  */
+
+.Aboutme .aboutmepage .aboutInfo {
+  margin: 30px 100px 50px 100px;
+  padding: 8px;
   background-color: var(---base);
+  font-size: 16px;
+  text-align: left;
+  line-height: 1.7;
+  box-shadow: 2px 1px 5px 1px #4e59612f;
 }
-.Aboutme .aboutmepage .aboutMeImage {
+.Aboutme .aboutmepage img {
   background-color: black;
-  height: 320px;
-  filter:sepia(0.2);
+  max-width: 360px;
+  filter: sepia(0.2);
 }
-figcaption {
+.Aboutme .aboutmepage figcaption {
+  padding: 5px;
+  max-width: 360px;
+  color: var(---base);
+  background-color: var(---basedark);
+  text-wrap: wrap;
+}
+
+.Aboutme .aboutmepage .aboutImage {
+  float: right;
+  margin: -30px -35px 20px 5px;
+  font-size: 14px;
+  box-shadow: 2px 2px 5px 1px #4e59612f;
+}
+
+.Aboutme .aboutmepage .aboutbuttons {
+  height: 50px;
+}
+
+.Aboutme .aboutmepage button {
+  display: inline-block block;
+  margin: 20px;
+  padding: 5px 10px;
+  border: 1px solid var(---basedark);
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px 1px #4e59612f;
   background-color: var(---base);
+  font-size: 20px;
+  color: var(---basedark);
+  transition: all 0.3s ease;
 }
+.Aboutme .aboutmepage button:hover {
+  background-color: var(---baselight);
+  color: var(---base);
+}
+/*  */

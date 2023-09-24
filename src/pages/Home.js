@@ -74,7 +74,7 @@ export default function Homepage() {
                     exploring my page or learn more
                     <button
                       onClick={() => {
-                        navigate("/aboutme");
+                        navigate("./aboutme");
                       }}
                     >
                       about me
@@ -83,7 +83,14 @@ export default function Homepage() {
                 </div>
 
                 <div>
-                  <img src={Codeimage} className="codesnippet" alt="codesnippet"></img>
+                  <img
+                    src={Codeimage}
+                    className="codesnippet"
+                    alt="codesnippet"
+                    onClick={() => {
+                      navigate("/contact");
+                    }}
+                  ></img>
                 </div>
               </div>
             </div>
@@ -92,37 +99,81 @@ export default function Homepage() {
           <div className="projectsection">
             <h4>Projects</h4>
             <p>
-              {" "}
               Browse through some assorted projects I created or find all of my
               projects here
             </p>
-            <div className="projectOne">
-              <img
-                src={ProjectOneImg}
-                alt="project example"
-                className="img-fluid"
-              ></img>
+            <div className="projectOne row">
+              <div className="col-6">
+                <img
+                  src={ProjectOneImg}
+                  alt="project example"
+                  className="img-fluid"
+                />
+              </div>
+              <div className="col-6 text-start">
+                teeeeeeeeeeeeeeeeext
+                <br />
+              </div>
             </div>
-            <div className="projectTwo">
-              <img
-                src={ProjectTwoImg}
-                alt="project example "
-                className="img-fluid"
-              ></img>
+            <div className="projectTwo row">
+              <div className="col-6 text-end">
+                teeeeeeeeeeeeeeeeext
+                <br />
+              </div>{" "}
+              <div className="col-6">
+                {" "}
+                <img
+                  src={ProjectTwoImg}
+                  alt="project example "
+                  className="img-fluid"
+                />
+              </div>
             </div>
-            <div className="projectThree">
-              <img
-                src={ProjectThreeImg}
-                alt="project example"
-                className="img-fluid"
-              ></img>
-            </div>{" "}
-            <div className="projectFour">
-              <img
-                src={ProjectFourImg}
-                alt="project example"
-                className="img-fluid"
-              ></img>
+            <div className="projectThree row">
+              <div className="col-6">
+                {" "}
+                <img
+                  src={ProjectThreeImg}
+                  alt="project example"
+                  className="img-fluid"
+                />
+              </div>
+              <div className="col-6 text-start">
+                teeeeeeeeeeeeeeeeext
+                <br />
+                teeeeeeeeeeeeeeeeext
+                <br />
+                teeeeeeeeeeeeeeeeext
+                <br />
+                teeeeeeeeeeeeeeeeext
+                <br />
+                teeeeeeeeeeeeeeeeext
+                <br />
+                teeeeeeeeeeeeeeeeext
+                <br />
+              </div>
+            </div>
+            <div className="projectFour row">
+              <div className="col-6 text-end">
+                teeeeeeeeeeeeeeeeext
+                <br />
+                teeeeeeeeeeeeeeeeext
+                <br />
+                teeeeeeeeeeeeeeeeext
+                <br />
+                teeeeeeeeeeeeeeeeext
+                <br />
+                teeeeeeeeeeeeeeeeext
+                <br />
+              </div>{" "}
+              <div className="col-6">
+                {" "}
+                <img
+                  src={ProjectFourImg}
+                  alt="project example"
+                  className="img-fluid"
+                />
+              </div>
             </div>
           </div>
         </main>
