@@ -1,0 +1,32 @@
+.Aboutsection {
+  margin-bottom: 50px;
+}
+.Aboutsection .profilepicture {
+  height: 650px;
+  filter: drop-shadow(-25px -20px 1px var(---baselight));
+  z-index: -10;
+}
+.Aboutsection .abouttext {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Aboutsection .abouttext p {
+  padding: 90px 120px 0 140px;
+  font-size: 30px;
+}
+.Aboutsection .abouttext button {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 0 20px 4px 20px;
+  border: none;
+  background-color: #00000000;
+  color: var(---baselight);
+  transition: all 0.4s ease;
+}
+
+.Aboutsection .abouttext button:hover {
+  border: none;
+  background-color: var(---baselight);
+  color: var(---base);
+}

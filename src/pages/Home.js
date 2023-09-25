@@ -1,9 +1,10 @@
-import React, { useEffect, useRef } from "react";
+import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, useAnimation, useInView } from "framer-motion";
+import Aboutsection from "./subpage/Aboutsection";
 
 import Footer from "./Footer";
-import Profilepic from "../media/profilepic.png";
+
 import ProjectOneImg from "../media/projectOne.png";
 import ProjectTwoImg from "../media/projectTwo.png";
 import ProjectThreeImg from "../media/ProjectThree.png";
@@ -14,11 +15,7 @@ export default function Homepage() {
   const ref = useRef(null);
   const isInView = useInView(ref);
   const mainControls = useAnimation();
-  useEffect(() => {
-    if (isInView) {
-      mainControls.start("visible");
-    }
-  }, [isInView, mainControls]);
+ 
   let navigate = useNavigate();
 
   let handleClick = () => {
@@ -56,87 +53,9 @@ export default function Homepage() {
           </motion.div>
         </div>
         <main>
-          <div className="aboutsection" id="about-one" ref={ref}>
-            <div className="row">
-              <div className="col-3">
-                <motion.img
-                  src={Profilepic}
-                  variants={{
-                    hidden: { opacity: 0, x: -70 },
-                    visible: { opacity: 1, x: 0 },
-                  }}
-                  initial="hidden"
-                  animate={mainControls}
-                  transition={{ duration: 1.5, delay: 0.5 }}
-                  alt="profile"
-                  className="profilepicture"
-                ></motion.img>
-              </div>
-              <div className="col-9  abouttext" id="about">
-                <div>
-                  <p>
-                    Hi, I'm Eva! <br />I love designing and developing
-                    beautiful, eye catching and responsive websites. Have fun
-                    exploring my page or learn more
-                    <button
-                      onClick={() => {
-                        navigate("./aboutme");
-                      }}
-                    >
-                      about me
-                    </button>
-                  </p>
-                </div>
-
-                <div className="codeimage text-start ">
-                  <span className="colorthree">.location: </span>
-                  <span className="colorone">{"{"}</span>
-                  <span className="colortwo">London</span>
-                  <span className="colorone">{"}"}</span>
-                  <br />
-                  <span className="colorthree"> onClick(contact) </span>
-                  <span className="colorone">{"{"}</span>
-                  <span className="colortwo">Mail</span>
-                  <span className="colorone">,</span>
-                  <span className="colortwo"> LinkedIn</span>
-                  <span className="colorone">,</span>
-                  <span className="colortwo"> GitHub</span>
-                  <span className="colorone">{"}"}</span>
-                  <br />
-                  <span className="colorthree"> show(CV) </span>
-                  <span className="colorone">{"{"}</span>
-                  <span className="colortwo">EvaNagengast.pdf</span>
-                  <span className="colorone">{"}"}</span>
-                  <br />
-                  <span className="colorthree"> likes = </span>
-                  <span className="colorone">[</span>
-                  <span className="colortwo">”Coding"</span>
-                  <span className="colorone">,</span>
-                  <span className="colortwo"> "Music"</span>
-                  <span className="colorone">,</span>
-                  <span className="colortwo"> "Squirrels"</span>
-                  <span className="colorone">,</span>
-
-                  <span className="colortwo"> "Crafts"</span>
-                  <span className="colorone">]</span>
-                  <br />
-                  <span className="colorthree">skills = </span>
-                  <span className="colorone">[</span>
-                  <span className="colortwo">"HTML"</span>
-                  <span className="colorone">&&</span>
-                  <span className="colortwo">"CSS"</span>
-                  <span className="colorone">,</span>
-                  <span className="colortwo"> "React.JS"</span>
-                  <span className="colorone">,</span>
-                  <br />
-                  <span className="colortwo"> "JavaScript"</span>
-                  <span className="colorone">,</span>
-                  <span className="colortwo"> "GitHub"</span>
-                  <span className="colorone">]</span>
-                </div>
-              </div>
+         
+          <div className="aboutsection" id="about" > <Aboutsection/>
             </div>
-          </div>
           <div className="projectsection pt-5">
             <h4 className="pt-4 pb-2">Projects</h4>
             <p className="projectIntro">
