@@ -82,23 +82,59 @@ export default function Homepage() {
                   </p>
                 </div>
 
-                <div>
-                  <img
-                    src={Codeimage}
-                    className="codesnippet"
-                    alt="codesnippet"
-                    onClick={() => {
-                      navigate("/contact");
-                    }}
-                  ></img>
+                <div className="codeimage text-start ">
+                  <span className="colorthree">.location: </span>
+                  <span className="colorone">{"{"}</span>
+                  <span className="colortwo">London</span>
+                  <span className="colorone">{"}"}</span>
+                  <br />
+                  <span className="colorthree"> onClick(contact) </span>
+                  <span className="colorone">{"{"}</span>
+                  <span className="colortwo">mail</span>
+                  <span className="colorone">,</span>
+                  <span className="colortwo"> LinkedIn</span>
+                  <span className="colorone">,</span>
+                  <span className="colortwo"> GitHub</span>
+                  <span className="colorone">{"}"}</span>
+                  <br />
+                  <span className="colorthree"> show(CV) </span>
+                  <span className="colorone">{"{"}</span>
+                  <span className="colortwo">evaNagengast.pdf</span>
+                  <span className="colorone">{"}"}</span>
+                  <br />
+                  <span className="colorthree"> likes = </span>
+                  <span className="colorone">[</span>
+                  <span className="colortwo">”Coding"</span>
+                  <span className="colorone">,</span>
+                  <span className="colortwo"> "Music"</span>
+                  <span className="colorone">,</span>
+                  <span className="colortwo"> "Squirrels"</span>
+                  <span className="colorone">,</span>
+
+                  <span className="colortwo"> "Crafts"</span>
+                  <span className="colorone">]</span>
+                  <br />
+                  <span className="colorthree">skills = </span>
+                  <span className="colorone">[</span>
+                  <span className="colortwo">"HTML"</span>
+                  <span className="colorone">&&</span>
+                  <span className="colortwo">"CSS"</span>
+                  <span className="colorone">,</span>
+                  <span className="colortwo"> "React.js"</span>
+                  <span className="colorone">,</span>
+                  <br />
+                  <span className="colortwo"> "JavaScript"</span>
+                  <span className="colorone">,</span>
+                  <span className="colortwo"> "GitHub"</span>
+                  <span className="colorone">]</span>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="projectsection pt-5">
-            <h4 className="py-5">Projects</h4>
-            <p className="pb-4">
+            <h4 className="pt-4 pb-2">Projects</h4>
+            <p className="projectIntro">
               Browse through some assorted projects I created or find all of my
               projects{" "}
               <button
@@ -109,76 +145,94 @@ export default function Homepage() {
                 here
               </button>
             </p>
-            <div className="projectOne row">
-              <div className="col-6">
-                <img
-                  src={ProjectOneImg}
-                  alt="project example"
-                  className="img-fluid"
-                />
-              </div>
-              <div className="col-6 text-start">
-                <h5>London Music Journey</h5>
-                <p>
-                  A page to whow... to learn how to embed implemented: grids,
-                  media queries, cards Built with HTML, CSS, Java, Embeds,
-                  Bootstrap{" "}
-                </p>
-                <br />
-              </div>
-            </div>
-            <div className="projectTwo row">
-              <div className="col-6 text-end">
-                <h5>Dictionary</h5>
-                <p>
-                  A page to find used to vertiefen React knowledge, implement
-                  Apis,multiple components, map objects
+            <div>
+              <div className="projectOne negativeMargin row ">
+                <div className="col-6">
+                  <img
+                    src={ProjectOneImg}
+                    alt="project example"
+                    className="img-fluid projectImageright"
+                  />
+                </div>
+                <div className="col-6 text-start projectTextright">
+                  <h5>London Music Journey</h5>
+                  <p>
+                    A page to whow... to learn how to embed implemented: grids,
+                    media queries, cards{" "}
+                    <div className="projectTools">
+                      Built with HTML, CSS, Java, Embeds, Bootstrap
+                      <a href="/">find out more</a>
+                    </div>
+                  </p>
                   <br />
-                  Built with HTML, CSS, JSReact,APIs & npm Libraries{" "}
-                </p>
+                </div>
               </div>
-              <div className="col-6">
-                {" "}
-                <img
-                  src={ProjectTwoImg}
-                  alt="project example "
-                  className="img-fluid"
-                />
+              <div className="projectTwo negativeMargin row">
+                <div className="col-6 text-end projectTextleft ">
+                  <h5>Dictionary</h5>
+                  <p>
+                    A page to find used to vertiefen React knowledge, implement
+                    Apis,multiple components, map objects
+                    <div className="projectTools">
+                      {" "}
+                      Built with HTML, CSS, JSReact,APIs & npm Libraries
+                      <a href="/">find out more</a>
+                    </div>
+                  </p>
+                </div>
+                <div className="col-6">
+                  {" "}
+                  <img
+                    src={ProjectTwoImg}
+                    alt="project example "
+                    className="img-fluid projectImageleft"
+                  />
+                </div>
+              </div>
+              <div className="projectThree negativeMargin row">
+                <div className="col-6">
+                  {" "}
+                  <img
+                    src={ProjectThreeImg}
+                    alt="project example"
+                    className="img-fluid projectImageright"
+                  />
+                </div>
+                <div className="col-6 text-start projectTextright">
+                  <h5>Pigeon Showcase</h5>
+                  <p>
+                    A page built after a learn to build by design, tools: SEO,
+                    media queries, flexbox, wireframe,
+                    <div className="projectTools">
+                      {" "}
+                      Built with HTML, CSS, JavaScript & Figma
+                      <a href="/">find out more</a>
+                    </div>
+                  </p>
+                </div>
+              </div>
+              <div className="projectFour negativeMargin row">
+                <div className="col-6 text-end projectTextleft">
+                  <h5>World Clock</h5>
+                  <p className>
+                    An application that efficiently utilizes APIs to accurately
+                    display the time of any city worldwide.
+                    <div className="projectTools">
+                      Built with HTML, CSS, JavaScript & APIs
+                      <a href="/">find out more</a>
+                    </div>
+                  </p>
+                </div>
+                <div className="col-6 ">
+                  <img
+                    src={ProjectFourImg}
+                    alt="project example"
+                    className="img-fluid projectImageleft"
+                  />
+                </div>
               </div>
             </div>
-            <div className="projectThree row">
-              <div className="col-6">
-                {" "}
-                <img
-                  src={ProjectThreeImg}
-                  alt="project example"
-                  className="img-fluid"
-                />
-              </div>
-              <div className="col-6 text-start">
-                <h5>Pigeon Showcase</h5>
-                <p>
-                  A page built after a learn to build by design, tools: SEO,
-                  media queries, flexbox, wireframe,
-                  <br />
-                  Built with HTML, CSS, JavaScript & Figma{" "}
-                </p>
-              </div>
-            </div>
-            <div className="projectFour row">
-              <div className="col-6 text-end">
-                <h5>World Clock</h5>
-                <p>Built with HTML, CSS and JavaScript </p>
-              </div>{" "}
-              <div className="col-6">
-                {" "}
-                <img
-                  src={ProjectFourImg}
-                  alt="project example"
-                  className="img-fluid"
-                />
-              </div>
-            </div>
+            ccc
           </div>
         </main>
       </div>

@@ -102,15 +102,29 @@
   background-color: var(---baselight);
   color: var(---base);
 }
-
-.Home .aboutsection .abouttext .codesnippet {
+/* code */
+.Home .aboutsection .codeimage {
   position: relative;
   margin: 40px 0 0 80px;
-  height: 360px;
+  padding: 90px 0 0 20px;
+  height: 366px;
+  width: 584px;
+  background-image: url("../media/codelight.png");
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  font-weight: 800;
+  font-family: "Walter Turncoat", cursive;
+  line-height: 35px;
   z-index: 1;
 }
-.Home .aboutsection .abouttext .codesnippet:hover {
-  cursor: pointer;
+.Home .aboutsection .codeimage .colorone {
+  color: var(---basedark);
+}
+.Home .aboutsection .codeimage .colortwo {
+  color: var(---baselight);
+}
+.Home .aboutsection .codeimage .colorthree {
+  color: var(---secondary);
 }
 /*  */
 .Home .projectsection {
@@ -118,18 +132,16 @@
   color: var(---base);
   padding-bottom: 40px;
 }
-.Home .projectsection p {
-  margin-bottom: 50px;
-}
 
 .Home .projectsection h4 {
   font-size: 60px;
+  font-weight: 900;
 }
 .Home .projectsection img {
   max-width: 50%;
 }
-.Home .projectsection div {
-  margin: -10px;
+.Home .projectsection .negativeMargin {
+  margin-top: -60px;
   align-items: center;
 }
 .Home .projectsection button {
@@ -146,4 +158,25 @@
   border: none;
   background-color: var(---base);
   color: var(---basedark);
+}
+.Home .projectsection .projectIntro {
+  margin-bottom: 120px;
+}
+.Home .projectsection .projectTools {
+  opacity: 0.7;
+}
+.Home .projectsection .projectImageright {
+  margin-right: 50px;
+  float: right;
+}
+.Home .projectsection .projectImageleft {
+  margin-left: 50px;
+  float: left;
+}
+
+.Home .projectsection .projectTextleft {
+  padding-left: 80px;
+}
+.Home .projectsection .projectTextright {
+  padding-right: 8%;
 }
