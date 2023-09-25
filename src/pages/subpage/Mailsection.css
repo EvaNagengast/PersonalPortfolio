@@ -1,0 +1,46 @@
+.Mailsection button {
+  width: fit-content;
+  padding: 3px 10px;
+  border: 1px solid var(---baselight);
+  border-radius: 10px;
+  box-shadow: 2px 1px 5px 1px #ee6c6c2f;
+  background-color: var(---base);
+  font-size: 20px;
+  color: var(---baselight);
+  transition: all 0.4s ease;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.Mailsection button:hover {
+  background-color: var(---baselight);
+  color: var(---base);
+}
+
+.Mailsection form .form-group {
+  max-width: 70%;
+  align-items: start;
+}
+
+.Mailsection form .name {
+  width: 30%;
+}
+.Mailsection form .forminput {
+  display: inline-block;
+  text-align: left;
+}
+.Mailsection form input,
+.Mailsection form textarea {
+  background-color: var(---base);
+  border: 2px solid var(---baselight);
+}
+
+.Mailsection form input:focus,
+.Mailsection form textarea:focus {
+  background-color: var(---base);
+  border: 2px solid var(---basedark);
+}
+
+.Mailsection form input::placeholder,
+.Mailsection form textarea::placeholder {
+  opacity: 0.8;
+}

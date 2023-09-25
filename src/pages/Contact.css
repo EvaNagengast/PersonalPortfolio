@@ -1,31 +1,42 @@
 .Contact {
   background-color: var(---base);
 }
+.Contact h2 {letter-spacing: 3px;
+  font-weight: 100;
+  color: var(---baselight);
+  font-size: 30px;
+}
 .Contact .contactpage {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   text-align: center;
 }
-.Contact .contactpage h1 {
+.Contact h1 {
   margin: 0px 0 40px 10px;
   font-size: 120px;
-  color: var(---basedark);
+  color: var(---baselight);
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
   text-align: left;
   letter-spacing: -7px;
 }
-.Contact .contactpage .contactbox {
-  width: fit-content;
-  margin: 0 120px ;
-  border: 3px solid var(---basedark);
+.Contact .contactbox {
+  width: max-content;
+  margin: 0 80px;
+  border: 8px double var(---baselight);
 }
-.Contact .contactpage ul {
+.Contact ul {
   margin: 0;
-  padding: 10px 20px 5px 20px;
+  padding: 5px 20px 5px 20px;
   list-style: none;
   text-align: left;
   line-height: 3;
-  font-size: 20px;
+  font-size: 18px;
+}
+.Contact .highlight {
+  color: var(---baselight);
+  padding: 0 5px 0 0;
+  font-weight: 100;
+  letter-spacing: 2px;
 }

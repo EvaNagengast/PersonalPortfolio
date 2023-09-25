@@ -48,9 +48,11 @@
 }
 .Aboutme .aboutmepage figcaption {
   padding: 5px;
-  max-width: 360px;
-  color: var(---base);
-  background-color: var(---basedark);
+  max-width: 360px; background-color: var(---basedark);
+
+font-size: 10px;
+ font-weight: 100;  color: var(---base);
+ letter-spacing: 1.5px;
   text-wrap: wrap;
 }
 
@@ -73,12 +75,14 @@
   border-radius: 10px;
   box-shadow: 2px 1px 5px 1px #4e59612f;
   background-color: var(---base);
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
   color: var(---basedark);
   transition: all 0.3s ease;
 }
 .Aboutme .aboutmepage button:hover {
-  background-color: var(---baselight);
+  background-color: var(---basedark);
   color: var(---base);
 }
 /*  */

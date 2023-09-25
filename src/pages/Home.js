@@ -40,9 +40,9 @@ export default function Homepage() {
                 navigate("./Cv");
               }}
             >
-              let's connect
+              LET'S CONNECT
             </button>
-            <button onClick={() => handleClick()}>explore my page</button>
+            <button onClick={() => handleClick()}>EXPLORE MY PAGE</button>
           </motion.div>
         </div>
         <main>
