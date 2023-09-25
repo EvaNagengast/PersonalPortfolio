@@ -35,14 +35,14 @@ export default function Navbar() {
             <img src={Logo} alt="logo"></img>
           </NavLink>
           <NavLink to="/" id="main">
-            Home
+            HOME
           </NavLink>
-          <NavLink to="/aboutme">About</NavLink>
-          <NavLink to="/contact">Contact</NavLink>
-          <NavLink to="/projects">Projects</NavLink>
-          <button className="navbutton">
-            <NavLink to="/cv">Resume</NavLink>
-          </button>
+          <NavLink to="/aboutme">ABOUT</NavLink>
+          <NavLink to="/contact">CONTACT</NavLink>
+          <NavLink to="/projects">PROJECTS</NavLink>
+       
+            <NavLink to="/cv"className="navbutton">RESUME</NavLink>
+          
         </nav>
         {routes}
       </Router>

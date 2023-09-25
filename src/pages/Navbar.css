@@ -1,4 +1,10 @@
+/* CSS checked O unchecked X */
+
 .Navbar nav {
+  position: sticky;
+  top: 0;
+  height: fit-content;
+  padding: 7px 0;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.237);
   background-image: linear-gradient(
     to bottom,
@@ -8,42 +14,37 @@
     #fffcecba,
     #fffcec90
   );
-  position: sticky;
-  top: 0;
-  height: fit-content;
-  padding: 5px;
   z-index: 10;
 }
 .Navbar nav a {
   color: black;
   padding: 5px;
   text-decoration: none;
+  letter-spacing: 2px;
 }
 .Navbar nav a:hover {
   color: var(---baselight);
-  padding: 5px;
   text-decoration: none;
 }
 .Navbar nav img {
-  height: 60px;
-  padding: 0;
-  margin: 0;
+  margin: -5px 0 0 5px;
+  height: 45px;
 }
 
 .Navbar .navbutton {
+  margin-top: px;
+  padding: 4px 2px;
   display: inline-block block;
-
-  margin: 20px;
   background-color: #ffffff37;
-  border: none;
-  box-shadow: 1px 0px 11px 3px #61808533;
-  padding: 5px 10px;
-  border-radius: 7px;
+  border: 2px solid var(---basedark);
 }
+
 .Navbar .navbutton:hover {
-  background-color: #c9f8ff9b;
+  background-color: var(---basedark);
+  color: var(---base);
 }
 .Navbar .navigation a.active {
-  color: var(---basedark);
   font-weight: 900;
+  color: var(---basedark);
+  letter-spacing: 1px;
 }
