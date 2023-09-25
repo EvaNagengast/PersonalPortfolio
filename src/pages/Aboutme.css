@@ -13,14 +13,14 @@
 
 }
 .Aboutme .aboutmepage {
-  margin-top: -120px;
+  margin-top: -140px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   text-align: center;
 }
 .Aboutme .aboutmepage h1 {
-    margin-left: 30px;
+    margin-left: 10px;
   margin-top: 140px;
   text-align: left;
   font-size: 120px;

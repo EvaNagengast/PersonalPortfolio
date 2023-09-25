@@ -6,3 +6,4 @@ animations were done with the help of framer motion and https://github.com/TomIs
 todo: 
 links in codesnippet
 check all links
+links in contact section
