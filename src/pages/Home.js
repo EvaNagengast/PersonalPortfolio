@@ -1,13 +1,13 @@
 import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { motion, useAnimation, useInView } from "framer-motion";
+
 import Footer from "./Footer";
 import Profilepic from "../media/profilepic.png";
 import ProjectOneImg from "../media/projectOne.png";
 import ProjectTwoImg from "../media/projectTwo.png";
 import ProjectThreeImg from "../media/ProjectThree.png";
 import ProjectFourImg from "../media/ProjectFour.png";
-import Codeimage from "../media/codefour.png";
 import "./Home.css";
 
 export default function Homepage() {
@@ -20,6 +20,19 @@ export default function Homepage() {
     }
   }, [isInView, mainControls]);
   let navigate = useNavigate();
+
+
+let handleClick = () => {
+  const aboutSection = document.getElementById("about");
+  if (aboutSection) {
+    aboutSection.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
+
+
+
+
   return (
     <div className="Home">
       <div className="homepage">
@@ -44,9 +57,8 @@ export default function Homepage() {
             >
               let's connect
             </button>
-            <button>
-              <a href="#about-one">explore my page</a>
-            </button>
+            <button onClick={() => handleClick()}>explore my page</button>
+        
           </motion.div>
         </div>
         <main>
@@ -66,7 +78,7 @@ export default function Homepage() {
                   className="profilepicture"
                 ></motion.img>
               </div>
-              <div className="col-9  abouttext">
+              <div className="col-9  abouttext" id="about">
                 <div>
                   <p>
                     Hi, I'm Eva! <br />I love designing and developing
@@ -90,7 +102,7 @@ export default function Homepage() {
                   <br />
                   <span className="colorthree"> onClick(contact) </span>
                   <span className="colorone">{"{"}</span>
-                  <span className="colortwo">mail</span>
+                  <span className="colortwo">Mail</span>
                   <span className="colorone">,</span>
                   <span className="colortwo"> LinkedIn</span>
                   <span className="colorone">,</span>
@@ -99,7 +111,7 @@ export default function Homepage() {
                   <br />
                   <span className="colorthree"> show(CV) </span>
                   <span className="colorone">{"{"}</span>
-                  <span className="colortwo">evaNagengast.pdf</span>
+                  <span className="colortwo">EvaNagengast.pdf</span>
                   <span className="colorone">{"}"}</span>
                   <br />
                   <span className="colorthree"> likes = </span>
@@ -120,7 +132,7 @@ export default function Homepage() {
                   <span className="colorone">&&</span>
                   <span className="colortwo">"CSS"</span>
                   <span className="colorone">,</span>
-                  <span className="colortwo"> "React.js"</span>
+                  <span className="colortwo"> "React.JS"</span>
                   <span className="colorone">,</span>
                   <br />
                   <span className="colortwo"> "JavaScript"</span>
@@ -131,9 +143,10 @@ export default function Homepage() {
               </div>
             </div>
           </div>
-
           <div className="projectsection pt-5">
-            <h4 className="pt-4 pb-2">Projects</h4>
+            <h4 className="pt-4 pb-2" >
+              Projects
+            </h4>
             <p className="projectIntro">
               Browse through some assorted projects I created or find all of my
               projects{" "}
