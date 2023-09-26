@@ -1,7 +1,9 @@
+/* CSS checked O unchecked X */
 .Contact {
   background-color: var(---base);
 }
-.Contact h2 {letter-spacing: 3px;
+.Contact h2 {
+  letter-spacing: 3px;
   font-weight: 100;
   color: var(---baselight);
   font-size: 30px;

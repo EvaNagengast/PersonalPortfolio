@@ -1,5 +1,6 @@
+/* CSS checked O unchecked X */
 footer {
-  margin: auto ;
+  margin: auto;
   background-color: var(---baselight);
   color: green;
- }
+}

@@ -32,8 +32,8 @@
 }
 
 .Navbar .navbutton {
-  margin-top: px;
-  padding: 4px 2px;
+  margin-left: 5px;
+  padding: 4px 4px;
   display: inline-block block;
   background-color: #ffffff37;
   border: 2px solid var(---basedark);

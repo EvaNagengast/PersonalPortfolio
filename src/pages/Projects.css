@@ -1,6 +1,8 @@
+/* CSS checked O unchecked X */
 .Projects {
   background-color: var(---basedark);
 }
+
 .Projects .projectspage {
   margin-top: -140px;
   display: flex;
@@ -9,8 +11,7 @@
   text-align: center;
 }
 .Projects .projectspage h1 {
-  margin: 140px 0 80px 10px;
-
+  margin: 140px 0 35px 10px;
   font-size: 120px;
   color: var(---base);
   font-weight: 900;
@@ -23,8 +24,15 @@
   display: inline-block;
   background-color: var(---base);
   padding: 20px;
-
   margin-bottom: 40px;
   outline: 5px solid var(---baselight);
   outline-offset: -10px;
 }
+.red {
+  padding: 15px;
+  background-color: red;
+}
+
+/*  */
+
+.xlimage {max-height: 410px;}

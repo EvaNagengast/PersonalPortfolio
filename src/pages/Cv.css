@@ -1,0 +1,20 @@
+.Cv {
+  background-color: var(---base);
+}
+
+.Cv .cvpage {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+}
+.Cv .downloadbutton {
+  display: block;
+  margin: 20px auto;
+}
+.Cv main {
+  background-color: white;
+  /* border: 1px solid; */
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.295);
+  margin: 15px 80px;
+}

@@ -1,3 +1,4 @@
+/* CSS checked O unchecked X */
 .Aboutme {
   background-image: conic-gradient(
       at calc(100% - 1px) calc(100% - 1px),
@@ -10,7 +11,6 @@
       rgba(255, 0, 0, 0) 0
     );
   background-size: 100px 100px, 20px 20px;
-
 }
 .Aboutme .aboutmepage {
   margin-top: -140px;
@@ -20,7 +20,7 @@
   text-align: center;
 }
 .Aboutme .aboutmepage h1 {
-    margin-left: 10px;
+  margin-left: 10px;
   margin-top: 140px;
   text-align: left;
   font-size: 120px;
@@ -48,11 +48,13 @@
 }
 .Aboutme .aboutmepage figcaption {
   padding: 5px;
-  max-width: 360px; background-color: var(---basedark);
+  max-width: 360px;
+  background-color: var(---basedark);
 
-font-size: 10px;
- font-weight: 100;  color: var(---base);
- letter-spacing: 1.5px;
+  font-size: 10px;
+  font-weight: 100;
+  color: var(---base);
+  letter-spacing: 1.5px;
   text-wrap: wrap;
 }
 

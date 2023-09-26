@@ -2,12 +2,9 @@
   ---base: #fffcec;
   ---baselight: #ee6c6c;
   ---basedark: #155b95;
-  ---secondary: #87B6DD;
+  ---secondary: #87b6dd;
 }
 .App {
   max-width: 100%;
-   background-color: #fffcec;
-
+  background-color: #fffcec;
 }
-
-
