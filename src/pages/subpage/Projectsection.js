@@ -11,8 +11,8 @@ export default function Projectsection() {
     <div className="Projectsection">
       <div className="projectbox">
         <h4 className="pt-4 pb-2">Projects</h4>
-        <p className="projectIntro">
-          Browse through some assorted projects I created or find all of my
+        <p className="projectIntro mt-3 mb-5">
+          Browse through some assorted projects I created, or find all of my
           projects
           <button
             onClick={() => {
@@ -42,7 +42,15 @@ export default function Projectsection() {
                 <div className="projectTools">
                   Built with HTML, CSS, JavaScript, Embeds, Bootstrap
                 </div>
-                <a href="/">find out more</a>
+                <a
+                  href="https://bucolic-faun-a689bb.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="London Music Journey Webdite "
+                  className="btn-dark-base"
+                >
+                  go to page
+                </a>
               </p>
               <br />
             </div>
@@ -60,7 +68,15 @@ export default function Projectsection() {
                 <div className="projectTools">
                   Built with HTML, CSS, React.js, APIs & npm Libraries
                 </div>
-                <a href="/">find out more</a>
+                <a
+                  href="https://evas-dictionary.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Dictionary Website"
+                  className="btn-dark-base"
+                >
+                  go to page
+                </a>
               </p>
             </div>
             <div className="col-5">
@@ -94,7 +110,15 @@ export default function Projectsection() {
                 <div className="projectTools">
                   Built with HTML, CSS, JavaScript & Figma
                 </div>
-                <a href="/">find out more</a>
+                <a
+                  href="https://heartfelt-mermaid-f746f4.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Pigeon Showcase Website"
+                  className="btn-dark-base"
+                >
+                  go to page
+                </a>
               </p>
             </div>
           </div>
@@ -110,7 +134,15 @@ export default function Projectsection() {
                 <div className="projectTools">
                   Built with HTML, CSS, JavaScript & APIs
                 </div>
-                <a href="/">find out more</a>
+                <a
+                  href="https://evas-world-clock.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="World Clock Website"
+                  className="btn-dark-base"
+                >
+                  go to page
+                </a>
               </p>
             </div>
             <div className="col-5 ">

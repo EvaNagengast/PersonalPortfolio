@@ -37,7 +37,7 @@ export default function Homepage() {
             <h3>based in London</h3>
             <button
               onClick={() => {
-                navigate("./Cv");
+                navigate("./contact");
               }}
             >
               LET'S CONNECT

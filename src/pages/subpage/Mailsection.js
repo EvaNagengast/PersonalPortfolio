@@ -42,7 +42,10 @@ export default function Mailsection() {
             ></textarea>
           </div>
           <div>
-            <button type="submit" className="form-control align-start">
+            <button
+              type="submit"
+              className="form-control align-start btn-base-light"
+            >
               SEND
             </button>
           </div>

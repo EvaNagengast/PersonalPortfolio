@@ -21,8 +21,7 @@ export default function Aboume() {
                 className="img-fluid"
               ></img>
               <figcaption>
-                AUDIO ENGINEERING A PODCAST AT READING 
-                FESTIVAL '23
+                AUDIO ENGINEERING A PODCAST AT READING FESTIVAL '23
               </figcaption>
             </div>
 
@@ -63,15 +62,17 @@ export default function Aboume() {
               onClick={() => {
                 navigate("../contact");
               }}
+              className=" btn-base-dark"
             >
-             CONTACT ME
+              CONTACT ME
             </button>
             <button
               onClick={() => {
                 navigate("../projects");
               }}
+              className=" btn-base-dark"
             >
-             SEE MY PROJECTS
+              SEE MY PROJECTS
             </button>
           </div>
         </main>

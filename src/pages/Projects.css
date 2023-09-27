@@ -10,7 +10,6 @@ double css checked o unchecked x  */
   flex-direction: column;
   min-height: 100vh;
   margin-top: -140px;
-  text-align: center;
 }
 .Projects h1 {
   margin: 140px 0 35px 10px;
@@ -18,20 +17,17 @@ double css checked o unchecked x  */
   color: var(---base);
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
-  text-align: left;
   letter-spacing: -7px;
 }
 .Projects .popuphighlight {
-  margin-top: 10px;
-  color: var(---baselight);
-  text-decoration: solid !important;
   font-weight: bolder;
+  color: var(---baselight);
 }
 .Projects .cardText {
-  color: var(---basedark);
+  margin: 0;
   font-size: 19px;
   font-weight: 900;
-  margin: 0;
+  color: var(---basedark);
 }
 
 .Projects .card {
@@ -54,15 +50,7 @@ double css checked o unchecked x  */
   margin: 20px auto 5px;
   padding: 3px 10px;
   box-shadow: 1px 1px 5px 1px #1b2e472f;
-  border: 1px solid var(---basedark);
-  border-radius: 10px;
-  background-color: var(---base);
   font-size: 14px;
-  font-weight: 100;
-  color: var(---basedark);
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  transition: all 0.4s ease;
 }
 
 .Projects .visitButton:hover,
@@ -70,7 +58,7 @@ double css checked o unchecked x  */
   background-color: var(---basedark);
   color: var(---base);
 }
-/* popup to edit */
+/*   */
 .Popup h2 {
   margin-right: 80px;
   font-size: 40px;
@@ -88,15 +76,7 @@ double css checked o unchecked x  */
   margin: 20px auto 5px;
   padding: 3px 10px;
   box-shadow: 1px 1px 5px 1px #1b2e472f;
-  border: 1px solid var(---baselight);
-  border-radius: 10px;
-  background-color: var(---base);
   font-size: 14px;
-  font-weight: 100;
-  color: var(---baselight);
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  transition: all 0.4s ease;
 }
 .Popup .launchbutton:hover {
   background-color: var(---baselight);

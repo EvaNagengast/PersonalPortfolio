@@ -1,15 +1,19 @@
 import React from "react";
 import TypeIt from "typeit-react";
 import monoimage from "../media/monoimg.png";
-import pdf from "../media/evanagengastcv.pdf";
+import pdf from "../media/EvaNagengastResume.pdf";
 import "./Cv.css";
 
 export default function Cv() {
   return (
     <div className="Cv">
       <div className="cvpage">
-        <a href={pdf} className="downloadbutton">
-          CLICK HERE FOR A PDF OF MY FULL RESUME
+        <a
+          href={pdf}
+          alt="PDF of Evas Resume"
+          className="downloadbutton btn-dark-base"
+        >
+          CLICK HERE FOR PDF-View
         </a>
         <main>
           <div className="row justify-content-between">

@@ -1,6 +1,22 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./Contactsection.css";
 
 export default function Contactsection() {
-  return <div className="Contactsection">congtatchsdkl</div>;
+  let navigate = useNavigate();
+  return (
+    <div className="Contactsection p-4">
+      <div className="contactsectionbox">
+        <h4> Contact me</h4>
+        <button
+          onClick={() => {
+            navigate("./contact");
+          }}
+          className="btn-base-light"
+        >
+          click here to say hello
+        </button>
+      </div>
+    </div>
+  );
 }

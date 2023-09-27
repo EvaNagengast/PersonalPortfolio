@@ -1,3 +1,24 @@
 /* CSS checked x unchecked o 
 redundant checked o unchecked x 
 double css checked o unchecked x  */
+
+.Contactsection .contactsectionbox {
+  border: 8px solid var(---baselight);
+}
+.Contactsection h4 {
+  font-size: 80px;
+  font-weight: 900;
+  color: var(---baselight);
+}
+.Contactsection button{
+    display: inline-block;
+    margin-bottom: 15px;
+  width: fit-content;
+  padding: 3px 10px;
+  box-shadow: 2px 1px 5px 1px #752b2b25;
+  font-size: 20px;
+}
+.Contactsection button:hover {
+  background-color: var(---baselight);
+  color: var(---base);
+}

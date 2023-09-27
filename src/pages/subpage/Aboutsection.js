@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import Profilepic from "../../media/profilepic2.png";
+import pdf from "../../media/EvaNagengastResume.pdf";
 import { motion, useAnimation, useInView } from "framer-motion";
 import "./Aboutsection.css";
 
@@ -15,8 +16,8 @@ export default function Aboutsection() {
   }, [isInView, mainControls]);
   let navigate = useNavigate();
   return (
-    <div className="Aboutsection"ref={ref}>
-      <div className="aboutbox" >
+    <div className="Aboutsection" ref={ref}>
+      <div className="aboutbox">
         <div className="row">
           <div className="col-3">
             <motion.img
@@ -56,16 +57,49 @@ export default function Aboutsection() {
               <br />
               <span className="colorthree"> onClick(contact) </span>
               <span className="colorone">{"{"}</span>
-              <span className="colortwo">Mail</span>
+              <a
+                className="text-decoration-none"
+                href="mailto:eva.nagengast.dev@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                alt="Click to write a Mail"
+              >
+                <span className="colortwo ">Mail</span>
+              </a>
               <span className="colorone">,</span>
-              <span className="colortwo"> LinkedIn</span>
+              <a
+                href="https://www.linkedin.com/in/evanagengast/"
+                target="_blank"
+                rel="noreferrer"
+                alt="Evas LinkedIn page"
+                className="text-decoration-none"
+              >
+                <span className="colortwo "> LinkedIn </span>
+              </a>
               <span className="colorone">,</span>
-              <span className="colortwo"> GitHub</span>
+              <a
+                href="https://github.com/EvaNagengast"
+                target="_blank"
+                rel="noreferrer"
+                alt="Evas Github Profile"
+                className="text-decoration-none"
+              >
+                <span className="colortwo "> GitHub </span>
+              </a>
               <span className="colorone">{"}"}</span>
               <br />
               <span className="colorthree"> show(CV) </span>
               <span className="colorone">{"{"}</span>
-              <span className="colortwo">EvaNagengast.pdf</span>
+              <a
+                href={pdf}
+                target="_blank"
+                rel="noreferrer"
+                alt="PDF of Evas Resume"
+                className="text-decoration-none"
+              >
+                <span className="colortwo">EvaNagengast.pdf</span>
+              </a>
+
               <span className="colorone">{"}"}</span>
               <br />
               <span className="colorthree"> likes = </span>
@@ -76,7 +110,6 @@ export default function Aboutsection() {
               <span className="colorone">,</span>
               <span className="colortwo"> "Squirrels"</span>
               <span className="colorone">,</span>
-
               <span className="colortwo"> "Crafts"</span>
               <span className="colorone">]</span>
               <br />
@@ -89,7 +122,7 @@ export default function Aboutsection() {
               <span className="colortwo"> "React.JS"</span>
               <span className="colorone">,</span>
               <br />
-              <span className="colortwo"> "JavaScript"</span>
+              <span className="colortwo ps-5"> "JavaScript"</span>
               <span className="colorone">,</span>
               <span className="colortwo"> "GitHub"</span>
               <span className="colorone">]</span>

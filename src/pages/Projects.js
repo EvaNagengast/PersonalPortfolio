@@ -30,8 +30,8 @@ export default function Projects() {
   let [popupSix, setPopupSix] = useState(false);
   return (
     <div className="Projects">
-      <div className="projectspage">
-        <h1>Projects</h1>
+      <div className="projectspage text-center">
+        <h1 className="text-start">Projects</h1>
         <img></img>
         <div className="row ">
           <div className="col-4  ">
@@ -42,10 +42,18 @@ export default function Projects() {
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <LuCode />
                 </p>
-                <button className="visitButton">visit page</button>
+                <a
+                  href="https://bucolic-faun-a689bb.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Musical Journey through London Webpage"
+                  className="visitButton text-decoration-none btn-base-dark"
+                >
+                  visit page
+                </a>
                 <button
                   onClick={() => setPopupOne(true)}
-                  className="popupButton"
+                  className="popupButton btn-base-dark"
                 >
                   learn more
                 </button>
@@ -61,10 +69,18 @@ export default function Projects() {
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <SiReact />{" "}
                   <RiBootstrapLine /> <LuLibrary />
                 </p>
-                <button className="visitButton">visit page</button>
+                <a
+                  href="https://evas-dictionary.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Dictionary Application"
+                  className="visitButton text-decoration-none btn-base-dark"
+                >
+                  visit page
+                </a>
                 <button
                   onClick={() => setPopupTwo(true)}
-                  className="popupButton"
+                  className="popupButton btn-base-dark"
                 >
                   learn more
                 </button>
@@ -79,10 +95,18 @@ export default function Projects() {
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />
                 </p>
-                <button className="visitButton">visit page</button>
+                <a
+                  href="https://heartfelt-mermaid-f746f4.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Pigeon Showcase Webpage"
+                  className="visitButton text-decoration-none btn-base-dark"
+                >
+                  visit page
+                </a>
                 <button
                   onClick={() => setPopupThree(true)}
-                  className="popupButton"
+                  className="popupButton btn-base-dark"
                 >
                   learn more
                 </button>
@@ -100,10 +124,18 @@ export default function Projects() {
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <SiReact />{" "}
                   <RiBootstrapLine />
                 </p>
-                <button className="visitButton">visit page</button>
+                <a
+                  href="https://steady-crepe-0282c0.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Magical Weather Application"
+                  className="visitButton text-decoration-none btn-base-dark"
+                >
+                  visit page
+                </a>
                 <button
                   onClick={() => setPopupFour(true)}
-                  className="popupButton"
+                  className="popupButton btn-base-dark"
                 >
                   learn more
                 </button>
@@ -118,10 +150,18 @@ export default function Projects() {
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />
                 </p>
-                <button className="visitButton">visit page</button>
+                <a
+                  href="https://eva-weather-app-1.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Weather Application"
+                  className="visitButton text-decoration-none btn-base-dark"
+                >
+                  visit page
+                </a>
                 <button
                   onClick={() => setPopupFive(true)}
-                  className="popupButton"
+                  className="popupButton btn-base-dark"
                 >
                   learn more
                 </button>
@@ -137,10 +177,18 @@ export default function Projects() {
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />{" "}
                   <LuLibrary />
                 </p>
-                <button className="visitButton">visit page</button>
+                <a
+                  href="https://evas-world-clock.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="World Clock Webpage"
+                  className="visitButton text-decoration-none btn-base-dark"
+                >
+                  visit page
+                </a>
                 <button
                   onClick={() => setPopupSix(true)}
-                  className="popupButton"
+                  className="popupButton btn-base-dark"
                 >
                   learn more
                 </button>
@@ -163,9 +211,13 @@ export default function Projects() {
             <div className="col-7">
               <h2>Musical Journey through London</h2>
               <p className="popupText">
-                <div className="popuphighlight">Objective:</div> Learn how to
-                use embeds, grids, and tables effectively. <br />
-                <div className="popuphighlight">Achieved:</div>
+                <div className="popuphighlight text-decoration-underline ">
+                  Objective:
+                </div>{" "}
+                Learn how to use embeds, grids, and tables effectively. <br />
+                <div className="popuphighlight text-decoration-underline mt-2">
+                  Achieved:
+                </div>
                 My favourite project so far, this page was a joy to develop and
                 a fun exploration of London's music culture. I spent hours
                 listening to songs songs named after London streets and boroughs
@@ -174,9 +226,15 @@ export default function Projects() {
                 after a 1991 travel card. It also features embeds, grids, and
                 tables, all seamlessly rendered responsive with the use of media
                 queries.
-                <button className="launchbutton">
-                  LAUNCH MUSICAL JOURNEY{" "}
-                </button>
+                <a
+                  href="https://bucolic-faun-a689bb.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Website for Musical Journey"
+                  className="launchbutton text-decoration-none  btn-base-light "
+                >
+                  LAUNCH MUSICAL JOURNEY
+                </a>
               </p>
             </div>
           </div>
@@ -193,17 +251,29 @@ export default function Projects() {
             <div className="col-7">
               <h2>Dictionary App</h2>
               <p className="popupText">
-                <div className="popuphighlight">Objective:</div> Deepen
-                knowledge about React, looping, mapping through objects, and
-                utilizing APIs with npm libraries. <br />
-                <div className="popuphighlight">Achieved:</div>
+                <div className="popuphighlight text-decoration-underline">
+                  Objective:
+                </div>{" "}
+                Deepen knowledge about React, looping, mapping through objects,
+                and utilizing APIs with npm libraries. <br />
+                <div className="popuphighlight text-decoration-underline  mt-2">
+                  Achieved:
+                </div>
                 This project helped me to expand my expertise in React, focusing
                 on looping and mapping through objects. It involved the creation
                 of a dictionary app, rich with features like an animated play
                 buttons that talks to the user. The development process was a
                 fun and educational journey, helping me to experiment with
                 various npm libraries and practice my React skills.
-                <button className="launchbutton">LAUNCH DICTIONARY</button>
+                <a
+                  href="https://evas-dictionary.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Website for Fistionary Application"
+                  className="launchbutton text-decoration-none btn-base-light "
+                >
+                  LAUNCH DICTIONARY
+                </a>
               </p>
             </div>
           </div>
@@ -220,17 +290,29 @@ export default function Projects() {
             <div className="col-7">
               <h2>Pigeon Showcase</h2>
               <p className="popupText">
-                <div className="popuphighlight">Objective:</div> I aimed to
-                create a website that closely resembled a Figma design,
-                incorporating grids and ensuring responsiveness. <br />
-                <div className="popuphighlight">Achieved:</div>
+                <div className="popuphighlight text-decoration-underline">
+                  Objective:
+                </div>{" "}
+                I aimed to create a website that closely resembled a Figma
+                design, incorporating grids and ensuring responsiveness. <br />
+                <div className="popuphighlight text-decoration-underline mt-2">
+                  Achieved:
+                </div>
                 This project challenged me to dive into the world of responsive
                 design. I recreated a webpage based on a Figma design, striving
                 to stay as close to the original as possible while personalizing
                 the content as a tribute to pigeons. Using a combination of
                 Bootstrap and media queries, I ensured that the site stays
                 responsive and beautiful across all devices.
-                <button className="launchbutton">lAUNCH PIGEON SHOWCASE</button>
+                <a
+                  href="https://heartfelt-mermaid-f746f4.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Webpage for Pigeon Showcase"
+                  className="launchbutton text-decoration-none btn-base-light "
+                >
+                  lAUNCH PIGEON SHOWCASE
+                </a>
               </p>
             </div>
           </div>
@@ -250,15 +332,29 @@ export default function Projects() {
                 Weather App
               </h2>
               <p className="popupText">
-                <div className="popuphighlight">Objective:</div>
+                <div className="popuphighlight text-decoration-underline">
+                  Objective:
+                </div>
                 Learn to use React and implement multiple components
-                <br /> <div className="popuphighlight"> Achieved:</div>
+                <br />{" "}
+                <div className="popuphighlight text-decoration-underline mt-2">
+                  {" "}
+                  Achieved:
+                </div>
                 As my first React project I built a second Weather app. Learning
                 to use React was a steep learning curve. Very quickly I enjoyed
                 building all the components and putting them together like a
                 Puzzle. To add a unique touch and because autumn is near, I
                 created individual Tarot-themed weather icons.
-                <button className="launchbutton">LAUNCH MAGIC WEATHER</button>
+                <a
+                  href="https://steady-crepe-0282c0.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Website for Tarot Themed Weather Application"
+                  className="launchbutton text-decoration-none btn-base-light "
+                >
+                  LAUNCH MAGIC WEATHER
+                </a>
               </p>
             </div>
           </div>
@@ -275,10 +371,13 @@ export default function Projects() {
             <div className="col-7">
               <h2>Weather App</h2>
               <p className="popupText">
-                <div className="popuphighlight"> Objective:</div> Build a
-                functioning application, learn how to implement APIs and make a
-                responsive website using Bootstrap.
-                <div className="popuphighlight">
+                <div className="popuphighlight text-decoration-underline">
+                  {" "}
+                  Objective:
+                </div>{" "}
+                Build a functioning application, learn how to implement APIs and
+                make a responsive website using Bootstrap.
+                <div className="popuphighlight text-decoration-underline mt-2">
                   <br />
                   Achieved:
                 </div>
@@ -289,7 +388,15 @@ export default function Projects() {
                 users to easily access up-to-date weather conditions and
                 forecasts for locations all around the world. I had lots of fun,
                 styling the website with a Californian vibe in mind.
-                <button className="launchbutton">LAUNCH WEATHER APP</button>
+                <a
+                  href="https://eva-weather-app-1.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Website for Weather Application"
+                  className="launchbutton text-decoration-none btn-base-light "
+                >
+                  LAUNCH WEATHER APP
+                </a>
               </p>
             </div>
           </div>
@@ -302,17 +409,30 @@ export default function Projects() {
             <div className="col-7">
               <h2>World Clock</h2>
               <p className="popupText">
-                <div className="popuphighlight"> Objective:</div> Gain more
-                experience with APIs, ans especially handling and processing
-                local local times. <br />
-                <div className="popuphighlight">Achieved:</div>
+                <div className="popuphighlight text-decoration-underline">
+                  {" "}
+                  Objective:
+                </div>{" "}
+                Gain more experience with APIs, ans especially handling and
+                processing local local times. <br />
+                <div className="popuphighlight text-decoration-underline mt-2">
+                  Achieved:
+                </div>
                 My second big project was the development of a Java Script World
                 Clock App, also built using Bootstrap. This project helped me to
                 deepen my API knowledge and refine my development skills.
                 Implementing the time first seemed very hard, but I loved
                 reading about calculations around UTC, how to work with it and
                 to solve challenges creatively.
-                <button className="launchbutton">LAUNCH WORLD CLOCK APP</button>
+                <a
+                  href="https://evas-world-clock.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Website for Wolrd Clock"
+                  className="launchbutton text-decoration-none btn-base-light "
+                >
+                  LAUNCH WORLD CLOCK APP
+                </a>
               </p>
             </div>
           </div>
