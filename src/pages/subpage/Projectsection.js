@@ -33,7 +33,7 @@ export default function Projectsection() {
             </div>
             <div className="col-7 text-start projectTextright">
               <h5>London Music Journey</h5>
-              <p>
+              <div>
                 Explore London through a musical journey - this web page
                 combines embedded songs and maps, with grid layouts and
                 responsive media queries. I illustrated the London
@@ -51,14 +51,14 @@ export default function Projectsection() {
                 >
                   go to page
                 </a>
-              </p>
+              </div>
               <br />
             </div>
           </div>
           <div className="projectTwo negativeMargin row">
             <div className="col-7 text-end projectTextleft ">
               <h5>Dictionary</h5>
-              <p>
+              <div>
                 Built using Java Script React and enhanced with the capabilities
                 of APIs and npm libraries, this page offers word definitions and
                 related images for a search term. It becomes fun and engaging as
@@ -77,7 +77,7 @@ export default function Projectsection() {
                 >
                   go to page
                 </a>
-              </p>
+              </div>
             </div>
             <div className="col-5">
               {" "}
@@ -99,7 +99,7 @@ export default function Projectsection() {
             </div>
             <div className="col-7 text-start projectTextright">
               <h5>Pigeon Showcase</h5>
-              <p>
+              <div>
                 From a concept to web reality, this Pigeon Showcase was
                 carefully crafted using Bootstrap, media queries, and flexboxfor
                 a responsive and visually appealing website. Originally
@@ -119,13 +119,13 @@ export default function Projectsection() {
                 >
                   go to page
                 </a>
-              </p>
+              </div>
             </div>
           </div>
           <div className="projectFour negativeMargin row">
             <div className="col-7 text-end projectTextleft">
               <h5>World Clock</h5>
-              <p className>
+              <div>
                 With this World Clock App, users can effortlessly explore global
                 time zones. This app uses HTML, CSS, and JavaScript and seamless
                 API integration, to efficiently retrieves and display precise
@@ -143,7 +143,7 @@ export default function Projectsection() {
                 >
                   go to page
                 </a>
-              </p>
+              </div>
             </div>
             <div className="col-5 ">
               <img

@@ -14,7 +14,7 @@ export default function Footer() {
           className="footerlink px-2 text-decoration-none"
         >
           open-sourced
-        </a>{" "}
+        </a>
         so feel free to have a look!
       </footer>
     </div>

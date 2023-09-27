@@ -24,7 +24,7 @@
   border-radius: 10px;
   background-color: var(---basedark);
   font-weight: 100;
-  color: var(---base );
+  color: var(---base);
   letter-spacing: 3px;
   text-transform: uppercase;
   transition: all 0.4s ease;
@@ -35,7 +35,7 @@
   border-radius: 10px;
   background-color: var(---base);
   font-weight: 100;
-  color: var(---baselight );
+  color: var(---baselight);
   letter-spacing: 3px;
   text-transform: uppercase;
   transition: all 0.4s ease;

@@ -8,7 +8,7 @@ import {
 import Home from "./Home";
 import AboutMe from "./Aboutme";
 import Contact from "./Contact";
-
+import Project from "./Projects.js";
 import Cv from "./Cv";
 import Error from "./Error";
 import Logo from "../media/smalllogo.png";
@@ -20,7 +20,7 @@ export default function Navbar() {
       <Route path="/" element={<Home />} />
       <Route path="/aboutme" element={<AboutMe />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/projects" element={<Projects />} />
+      <Route path="/projects" element={<Project />} />
       <Route path="/cv" element={<Cv />} />
       <Route path="*" element={<Error />} />
     </Routes>

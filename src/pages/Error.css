@@ -14,9 +14,9 @@
   letter-spacing: -7px;
 }
 .Error a {
-  color: var(---baselight);transition: all 0.4s ease;
+  color: var(---baselight);
+  transition: all 0.4s ease;
 }
 .Error a:hover {
   color: var(---basedark);
 }
-

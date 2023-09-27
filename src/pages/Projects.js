@@ -35,13 +35,13 @@ export default function Projects() {
 
         <div className="row ">
           <div className="col-4  ">
-            <div class="card">
+            <div className="card">
               <img
-                class="card-img-top"
+                className="card-img-top"
                 src={London}
                 alt="Musical London Journey"
               />
-              <div class="card-body">
+              <div className="card-body">
                 <p className="cardText">Musical London Journey </p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <LuCode />
@@ -65,9 +65,9 @@ export default function Projects() {
             </div>
           </div>
           <div className="col-4 ">
-            <div class="card">
-              <img class="card-img-top" src={Dictionary} alt="Dictionary App" />
-              <div class="card-body">
+            <div className="card">
+              <img className="card-img-top" src={Dictionary} alt="Dictionary App" />
+              <div className="card-body">
                 <p className="cardText">Dictionary App</p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <SiReact />{" "}
@@ -92,9 +92,9 @@ export default function Projects() {
             </div>
           </div>
           <div className="col-4 ">
-            <div class="card">
-              <img class="card-img-top" src={Pigeons} alt="Pigeon Showcase" />
-              <div class="card-body">
+            <div className="card">
+              <img className="card-img-top" src={Pigeons} alt="Pigeon Showcase" />
+              <div className="card-body">
                 <p className="cardText">Pigeon Showcase</p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />
@@ -120,9 +120,9 @@ export default function Projects() {
         </div>
         <div className="row ">
           <div className="col-4  ">
-            <div class="card">
-              <img class="card-img-top" src={Magic} alt="Magical Weather App" />
-              <div class="card-body">
+            <div className="card">
+              <img className="card-img-top" src={Magic} alt="Magical Weather App" />
+              <div className="card-body">
                 <p className="cardText">Magical Weather App</p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <SiReact />{" "}
@@ -147,9 +147,9 @@ export default function Projects() {
             </div>
           </div>
           <div className="col-4 ">
-            <div class="card">
-              <img class="card-img-top" src={Weather} alt="Weather App" />
-              <div class="card-body">
+            <div className="card">
+              <img className="card-img-top" src={Weather} alt="Weather App" />
+              <div className="card-body">
                 <p className="cardText">Weather App</p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />
@@ -173,9 +173,9 @@ export default function Projects() {
             </div>
           </div>
           <div className="col-4 ">
-            <div class="card">
-              <img class="card-img-top" src={Clock} alt="World Clock" />
-              <div class="card-body">
+            <div className="card">
+              <img className="card-img-top" src={Clock} alt="World Clock" />
+              <div className="card-body">
                 <p className="cardText">World Clock</p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />{" "}
@@ -214,7 +214,7 @@ export default function Projects() {
             </div>
             <div className="col-7">
               <h2>Musical Journey through London</h2>
-              <p className="popupText">
+              <div className="popupText">
                 <div className="popuphighlight text-decoration-underline ">
                   Objective:
                 </div>{" "}
@@ -239,7 +239,7 @@ export default function Projects() {
                 >
                   LAUNCH MUSICAL JOURNEY
                 </a>
-              </p>
+              </div>
             </div>
           </div>
         </Popup>
@@ -254,7 +254,7 @@ export default function Projects() {
             </div>
             <div className="col-7">
               <h2>Dictionary App</h2>
-              <p className="popupText">
+              <div className="popupText">
                 <div className="popuphighlight text-decoration-underline">
                   Objective:
                 </div>{" "}
@@ -278,7 +278,7 @@ export default function Projects() {
                 >
                   LAUNCH DICTIONARY
                 </a>
-              </p>
+              </div>
             </div>
           </div>
         </Popup>
@@ -293,7 +293,7 @@ export default function Projects() {
             </div>
             <div className="col-7">
               <h2>Pigeon Showcase</h2>
-              <p className="popupText">
+              <div className="popupText">
                 <div className="popuphighlight text-decoration-underline">
                   Objective:
                 </div>{" "}
@@ -317,7 +317,7 @@ export default function Projects() {
                 >
                   lAUNCH PIGEON SHOWCASE
                 </a>
-              </p>
+              </div>
             </div>
           </div>
         </Popup>
@@ -335,7 +335,7 @@ export default function Projects() {
                 Magic <br />
                 Weather App
               </h2>
-              <p className="popupText">
+              <div className="popupText">
                 <div className="popuphighlight text-decoration-underline">
                   Objective:
                 </div>
@@ -359,7 +359,7 @@ export default function Projects() {
                 >
                   LAUNCH MAGIC WEATHER
                 </a>
-              </p>
+              </div>
             </div>
           </div>
         </Popup>
@@ -374,7 +374,7 @@ export default function Projects() {
             </div>
             <div className="col-7">
               <h2>Weather App</h2>
-              <p className="popupText">
+              <div className="popupText">
                 <div className="popuphighlight text-decoration-underline">
                   {" "}
                   Objective:
@@ -401,7 +401,7 @@ export default function Projects() {
                 >
                   LAUNCH WEATHER APP
                 </a>
-              </p>
+              </div>
             </div>
           </div>
         </Popup>
@@ -412,7 +412,7 @@ export default function Projects() {
             </div>
             <div className="col-7">
               <h2>World Clock</h2>
-              <p className="popupText">
+              <div className="popupText">
                 <div className="popuphighlight text-decoration-underline">
                   {" "}
                   Objective:
@@ -437,7 +437,7 @@ export default function Projects() {
                 >
                   LAUNCH WORLD CLOCK APP
                 </a>
-              </p>
+              </div>
             </div>
           </div>
         </Popup>

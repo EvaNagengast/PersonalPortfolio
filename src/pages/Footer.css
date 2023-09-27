@@ -9,7 +9,7 @@ double css checked o unchecked x  */
 .Footer .footerlink {
   color: var(---basedark);
 }
-.Footer .footerlink:hover{
+.Footer .footerlink:hover {
   background-color: var(---base);
-  color: var(---baselight)
+  color: var(---baselight);
 }

@@ -1,6 +1,8 @@
-import React, { useRef } from "react";
+import React from "react";
+// import React, { useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import { motion, useAnimation, useInView } from "framer-motion";
+import { motion } from "framer-motion";
+// import { motion, useAnimation, useInView } from "framer-motion";
 import Aboutsection from "./subpage/Aboutsection";
 import Projectsection from "./subpage/Projectsection";
 import Contactsection from "./subpage/Contactsection";

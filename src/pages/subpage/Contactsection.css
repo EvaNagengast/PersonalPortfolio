@@ -10,9 +10,9 @@ double css checked o unchecked x  */
   font-weight: 900;
   color: var(---baselight);
 }
-.Contactsection button{
-    display: inline-block;
-    margin-bottom: 15px;
+.Contactsection button {
+  display: inline-block;
+  margin-bottom: 15px;
   width: fit-content;
   padding: 3px 10px;
   box-shadow: 2px 1px 5px 1px #752b2b25;
