@@ -35,12 +35,19 @@ double css checked o unchecked x  */
 .Cv h4 {
   font-size: 20px;
 }
-.Cv li {
+.Cv p {
+  margin: 0;
+}
+.Cv ul {
+  margin: 0;
+}
+.Cv li,
+.Cv p {
   font-size: 18px;
 }
 
 .Cv .subheader {
-  margin-left: 7px;
+  margin-left: -8px;
   font-size: 20px;
   color: var(---basedark);
   letter-spacing: 2px;
@@ -53,13 +60,11 @@ double css checked o unchecked x  */
   letter-spacing: 2px;
 }
 .Cv .cvimage {
-  float: right;
   margin: 15px;
 }
+
 .Cv .downloadbutton {
   display: block;
-  margin: 20px auto;
-  padding: 5px 10px;
   box-shadow: 2px 1px 5px 1px #141c213b;
   border: none !important;
   font-size: 20px;
@@ -71,4 +76,108 @@ double css checked o unchecked x  */
 }
 .Cv .sideSection ul {
   list-style: none;
+}
+@media (max-width: 1028px) {
+  .Cv .highlightred {
+    font-size: 12px;
+  }
+  .Cv .subheader {
+    font-size: 12px;
+  }
+  .Cv h1 {
+    font-size: 75px;
+    letter-spacing: -2px;
+  }
+  .Cv h3 {
+    font-size: 25px;
+  }
+  .Cv img {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 824px) {
+  .Cv .highlightred {
+    font-size: 8px;
+  }
+  .Cv .subheader {
+    font-size: 8px;
+  }
+  .Cv h1 {
+    font-size: 65px;
+    letter-spacing: -2px;
+  }
+  .Cv h2 {
+    font-size: 35px;
+  }
+  .Cv h3 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  h4 {
+    font-weight: 19px;
+  }
+  .Cv img {
+    max-height: 120px;
+  }
+}
+@media (max-width: 768px) {
+  .Cv .highlightred {
+    font-size: 12px;
+  }
+  .Cv .subheader {
+    font-size: 12px;
+  }
+  .Cv h1 {
+    font-size: 50px;
+    letter-spacing: -1px;
+  }
+
+  .Cv h2 {
+    font-size: 30px;
+    letter-spacing: -1px;
+  }
+  .Cv h3 {
+    font-size: 18px;
+  }
+  .Cv h4 {
+    font-size: 16px;
+  }
+  .Cv li,
+  .Cv p {
+    font-size: 14px;
+  }
+  .Cv img {
+    max-height: 100px;
+  }
+  .Cv .downloadbutton {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .Cv main {
+    margin: 15px 20px;
+  }
+}
+@media (max-width: 420px) {
+  .Cv h1 {
+    font-size: 35px;
+  }
+
+  .Cv h2 {
+    font-size: 27px;
+  }
+  .Cv h3 {
+    font-size: 14px;
+  }
+  .Cv h4 {
+    font-size: 14px;
+  }
+  .Cv li,
+  .Cv p {
+    font-size: 14px;
+  }
+  .Cv img {
+    max-height: 100px;
+  }
 }

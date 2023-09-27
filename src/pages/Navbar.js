@@ -31,7 +31,7 @@ export default function Navbar() {
       <Router>
         <nav className="navigation">
           <NavLink to="/" id="main">
-            <img src={Logo} alt="Logo Eva Nagengast"></img>
+            <img src={Logo} alt="Logo Eva Nagengast" className=" d-none d-sm-inline-block" />
           </NavLink>
           <NavLink to="/" id="main">
             HOME

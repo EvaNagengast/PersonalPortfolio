@@ -11,22 +11,22 @@ export default function Cv() {
         <a
           href={pdf}
           alt="PDF of Evas Resume"
-          className="downloadbutton btn-dark-base"
+          className="downloadbutton btn-dark-base mx-auto mt-4 mb-2 px-3 py-2"
         >
           CLICK HERE FOR PDF-View
         </a>
         <main>
-          <div className="row justify-content-between">
-            <div className="col">
+          <div className="row justify-content-between  ">
+            <div className="col-12 col-md order-2 order-md-1">
               <h1>
                 Eva <br />
                 Nagengast
               </h1>
             </div>
-            <div className="col">
-              <div className="cvimage">
+            <div className="col-12 col-md  order-1 order-md-2">
+              <div className="cvimage  float-md-end mt-2 mt-lg-4 me-0 me-lg-4 ">
                 <img src={monoimage} alt="Eva Nagengast" />
-                <div>
+                <div className="imgcaption">
                   <span className="subheader">I'm </span>
                   <span className="highlightred">
                     <TypeIt
@@ -67,15 +67,15 @@ export default function Cv() {
             </div>
           </div>
           <h2> Career Summary</h2>
-          <div className="row">
-            <div className="col-8">
-              <h3>AI Audio Content Evaluator - Linguist</h3>
+          <div className="row mb-2 mb-md-0 pt-1 ">
+            <div className="col-12 col-md-9 ">
+              <h3 className="mb-0 ">AI Audio Content Evaluator - Linguist</h3>
             </div>
-            <div className="col-4 text-end">
-              <h3>From Apr 23</h3>
+            <div className="col-12 col-md-3 text-start text-md-end">
+              <h3 className=" mb-0">From Apr 23</h3>
             </div>
           </div>
-          <h4>DeepZen lt. - Freelance - Remote</h4>
+          <h4 className="mb-2">DeepZen lt. - Freelance - Remote</h4>
 
           <ul>
             <li>
@@ -92,15 +92,15 @@ export default function Cv() {
             </li>
           </ul>
 
-          <div className="row">
-            <div className="col-8">
-              <h3>Plant Technician</h3>
+          <div className="row mb-2 mb-md-0 pt-1">
+            <div className="col-12 col-md-8">
+              <h3 className="mb-0 ">Plant Technician</h3>
             </div>
-            <div className="col-4 text-end">
-              <h3>May 22 – Mar 23</h3>
+            <div className="col-12 col-md-4 text-start text-md-end">
+              <h3 className=" mb-0">May 22 – Mar 23</h3>
             </div>
           </div>
-          <h4>Plant Plan - Leicester/London</h4>
+          <h4 className=" mb-2">Plant Plan - Leicester/London</h4>
 
           <ul>
             <li>
@@ -117,15 +117,15 @@ export default function Cv() {
             </li>
           </ul>
 
-          <div className="row">
-            <div className="col-4">
-              <h3>Assistant General Manager</h3>
+          <div className="row mb-2 mb-md-0 pt-1 ">
+            <div className="col-12 col-md-8">
+              <h3 className="mb-0 ">Assistant General Manager</h3>
             </div>
-            <div className="col-8 text-end">
-              <h3>Aug 18 – Apr 22</h3>
+            <div className="col-12 col-md-4 text-start text-md-end">
+              <h3 className="mb-0 ">Aug 18 – Apr 22</h3>
             </div>
           </div>
-          <h4>Honest Burgers - London</h4>
+          <h4 className="mb-2 ">Honest Burgers - London</h4>
 
           <ul>
             <li>
@@ -146,15 +146,17 @@ export default function Cv() {
             </li>
           </ul>
 
-          <div className="row">
-            <div className="col-8">
-              <h3>Tour-Booking Assistant</h3>
+          <div className="row mb-2 mb-md-0 pt-1 ">
+            <div className="col-12 col-md-8 ">
+              <h3 className="mb-0 ">Tour-Booking Assistant</h3>
             </div>
-            <div className="col-4 text-end">
-              <h3>Jan 18 – Jul 18</h3>
+            <div className="col-12 col-md-4 text-start text-md-end">
+              <h3 className="mb-0 ">Jan 18 – Jul 18</h3>
             </div>
           </div>
-          <h4>Destiny Tourbooking - Berlin (6 Month contract)</h4>
+          <h4 className="mb-2 ">
+            Destiny Tourbooking - Berlin (6 Month contract)
+          </h4>
 
           <ul>
             <li>
@@ -171,15 +173,15 @@ export default function Cv() {
             </li>
           </ul>
 
-          <div className="row">
-            <div className="col-8">
-              <h3>Production Shift Manager, Team Leader</h3>
+          <div className="row mb-2 mb-md-0 pt-1">
+            <div className="col-12 col-md-8">
+              <h3 className="mb-0 ">Production Shift Manager, Team Leader</h3>
             </div>
-            <div className="col-4 text-end">
-              <h3> Sep 08 – Dec 17</h3>
+            <div className="col-12 col-md-4 text-start text-md-end">
+              <h3 className="mb-0 "> Sep 08 – Dec 17</h3>
             </div>
           </div>
-          <h4>Robert Bosch GmbH - Bamberg</h4>
+          <h4 className="mb-2">Robert Bosch GmbH - Bamberg</h4>
 
           <ul>
             <li>
@@ -200,65 +202,76 @@ export default function Cv() {
             </li>
           </ul>
 
-          <h2>Projects</h2>
+          <h2 className="pt-3">Projects</h2>
           <div className="row">
-            <div className="col-8">
-              <h4> Volunteering conservation work, nature education </h4>
+            <div className="col-12 col-sm-8">
+              <h4 className="pt-2 mb-0">
+                {" "}
+                Volunteering conservation work, nature education{" "}
+              </h4>
             </div>
-            <div className="col-4 text-end">
-              <h4> From 2023 </h4>
+            <div className="col-12 col-sm-4 text-end">
+              <h4 className="pt-0 text-start text-sm-end"> From 2023 </h4>
             </div>
           </div>
-          <p>Creekside Discovery Center, Nature Conservation- London</p>
-          <div className="row">
-            <div className="col-8">
-              <h4> Founder, Distribution, Artist support, Accounting</h4>
+          <p className="mt-0 pt-md-1">
+            Creekside Discovery Center, Nature Conservation- London
+          </p>
+          <div className="row pt-2">
+            <div className="col-12 col-sm-8">
+              <h4 className="pt-2 mb-0">
+                {" "}
+                Founder, Distribution, Artist support, Accounting
+              </h4>
             </div>
-            <div className="col-4 text-end">
-              <h4> 2014 - 2017 </h4>
-            </div>
-          </div>
-          <p>Raptor Records, Label - Nuremberg</p>
-          <div className="row">
-            <div className="col-8">
-              <h4> Event Management, local culture and music support</h4>
-            </div>
-            <div className="col-4 text-end">
-              <h4> 2013 - 2016 </h4>
+            <div className="col-12 col-sm-4 text-end">
+              <h4 className="pt-0 text-start text-sm-end"> 2014 - 2017 </h4>
             </div>
           </div>
-          <p>H&S Subculture events - Nuremberg </p>
+          <p className="mt-0 pt-md-1">Raptor Records, Label - Nuremberg</p>
+          <div className="row pt-2">
+            <div className="col-12 col-sm-8">
+              <h4 className="pt-2 mb-0">
+                {" "}
+                Event Management, local culture and music support
+              </h4>
+            </div>
+            <div className="col-12 col-sm-4 text-end">
+              <h4 className="pt-0 text-start text-sm-end"> 2013 - 2016 </h4>
+            </div>
+          </div>
+          <p className="mt-0 pt-md-1">H&S Subculture events - Nuremberg </p>
 
           <div className="sideSection">
-            <h2> Education</h2>
-            <div className="row">
-              <div className="col-8">
+            <h2 className="pt-3"> Education</h2>
+            <div className="row pt-2">
+              <div className="col-12 col-sm-8">
                 <h4> SheCodes</h4>
               </div>
-              <div className="col-4 text-end">
-                <h4>Jul - Oct 23 </h4>
+              <div className="col-12 col-sm-4 text-end">
+                <h4 className="pt-2 text-start text-sm-end">Jul - Oct 23 </h4>
               </div>
             </div>
             <p>Certificate in Front-End Development</p>
-            <div className="row">
-              <div className="col-8">
+            <div className="row pt-2">
+              <div className="col-12 col-sm-8">
                 <h4> ILS Fernhochschule</h4>
               </div>
-              <div className="col-4 text-end">
-                <h4> 2008-2012 </h4>
+              <div className="col-12 col-sm-4 text-end">
+                <h4 className="pt-2 text-start text-sm-end"> 2008-2012 </h4>
               </div>
             </div>
             <p>BA, German</p>
-            <div className="row">
-              <div className="col-8">
+            <div className="row pt-2">
+              <div className="col-12 col-sm-8">
                 <h4> Bosch GmbH </h4>
               </div>
-              <div className="col-4 text-end">
-                <h4> 2008-2012 </h4>
+              <div className="col-12 col-sm-4 text-end">
+                <h4 className="pt-2 text-start text-sm-end"> 2008-2012 </h4>
               </div>
             </div>
             <p> Apprenticeship + A-levels</p>
-            <h2>SKILLS/TOOLS</h2>
+            <h2 className="pt-3">SKILLS/TOOLS</h2>
             <ul className="ps-1">
               <li>HTML + CSS</li>
               <li>JavaScript</li>
@@ -270,12 +283,12 @@ export default function Cv() {
               <li>Libraries and APIs </li>
               <li>Adobe Illustrator, Fresco, PS</li>
             </ul>
-            <h2>Languages</h2>
+            <h2 className="pt-3">Languages</h2>
             <ul className="ps-1">
               <li>German - Native </li>
               <li>English - Bilingual Proficiency</li>
             </ul>
-            <h2>Strengths</h2>
+            <h2 className="pt-3">Strengths</h2>
             <ul className="ps-1">
               <li>Front-end development</li>
               <li> ProjectManagement </li>
