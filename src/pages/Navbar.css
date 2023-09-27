@@ -1,4 +1,6 @@
-/* CSS checked O unchecked X */
+/* CSS checked x unchecked o 
+redundant checked o unchecked x 
+double css checked o unchecked x  */
 
 .Navbar nav {
   position: sticky;
@@ -17,26 +19,26 @@
   z-index: 10;
 }
 .Navbar nav a {
-  color: black;
   padding: 5px;
-  text-decoration: none;
+  color: black;
   letter-spacing: 2px;
+  text-decoration: none;
 }
 .Navbar nav a:hover {
   color: var(---baselight);
   text-decoration: none;
 }
 .Navbar nav img {
-  margin: -5px 0 0 5px;
   height: 45px;
+  margin: -5px 0 0 5px;
 }
 
 .Navbar .navbutton {
+  display: inline-block;
   margin-left: 5px;
   padding: 4px 4px;
-  display: inline-block block;
-  background-color: #ffffff37;
   border: 2px solid var(---basedark);
+  background-color: #ffffff37;
 }
 
 .Navbar .navbutton:hover {

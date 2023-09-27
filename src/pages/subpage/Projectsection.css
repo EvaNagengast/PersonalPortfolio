@@ -1,8 +1,10 @@
-/* CSS checked O unchecked X */
+/* CSS checked x unchecked o 
+redundant checked o unchecked x 
+double css checked o unchecked x  */
 .Projectsection {
+  padding-bottom: 40px;
   background-color: var(---basedark);
   color: var(---base);
-  padding-bottom: 40px;
 }
 
 .Projectsection h4 {
@@ -12,10 +14,7 @@
 .Projectsection img {
   max-width: 50%;
 }
-.Projectsection .negativeMargin {
-  margin-top: -40px;
-  align-items: center;
-}
+
 .Projectsection button {
   display: inline-block;
   margin: 0 auto;
@@ -31,6 +30,10 @@
   background-color: var(---base);
   color: var(---basedark);
 }
+.Projectsection .negativeMargin {
+  align-items: center;
+  margin-top: -40px;
+}
 .Projectsection .projectIntro {
   margin-bottom: 120px;
 }
@@ -38,12 +41,12 @@
   opacity: 0.7;
 }
 .Projectsection .projectImageright {
-  margin-right: 50px;
   float: right;
+  margin-right: 50px;
 }
 .Projectsection .projectImageleft {
-  margin-left: 50px;
   float: left;
+  margin-left: 50px;
 }
 
 .Projectsection .projectTextleft {

@@ -1,5 +1,6 @@
 /* CSS checked O unchecked X */
 .Aboutme {
+  background-size: 100px 100px, 20px 20px;
   background-image: conic-gradient(
       at calc(100% - 1px) calc(100% - 1px),
       #106bb720 270deg,
@@ -10,18 +11,16 @@
       #106cb790 270deg,
       rgba(255, 0, 0, 0) 0
     );
-  background-size: 100px 100px, 20px 20px;
 }
 .Aboutme .aboutmepage {
-  margin-top: -140px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  margin-top: -140px;
   text-align: center;
 }
-.Aboutme .aboutmepage h1 {
-  margin-left: 10px;
-  margin-top: 140px;
+.Aboutme h1 {
+  margin: 140px 0 0 10px;
   text-align: left;
   font-size: 120px;
   font-weight: 900;
@@ -32,58 +31,54 @@
 
 /*  */
 
-.Aboutme .aboutmepage .aboutInfo {
+.Aboutme .aboutInfo {
   margin: 30px 100px 50px 100px;
   padding: 8px;
-  background-color: var(---base);
-  font-size: 16px;
-  text-align: left;
-  line-height: 1.7;
   box-shadow: 2px 1px 5px 1px #4e59612f;
+  background-color: var(---base);
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.7;
 }
-.Aboutme .aboutmepage img {
-  background-color: black;
+.Aboutme img {
   max-width: 360px;
   filter: sepia(0.2);
 }
-.Aboutme .aboutmepage figcaption {
-  padding: 5px;
+.Aboutme figcaption {
   max-width: 360px;
+  padding: 5px;
   background-color: var(---basedark);
-
+  text-wrap: wrap;
   font-size: 10px;
   font-weight: 100;
   color: var(---base);
   letter-spacing: 1.5px;
-  text-wrap: wrap;
 }
-
-.Aboutme .aboutmepage .aboutImage {
-  float: right;
-  margin: -30px -35px 20px 5px;
-  font-size: 14px;
-  box-shadow: 2px 2px 5px 1px #4e59612f;
-}
-
-.Aboutme .aboutmepage .aboutbuttons {
-  height: 50px;
-}
-
-.Aboutme .aboutmepage button {
+.Aboutme button {
   display: inline-block block;
   margin: 20px;
   padding: 5px 10px;
+  box-shadow: 2px 1px 5px 1px #4e59612f;
   border: 1px solid var(---basedark);
   border-radius: 10px;
-  box-shadow: 2px 1px 5px 1px #4e59612f;
   background-color: var(---base);
   font-size: 16px;
   font-weight: 100;
-  letter-spacing: 2px;
   color: var(---basedark);
+  letter-spacing: 2px;
   transition: all 0.3s ease;
 }
-.Aboutme .aboutmepage button:hover {
+.Aboutme .aboutImage {
+  float: right;
+  margin: -30px -35px 20px 5px;
+  box-shadow: 2px 2px 5px 1px #4e59612f;
+  font-size: 14px;
+}
+.Aboutme .aboutbuttons {
+  height: 50px;
+}
+
+.Aboutme button:hover {
   background-color: var(---basedark);
   color: var(---base);
 }

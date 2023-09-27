@@ -1,12 +1,8 @@
-/* CSS checked O unchecked X */
+/* CSS checked x unchecked o 
+redundant checked o unchecked x 
+double css checked o unchecked x  */
 .Contact {
   background-color: var(---base);
-}
-.Contact h2 {
-  letter-spacing: 3px;
-  font-weight: 100;
-  color: var(---baselight);
-  font-size: 30px;
 }
 .Contact .contactpage {
   display: flex;
@@ -16,13 +12,20 @@
 }
 .Contact h1 {
   margin: 0px 0 40px 10px;
+  text-align: left;
   font-size: 120px;
   color: var(---baselight);
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
-  text-align: left;
   letter-spacing: -7px;
 }
+.Contact h2 {
+  font-size: 30px;
+  font-weight: 100;
+  color: var(---baselight);
+  letter-spacing: 3px;
+}
+/* contact */
 .Contact .contactbox {
   width: max-content;
   margin: 0 80px;
@@ -31,14 +34,14 @@
 .Contact ul {
   margin: 0;
   padding: 5px 20px 5px 20px;
-  list-style: none;
   text-align: left;
   line-height: 3;
+  list-style: none;
   font-size: 18px;
 }
 .Contact .highlight {
-  color: var(---baselight);
   padding: 0 5px 0 0;
   font-weight: 100;
+  color: var(---baselight);
   letter-spacing: 2px;
 }

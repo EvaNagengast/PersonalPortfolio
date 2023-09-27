@@ -1,4 +1,6 @@
-/* CSS checked O unchecked X */
+/* CSS checked x unchecked o 
+redundant checked o unchecked x 
+double css checked o unchecked x  */
 .Aboutsection {
   margin-bottom: 50px;
 }
@@ -40,10 +42,10 @@
   width: 584px;
   background-image: url("../../media/codelight.png");
   font-size: 20px;
-  letter-spacing: 1.5px;
   font-weight: 800;
-  font-family: "Patrick Hand SC", cursive;
   line-height: 35px;
+  font-family: "Patrick Hand SC", cursive;
+  letter-spacing: 1.5px;
   z-index: 1;
 }
 .Aboutsection .codeimage .colorone {
@@ -55,4 +57,3 @@
 .Aboutsection .codeimage .colorthree {
   color: var(---secondary);
 }
-

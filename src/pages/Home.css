@@ -1,4 +1,6 @@
-/* CSS checked O unchecked X */
+/* CSS checked x unchecked o 
+redundant checked o unchecked x 
+double css checked o unchecked x  */
 .Home {
   display: flex;
   flex-direction: column;
@@ -48,19 +50,19 @@
   display: inline-block block;
   margin: 20px;
   padding: 5px 10px;
+  box-shadow: 2px 1px 5px 1px #4e59612f;
   border: 1px solid var(---basedark);
   border-radius: 10px;
-  box-shadow: 2px 1px 5px 1px #4e59612f;
   background-color: var(---base);
   font-size: 20px;
   font-weight: 100;
-  letter-spacing: 2px;
   color: var(---basedark);
+  letter-spacing: 2px;
   transition: all 0.4s ease;
 }
 
 .Home .hero button:hover {
-  background-color: var(---baselight);
   border: none;
+  background-color: var(---baselight);
   color: var(---base);
 }

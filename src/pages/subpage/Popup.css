@@ -1,14 +1,16 @@
-/* CSS checked O unchecked X */
+/* CSS checked o unchecked x 
+redundant checked o unchecked x 
+double css checke o unchecked x  */
 .Popup {
+  display: flex;
   position: fixed;
   top: 0;
   left: 0;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.4);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .popup-inner {
@@ -16,12 +18,29 @@
   padding: 5px;
   width: 100%;
   max-width: 80%;
-  background-color: var(---base);
   border: 12px double var(---baselight);
+  background-color: var(---base);
 }
 .popup-inner .close-btn {
   position: absolute;
-  top: 16px;
-  right: 16px;
-}
 
+  right: 20px;
+
+  display: block;
+  width: fit-content;
+  margin: 20px auto 5px;
+  padding: 3px 10px;
+  box-shadow: 1px 1px 5px 1px #1b2e472f;
+  border: 1px solid var(---baselight);
+  border-radius: 10px;
+  background-color: var(---baselight);
+  font-size: 14px;
+  font-weight: 100;
+  color: var(---base);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+}
+.popup-inner .close-btn:hover {
+  font-weight: 900;
+}

@@ -1,4 +1,9 @@
 import React, { useState } from "react";
+import { PiFileHtml, PiFileCss, PiFileJs } from "react-icons/pi";
+import { SiReact } from "react-icons/si";
+import { RiBootstrapLine } from "react-icons/ri";
+import { LuLibrary, LuCode } from "react-icons/lu";
+//
 import Popup from "./subpage/Popup";
 import Footer from "./Footer";
 import Dictionary from "../media/webdictionary.png";
@@ -33,11 +38,17 @@ export default function Projects() {
             <div class="card">
               <img class="card-img-top" src={London} alt="Card   cap" />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>{" "}
-                <button onClick={() => setPopupOne(true)}>learn more</button>
+                <p className="cardText">Musical London Journey </p>
+                <p className="cardicon">
+                  <PiFileHtml /> <PiFileCss /> <PiFileJs /> <LuCode />
+                </p>
+                <button className="visitButton">visit page</button>
+                <button
+                  onClick={() => setPopupOne(true)}
+                  className="popupButton"
+                >
+                  learn more
+                </button>
               </div>
             </div>
           </div>
@@ -45,11 +56,18 @@ export default function Projects() {
             <div class="card">
               <img class="card-img-top" src={Dictionary} alt="Card   cap" />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <p className="cardText">Dictionary App</p>
+                <p className="cardicon">
+                  <PiFileHtml /> <PiFileCss /> <PiFileJs /> <SiReact />{" "}
+                  <RiBootstrapLine /> <LuLibrary />
                 </p>
-                <button onClick={() => setPopupTwo(true)}>learn more</button>
+                <button className="visitButton">visit page</button>
+                <button
+                  onClick={() => setPopupTwo(true)}
+                  className="popupButton"
+                >
+                  learn more
+                </button>
               </div>
             </div>
           </div>
@@ -57,11 +75,17 @@ export default function Projects() {
             <div class="card">
               <img class="card-img-top" src={Pigeons} alt="Card   cap" />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <p className="cardText">Pigeon Showcase</p>
+                <p className="cardicon">
+                  <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />
                 </p>
-                <button onClick={() => setPopupThree(true)}>learn more</button>
+                <button className="visitButton">visit page</button>
+                <button
+                  onClick={() => setPopupThree(true)}
+                  className="popupButton"
+                >
+                  learn more
+                </button>
               </div>
             </div>
           </div>
@@ -71,11 +95,18 @@ export default function Projects() {
             <div class="card">
               <img class="card-img-top" src={Magic} alt="Card   cap" />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>{" "}
-                <button onClick={() => setPopupFour(true)}>learn more</button>
+                <p className="cardText">Magical Weather App</p>
+                <p className="cardicon">
+                  <PiFileHtml /> <PiFileCss /> <PiFileJs /> <SiReact />{" "}
+                  <RiBootstrapLine />
+                </p>
+                <button className="visitButton">visit page</button>
+                <button
+                  onClick={() => setPopupFour(true)}
+                  className="popupButton"
+                >
+                  learn more
+                </button>
               </div>
             </div>
           </div>
@@ -83,11 +114,17 @@ export default function Projects() {
             <div class="card">
               <img class="card-img-top" src={Weather} alt="Card   cap" />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <p className="cardText">Weather App</p>
+                <p className="cardicon">
+                  <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />
                 </p>
-                <button onClick={() => setPopupFive(true)}>learn more</button>
+                <button className="visitButton">visit page</button>
+                <button
+                  onClick={() => setPopupFive(true)}
+                  className="popupButton"
+                >
+                  learn more
+                </button>
               </div>
             </div>
           </div>
@@ -95,153 +132,192 @@ export default function Projects() {
             <div class="card">
               <img class="card-img-top" src={Clock} alt="Card   cap" />
               <div class="card-body">
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <p className="cardText">World Clock</p>
+                <p className="cardicon">
+                  <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />{" "}
+                  <LuLibrary />
                 </p>
-                <button onClick={() => setPopupSix(true)}>learn more</button>
+                <button className="visitButton">visit page</button>
+                <button
+                  onClick={() => setPopupSix(true)}
+                  className="popupButton"
+                >
+                  learn more
+                </button>
               </div>
             </div>
           </div>
         </div>
       </div>
       <Footer />
-      <Popup trigger={popupOne} setTrigger={setPopupOne}>
-        <div className="row">
-          <div className="col-5">
-            <img
-              src={XLlondon}
-              className="xlimage"
-              alt="webpage about london"
-            />
+      <div className="Popups">
+        <Popup trigger={popupOne} setTrigger={setPopupOne}>
+          <div className="row">
+            <div className="col-5">
+              <img
+                src={XLlondon}
+                className="xlimage"
+                alt="webpage about london"
+              />
+            </div>
+            <div className="col-7">
+              <h2>Musical Journey through London</h2>
+              <p className="popupText">
+                <div className="popuphighlight">Objective:</div> Learn how to
+                use embeds, grids, and tables effectively. <br />
+                <div className="popuphighlight">Achieved:</div>
+                My favourite project so far, this page was a joy to develop and
+                a fun exploration of London's music culture. I spent hours
+                listening to songs songs named after London streets and boroughs
+                while designing and curating the content. I illustrated playful
+                elements like the "way out" button and a moving TfL-Ticket,
+                after a 1991 travel card. It also features embeds, grids, and
+                tables, all seamlessly rendered responsive with the use of media
+                queries.
+                <button className="launchbutton">
+                  LAUNCH MUSICAL JOURNEY{" "}
+                </button>
+              </p>
+            </div>
           </div>
-          <div className="col-7">
-            <p>
-            <u>Objective:</u>  Learn how to use embeds, grids, and tables effectively.
-        <u>Achieved:</u>My favourite project so far, this page was a joy to develop and a fun exploration of London's music
-              culture. I spent hours listening to songs songs named after
-              London streets and boroughs while designing and curating the content.
-              I illustrated playful elements like the "way out" button and a moving
-              TfL-Ticket, after a 1991 travel card. It
-              also features embeds, grids, and tables, all seamlessly rendered
-              responsive with the use of media queries.
-              <button>LAUNCH MUSICAL JOURNEY </button>
-            </p>
+        </Popup>
+        <Popup trigger={popupTwo} setTrigger={setPopupTwo}>
+          <div className="row">
+            <div className="col-5">
+              <img
+                src={XLdictionary}
+                className="xlimage"
+                alt="dictionary webpage"
+              />
+            </div>
+            <div className="col-7">
+              <h2>Dictionary App</h2>
+              <p className="popupText">
+                <div className="popuphighlight">Objective:</div> Deepen
+                knowledge about React, looping, mapping through objects, and
+                utilizing APIs with npm libraries. <br />
+                <div className="popuphighlight">Achieved:</div>
+                This project helped me to expand my expertise in React, focusing
+                on looping and mapping through objects. It involved the creation
+                of a dictionary app, rich with features like an animated play
+                buttons that talks to the user. The development process was a
+                fun and educational journey, helping me to experiment with
+                various npm libraries and practice my React skills.
+                <button className="launchbutton">LAUNCH DICTIONARY</button>
+              </p>
+            </div>
           </div>
-        </div>
-      </Popup>
-      <Popup trigger={popupTwo} setTrigger={setPopupTwo}>
-        <div className="row">
-          <div className="col-5">
-            <img
-              src={XLdictionary}
-              className="xlimage"
-              alt="dictionary webpage"
-            />
+        </Popup>
+        <Popup trigger={popupThree} setTrigger={setPopupThree}>
+          <div className="row">
+            <div className="col-5">
+              <img
+                src={XLpigeons}
+                className="xlimage"
+                alt="webpage about pigeons"
+              />
+            </div>
+            <div className="col-7">
+              <h2>Pigeon Showcase</h2>
+              <p className="popupText">
+                <div className="popuphighlight">Objective:</div> I aimed to
+                create a website that closely resembled a Figma design,
+                incorporating grids and ensuring responsiveness. <br />
+                <div className="popuphighlight">Achieved:</div>
+                This project challenged me to dive into the world of responsive
+                design. I recreated a webpage based on a Figma design, striving
+                to stay as close to the original as possible while personalizing
+                the content as a tribute to pigeons. Using a combination of
+                Bootstrap and media queries, I ensured that the site stays
+                responsive and beautiful across all devices.
+                <button className="launchbutton">lAUNCH PIGEON SHOWCASE</button>
+              </p>
+            </div>
           </div>
-          <div className="col-7">
-            <p>
-              <u>Objective:</u> Deepen knowledge about React, looping, mapping through
-              objects, and utilizing APIs with npm libraries. <u>Achieved:</u> This
-              project helped me to expand my expertise in React,
-              focusing on looping and mapping through objects. It involved the
-              creation of a dictionary app, rich with features like an animated
-              play buttons that talks to the user. The development process was
-              a fun and educational journey, helping me to experiment with
-              various npm libraries and practice my React skills.
-              <button>LAUNCH DICTIONARY</button>
-            </p>
+        </Popup>
+        <Popup trigger={popupFour} setTrigger={setPopupFour}>
+          <div className="row">
+            <div className="col-5">
+              <img
+                src={XLmagic}
+                className="xlimage"
+                alt="weather application"
+              />
+            </div>
+            <div className="col-7">
+              <h2>
+                Magic <br />
+                Weather App
+              </h2>
+              <p className="popupText">
+                <div className="popuphighlight">Objective:</div>
+                Learn to use React and implement multiple components
+                <br /> <div className="popuphighlight"> Achieved:</div>
+                As my first React project I built a second Weather app. Learning
+                to use React was a steep learning curve. Very quickly I enjoyed
+                building all the components and putting them together like a
+                Puzzle. To add a unique touch and because autumn is near, I
+                created individual Tarot-themed weather icons.
+                <button className="launchbutton">LAUNCH MAGIC WEATHER</button>
+              </p>
+            </div>
           </div>
-        </div>
-      </Popup>
-      <Popup trigger={popupThree} setTrigger={setPopupThree}>
-        <div className="row">
-          <div className="col-5">
-            <img
-              src={XLpigeons}
-              className="xlimage"
-              alt="webpage about pigeons"
-            />
+        </Popup>
+        <Popup trigger={popupFive} setTrigger={setPopupFive}>
+          <div className="row">
+            <div className="col-5">
+              <img
+                src={XLweather}
+                className="xlimage"
+                alt="weather application"
+              />
+            </div>
+            <div className="col-7">
+              <h2>Weather App</h2>
+              <p className="popupText">
+                <div className="popuphighlight"> Objective:</div> Build a
+                functioning application, learn how to implement APIs and make a
+                responsive website using Bootstrap.
+                <div className="popuphighlight">
+                  <br />
+                  Achieved:
+                </div>
+                Building upon my previously-gained knowledge I constructed a
+                Weather App. This project helped me to learn how to integrate
+                and understand APIs, real-life development workflows, hosting,
+                and gain a deeper understanding of JavaScript. The App allows
+                users to easily access up-to-date weather conditions and
+                forecasts for locations all around the world. I had lots of fun,
+                styling the website with a Californian vibe in mind.
+                <button className="launchbutton">LAUNCH WEATHER APP</button>
+              </p>
+            </div>
           </div>
-          <div className="col-7">
-            <p>
-              <u>Objective:</u> I aimed to create a website that closely
-              resembled a Figma design, incorporating grids and ensuring
-              responsiveness. <u>Achieved:</u> This project challenged me to
-              dive into the world of responsive design. I recreated a webpage
-              based on a Figma design, striving to stay as close to the original
-              as possible while personalizing the content as a tribute to
-              pigeons. Using a combination of Bootstrap and media queries, I
-              ensured that the site stays responsive and beautiful across all
-              devices.
-              <button>lAUNCH PIGEON SHOWCASE</button>
-            </p>
+        </Popup>
+        <Popup trigger={popupSix} setTrigger={setPopupSix}>
+          <div className="row">
+            <div className="col-5">
+              <img src={XLclock} className="xlimage" alt="worldclock app" />
+            </div>
+            <div className="col-7">
+              <h2>World Clock</h2>
+              <p className="popupText">
+                <div className="popuphighlight"> Objective:</div> Gain more
+                experience with APIs, ans especially handling and processing
+                local local times. <br />
+                <div className="popuphighlight">Achieved:</div>
+                My second big project was the development of a Java Script World
+                Clock App, also built using Bootstrap. This project helped me to
+                deepen my API knowledge and refine my development skills.
+                Implementing the time first seemed very hard, but I loved
+                reading about calculations around UTC, how to work with it and
+                to solve challenges creatively.
+                <button className="launchbutton">LAUNCH WORLD CLOCK APP</button>
+              </p>
+            </div>
           </div>
-        </div>
-      </Popup>
-      <Popup trigger={popupFour} setTrigger={setPopupFour}>
-        <div className="row">
-          <div className="col-5">
-            <img src={XLmagic} className="xlimage" alt="weather application" />
-          </div>
-          <div className="col-7">
-            <p>
-              Planned: Learn to use React and implement multiple components
-              Achieved: As my first React project I built a second Weather app.
-              Learning to use React was a steep learning curve. Very quickly I
-              enjoyed building all the components and putting them together like
-              a Puzzle. To add a unique touch and because autumn is near, I
-              created individual Tarot-themed weather icons.
-              <button>LAUNCH MAGIC WEATHER</button>
-            </p>
-          </div>
-        </div>
-      </Popup>
-      <Popup trigger={popupFive} setTrigger={setPopupFive}>
-        <div className="row">
-          <div className="col-5">
-            <img
-              src={XLweather}
-              className="xlimage"
-              alt="weather application"
-            />
-          </div>
-          <div className="col-7">
-            <p>
-              <u> Objective:</u> Build a functioning application, learn how to
-              implement APIs and make a responsive website using Bootstrap.
-              <u>Achieved:</u> Building upon my previously-gained knowledge I
-              constructed a Weather App. This project helped me to learn how to
-              integrate and understand APIs, real-life development workflows,
-              hosting, and gain a deeper understanding of JavaScript. The App
-              allows users to easily access up-to-date weather conditions and
-              forecasts for locations all around the world. I had lots of fun,
-              styling the website with a Californian vibe in mind.
-              <button>LAUNCH WEATHER APP</button>
-            </p>
-          </div>
-        </div>
-      </Popup>
-      <Popup trigger={popupSix} setTrigger={setPopupSix}>
-        <div className="row">
-          <div className="col-5">
-            <img src={XLclock} className="xlimage" alt="worldclock app" />
-          </div>
-          <div className="col-7">
-            <p className="heieiei">
-              <u> Planned:</u> Gain more experience with APIs, ans especially
-              handling and processing local local times. <u>Achieved:</u> My
-              second big project was the development of a Java Script World
-              Clock App, also built using Bootstrap. This project helped me to
-              deepen my API knowledge and refine my development skills.
-              Implementing the time first seemed very hard, but I loved reading
-              about calculations around UTC, how to work with it and to solve
-              challenges creatively.
-              <button>LAUNCH WORLD CLOCK APP</button>
-            </p>
-          </div>
-        </div>
-      </Popup>
+        </Popup>
+      </div>
     </div>
   );
 }
