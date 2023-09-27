@@ -3,7 +3,7 @@ import "./Mailsection.css";
 export default function Mailsection() {
   return (
     <div className="Mailsection">
-      <div className="mail">
+      <div className="mail m-lg-0 my-lg-0 mx-5 my-3">
         <h2 className="text-start ps-3">SAY HELLO</h2>
         <form
           target="_blank"

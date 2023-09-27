@@ -12,70 +12,74 @@ export default function Contact() {
     <div className="Contact">
       <div className="contactpage">
         <h1>Contact me!</h1>
-        <div className="row">
-          <div className="col-5">
-            <div className="contactbox">
-              
-                <li>
-                  <a
-                    className="text-decoration-none"
-                    href="mailto:eva.nagengast.dev@gmail.com"
-                    target="_blank"
-                    rel="noreferrer"
-                    alt="Click to write a Mail"
-                  >
-                    <span className="highlight">
-                      <LuMailbox /> MAIL
-                    </span>
-                    eva.nagengast.dev@gmail.com
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://www.linkedin.com/in/evanagengast/"
-                    target="_blank"
-                    rel="noreferrer"
-                    alt="Evas LinkedIn page"
-                    className="text-decoration-none"
-                  >
-                    <span className="highlight">
-                      <PiLinkedinLogo /> LINKEDIN
-                    </span>
-                    linkedin.com/in/evanagengast/
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="https://github.com/EvaNagengast"
-                    target="_blank"
-                    rel="noreferrer"
-                    alt="Evas Github Profile"
-                    className="text-decoration-none"
-                  >
-                    <span className="highlight">
-                      <LuGithub /> GITHUB
-                    </span>
-                    github.com/EvaNagengast
-                  </a>
-                </li>
+        <div className="row ">
+          <div            className="col-auto  col-lg-6"
+          >
+            <div
+              className="contactbox py-2 px-4 ms-5
+            "
+            >
+              <li>
+                <a
+                  className="text-decoration-none"
+                  href="mailto:eva.nagengast.dev@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Click to write a Mail"
+                >
+                  <span className="highlight">
+                    <LuMailbox /> MAIL
+                  </span>
+                  eva.nagengast.dev@gmail.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/evanagengast/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Evas LinkedIn page"
+                  className="text-decoration-none"
+                >
+                  <span className="highlight">
+                    <PiLinkedinLogo /> LINKEDIN
+                  </span>
+                  linkedin.com/in/evanagengast/
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/EvaNagengast"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Evas Github Profile"
+                  className="text-decoration-none"
+                >
+                  <span className="highlight">
+                    <LuGithub /> GITHUB
+                  </span>
+                  github.com/EvaNagengast
+                </a>
+              </li>
 
-                <li>
-                  <a
-                    href={pdf}
-                    target="_blank"
-                    rel="noreferrer"
-                    alt="PDF of Evas Resume"
-                    className="text-decoration-none"
-                  > <span className="highlight">
+              <li>
+                <a
+                  href={pdf}
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="PDF of Evas Resume"
+                  className="text-decoration-none"
+                >
+                  {" "}
+                  <span className="highlight">
                     <LuFileHeart /> CV
                   </span>
-                  click here to see or download my CV</a>
-                 
-                </li>
-             
+                  click here to see or download my CV
+                </a>
+              </li>
             </div>
           </div>
-          <div className="col-7">
+          <div className=" col-auto col-md-7  col-lg-6        ps-3 ps-lg-0 ps-xl-0">
             <Mailsection />
           </div>
         </div>

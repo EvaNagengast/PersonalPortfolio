@@ -33,7 +33,7 @@ export default function Projects() {
       <div className="projectspage text-center">
         <h1 className="text-start">Projects</h1>
 
-        <div className="row ">
+        <div className="row px-3 ">
           <div className="col-4  ">
             <div className="card">
               <img
@@ -66,7 +66,11 @@ export default function Projects() {
           </div>
           <div className="col-4 ">
             <div className="card">
-              <img className="card-img-top" src={Dictionary} alt="Dictionary App" />
+              <img
+                className="card-img-top"
+                src={Dictionary}
+                alt="Dictionary App"
+              />
               <div className="card-body">
                 <p className="cardText">Dictionary App</p>
                 <p className="cardicon">
@@ -93,7 +97,11 @@ export default function Projects() {
           </div>
           <div className="col-4 ">
             <div className="card">
-              <img className="card-img-top" src={Pigeons} alt="Pigeon Showcase" />
+              <img
+                className="card-img-top"
+                src={Pigeons}
+                alt="Pigeon Showcase"
+              />
               <div className="card-body">
                 <p className="cardText">Pigeon Showcase</p>
                 <p className="cardicon">
@@ -118,10 +126,14 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="row ">
+        <div className="row  px-3">
           <div className="col-4  ">
             <div className="card">
-              <img className="card-img-top" src={Magic} alt="Magical Weather App" />
+              <img
+                className="card-img-top"
+                src={Magic}
+                alt="Magical Weather App"
+              />
               <div className="card-body">
                 <p className="cardText">Magical Weather App</p>
                 <p className="cardicon">

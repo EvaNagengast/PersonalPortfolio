@@ -34,12 +34,8 @@ double css checked o unchecked x  */
 }
 /* contact */
 .Contact .contactbox {
-
   width: max-content;
-  margin: 0 80px;
-  border: 8px double var(---baselight);
- 
-  padding: 5px 20px 5px 20px;
+   border: 8px double var(---baselight);
   text-align: left;
   line-height: 3;
   list-style: none;

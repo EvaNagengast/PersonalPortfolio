@@ -259,7 +259,7 @@ export default function Cv() {
             </div>
             <p> Apprenticeship + A-levels</p>
             <h2>SKILLS/TOOLS</h2>
-            <ul>
+            <ul className="ps-1">
               <li>HTML + CSS</li>
               <li>JavaScript</li>
 
@@ -271,12 +271,12 @@ export default function Cv() {
               <li>Adobe Illustrator, Fresco, PS</li>
             </ul>
             <h2>Languages</h2>
-            <ul>
+            <ul className="ps-1">
               <li>German - Native </li>
               <li>English - Bilingual Proficiency</li>
             </ul>
             <h2>Strengths</h2>
-            <ul>
+            <ul className="ps-1">
               <li>Front-end development</li>
               <li> ProjectManagement </li>
               <li> Creativity </li>

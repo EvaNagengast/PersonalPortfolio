@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="Footer">
       <footer className="footer text-center">
         © 2023 Eva Nagengast. This page was crafted with care and built using
-        JavaScript React. It is{" "}
+        JavaScript React. <br className="d-block d-xl-none"/>It is{" "}
         <a
           href="https://github.com/EvaNagengast/PersonalPortfolio"
           target="_blank"
