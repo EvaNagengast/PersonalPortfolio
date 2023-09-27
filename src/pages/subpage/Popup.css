@@ -1,4 +1,4 @@
-/* CSS checked o unchecked x 
+/* CSS checked x unchecked o 
 redundant checked o unchecked x 
 double css checke o unchecked x  */
 .Popup {
@@ -7,34 +7,33 @@ double css checke o unchecked x  */
   top: 0;
   left: 0;
   justify-content: center;
-  align-items: center;
   width: 100%;
   height: 100vh;
+  align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
 .popup-inner {
   position: relative;
   padding: 5px;
-  width: 100%;
   max-width: 80%;
+  width: 100%;
   border: 12px double var(---baselight);
   background-color: var(---base);
 }
 .popup-inner .close-btn {
   position: absolute;
-
-  right: 20px;
-
+  top: 0;
+  right: 0;
   display: block;
   width: fit-content;
-  margin: 20px auto 5px;
+  margin: 10px;
   padding: 3px 10px;
   box-shadow: 1px 1px 5px 1px #1b2e472f;
   border: 1px solid var(---baselight);
   border-radius: 10px;
   background-color: var(---baselight);
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 100;
   color: var(---base);
   letter-spacing: 3px;

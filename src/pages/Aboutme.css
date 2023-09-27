@@ -1,4 +1,4 @@
-/* CSS checked O unchecked X */
+/* CSS checked x unchecked o */
 .Aboutme {
   background-size: 100px 100px, 20px 20px;
   background-image: conic-gradient(
@@ -55,7 +55,7 @@
   letter-spacing: 1.5px;
 }
 .Aboutme button {
-  display: inline-block block;
+  display: inline-block;
   margin: 20px;
   padding: 5px 10px;
   box-shadow: 2px 1px 5px 1px #4e59612f;
@@ -66,7 +66,11 @@
   font-weight: 100;
   color: var(---basedark);
   letter-spacing: 2px;
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
+}
+.Aboutme button:hover {
+  background-color: var(---basedark);
+  color: var(---base);
 }
 .Aboutme .aboutImage {
   float: right;
@@ -74,12 +78,5 @@
   box-shadow: 2px 2px 5px 1px #4e59612f;
   font-size: 14px;
 }
-.Aboutme .aboutbuttons {
-  height: 50px;
-}
 
-.Aboutme button:hover {
-  background-color: var(---basedark);
-  color: var(---base);
-}
 /*  */

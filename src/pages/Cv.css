@@ -53,8 +53,8 @@ double css checked o unchecked x  */
   letter-spacing: 2px;
 }
 .Cv .cvimage {
-  margin: 15px;
   float: right;
+  margin: 15px;
 }
 .Cv .downloadbutton {
   display: block;
@@ -75,4 +75,6 @@ double css checked o unchecked x  */
   background-color: var(---baselight);
   color: var(---base);
 }
-.Cv .sideSection ul{list-style: none;}
+.Cv .sideSection ul {
+  list-style: none;
+}

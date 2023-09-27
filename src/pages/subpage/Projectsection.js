@@ -13,7 +13,7 @@ export default function Projectsection() {
         <h4 className="pt-4 pb-2">Projects</h4>
         <p className="projectIntro">
           Browse through some assorted projects I created or find all of my
-          projects{" "}
+          projects
           <button
             onClick={() => {
               navigate("/projects");
@@ -40,9 +40,9 @@ export default function Projectsection() {
                 Underground-themed icons to enhance the user experience and to
                 spawn a connection with this beautiful city.
                 <div className="projectTools">
-                  Built with HTML, CSS, Java, Embeds, Bootstrap
-                  <a href="/">find out more</a>
+                  Built with HTML, CSS, JavaScript, Embeds, Bootstrap
                 </div>
+                <a href="/">find out more</a>
               </p>
               <br />
             </div>
@@ -51,17 +51,16 @@ export default function Projectsection() {
             <div className="col-7 text-end projectTextleft ">
               <h5>Dictionary</h5>
               <p>
-                Built using React and enhanced with the capabilities of APIs and
-                npm libraries, this page offers word definitions and related
-                images for a search term. It becomes fun and engaging as the
-                play button talks to the user with a simple click. Behind the
-                scenes, I employed loops and React's mapping capabilities to
+                Built using Java Script React and enhanced with the capabilities
+                of APIs and npm libraries, this page offers word definitions and
+                related images for a search term. It becomes fun and engaging as
+                the play button talks to the user with a simple click. Behind
+                the scenes, I employed loops and React's mapping capabilities to
                 seamlessly fetch and present the data
                 <div className="projectTools">
-                  {" "}
-                  Built with HTML, CSS, JSReact,APIs & npm Libraries
-                  <a href="/">find out more</a>
+                  Built with HTML, CSS, React.js, APIs & npm Libraries
                 </div>
+                <a href="/">find out more</a>
               </p>
             </div>
             <div className="col-5">
@@ -94,8 +93,8 @@ export default function Projectsection() {
                 online visibility
                 <div className="projectTools">
                   Built with HTML, CSS, JavaScript & Figma
-                  <a href="/">find out more</a>
                 </div>
+                <a href="/">find out more</a>
               </p>
             </div>
           </div>
@@ -110,8 +109,8 @@ export default function Projectsection() {
                 user-friendly and intuitive for a smooth experience.
                 <div className="projectTools">
                   Built with HTML, CSS, JavaScript & APIs
-                  <a href="/">find out more</a>
                 </div>
+                <a href="/">find out more</a>
               </p>
             </div>
             <div className="col-5 ">

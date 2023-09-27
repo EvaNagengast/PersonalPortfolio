@@ -72,11 +72,12 @@ double css checked o unchecked x  */
 }
 /* popup to edit */
 .Popup h2 {
-  font-size: 55px;
+  margin-right: 80px;
+  font-size: 40px;
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
   color: var(---baselight);
-  letter-spacing: -4px;
+  letter-spacing: -2px;
 }
 .Popup .xlimage {
   max-height: 410px;

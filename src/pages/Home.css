@@ -47,7 +47,7 @@ double css checked o unchecked x  */
 }
 
 .Home .hero button {
-  display: inline-block block;
+  display: inline-block;
   margin: 20px;
   padding: 5px 10px;
   box-shadow: 2px 1px 5px 1px #4e59612f;

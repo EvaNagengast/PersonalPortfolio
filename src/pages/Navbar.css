@@ -39,10 +39,11 @@ double css checked o unchecked x  */
   padding: 4px 4px;
   border: 2px solid var(---basedark);
   background-color: #ffffff37;
+  transition: all 0.4s ease;
 }
 
 .Navbar .navbutton:hover {
-  background-color: var(---basedark);
+  background-color: #155b9570;
   color: var(---base);
 }
 .Navbar .navigation a.active {
