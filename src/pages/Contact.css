@@ -25,23 +25,30 @@ double css checked o unchecked x  */
   color: var(---baselight);
   letter-spacing: 3px;
 }
+.Contact a {
+  color: rgb(0, 0, 0);
+}
+.Contact a:hover {
+  background-color: var(---baselight);
+  color: var(---base);
+}
 /* contact */
 .Contact .contactbox {
+
   width: max-content;
   margin: 0 80px;
   border: 8px double var(---baselight);
-}
-.Contact ul {
-  margin: 0;
+ 
   padding: 5px 20px 5px 20px;
   text-align: left;
   line-height: 3;
   list-style: none;
   font-size: 18px;
 }
+
 .Contact .highlight {
   padding: 0 5px 0 0;
   font-weight: 100;
-  color: var(---baselight);
+  color: var(---baselight) !important;
   letter-spacing: 2px;
 }

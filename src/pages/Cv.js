@@ -76,22 +76,22 @@ export default function Cv() {
             </div>
           </div>
           <h4>DeepZen lt. - Freelance - Remote</h4>
-          <p>
-            <ul>
-              <li>
-                Use of a specialised program to transform AI-generated audio
-                into realistic human-like speech.
-              </li>
-              <li>
-                Analysing, improving and fine-tuning the audio files with the
-                DeepZen Studio.
-              </li>
-              <li>
-                Making nuanced adjustments based on understanding of tone,
-                pacing, and inflection.
-              </li>
-            </ul>
-          </p>
+
+          <ul>
+            <li>
+              Use of a specialised program to transform AI-generated audio into
+              realistic human-like speech.
+            </li>
+            <li>
+              Analysing, improving and fine-tuning the audio files with the
+              DeepZen Studio.
+            </li>
+            <li>
+              Making nuanced adjustments based on understanding of tone, pacing,
+              and inflection.
+            </li>
+          </ul>
+
           <div className="row">
             <div className="col-8">
               <h3>Plant Technician</h3>
@@ -101,22 +101,22 @@ export default function Cv() {
             </div>
           </div>
           <h4>Plant Plan - Leicester/London</h4>
-          <p>
-            <ul>
-              <li>
-                Visited clients in London, Surrey, Essex, and Kent to maintain
-                live plant displays.
-              </li>
-              <li>
-                Managed schedules, ordered plants and materials, and solved
-                practical challenges on-site.
-              </li>
-              <li>
-                Liaised professionally with customers and communicated with
-                managers, and stakeholders.
-              </li>
-            </ul>
-          </p>
+
+          <ul>
+            <li>
+              Visited clients in London, Surrey, Essex, and Kent to maintain
+              live plant displays.
+            </li>
+            <li>
+              Managed schedules, ordered plants and materials, and solved
+              practical challenges on-site.
+            </li>
+            <li>
+              Liaised professionally with customers and communicated with
+              managers, and stakeholders.
+            </li>
+          </ul>
+
           <div className="row">
             <div className="col-4">
               <h3>Assistant General Manager</h3>
@@ -126,26 +126,26 @@ export default function Cv() {
             </div>
           </div>
           <h4>Honest Burgers - London</h4>
-          <p>
-            <ul>
-              <li>
-                Offered a homely experience for customers, with an
-                old-school-hospitality mindset.
-              </li>
-              <li>
-                Delivered and coordinated staff training, mentored new staff,
-                and trained FOH and BOH
-              </li>
-              <li>
-                Audit responsibilities, set KPIs and sales targets, conducted
-                interviews
-              </li>
-              <li>
-                Implemented craft exchange, saving the company 25% of costs on
-                external contractors.
-              </li>
-            </ul>
-          </p>
+
+          <ul>
+            <li>
+              Offered a homely experience for customers, with an
+              old-school-hospitality mindset.
+            </li>
+            <li>
+              Delivered and coordinated staff training, mentored new staff, and
+              trained FOH and BOH
+            </li>
+            <li>
+              Audit responsibilities, set KPIs and sales targets, conducted
+              interviews
+            </li>
+            <li>
+              Implemented craft exchange, saving the company 25% of costs on
+              external contractors.
+            </li>
+          </ul>
+
           <div className="row">
             <div className="col-8">
               <h3>Tour-Booking Assistant</h3>
@@ -155,22 +155,22 @@ export default function Cv() {
             </div>
           </div>
           <h4>Destiny Tourbooking - Berlin (6 Month contract)</h4>
-          <p>
-            <ul>
-              <li>
-                Collaborated with bands and promoters, efficiently exchanging
-                tour booking information.
-              </li>
-              <li>
-                Drafted contracts and invoices, frequently releasing pre-sale
-                numbers and show announcements.
-              </li>
-              <li>
-                Developed an internal data exchange system to save time and
-                improve workflow.
-              </li>
-            </ul>
-          </p>
+
+          <ul>
+            <li>
+              Collaborated with bands and promoters, efficiently exchanging tour
+              booking information.
+            </li>
+            <li>
+              Drafted contracts and invoices, frequently releasing pre-sale
+              numbers and show announcements.
+            </li>
+            <li>
+              Developed an internal data exchange system to save time and
+              improve workflow.
+            </li>
+          </ul>
+
           <div className="row">
             <div className="col-8">
               <h3>Production Shift Manager, Team Leader</h3>
@@ -180,26 +180,26 @@ export default function Cv() {
             </div>
           </div>
           <h4>Robert Bosch GmbH - Bamberg</h4>
-          <p>
-            <ul>
-              <li>
-                Led large teams of up to 40 people, providing support,
-                direction, and coaching.
-              </li>
-              <li>
-                Coordinated maintenance projects with engineering departments
-                locally and overseas.
-              </li>
-              <li>
-                Implemented and maintained 5S Standards for a productive and
-                safe work environment.
-              </li>
-              <li>
-                Improved intern storage space and reduced storage cost by 15%
-                through active research and SAP.
-              </li>
-            </ul>
-          </p>
+
+          <ul>
+            <li>
+              Led large teams of up to 40 people, providing support, direction,
+              and coaching.
+            </li>
+            <li>
+              Coordinated maintenance projects with engineering departments
+              locally and overseas.
+            </li>
+            <li>
+              Implemented and maintained 5S Standards for a productive and safe
+              work environment.
+            </li>
+            <li>
+              Improved intern storage space and reduced storage cost by 15%
+              through active research and SAP.
+            </li>
+          </ul>
+
           <h2>Projects</h2>
           <div className="row">
             <div className="col-8">
@@ -275,7 +275,7 @@ export default function Cv() {
               <li>German - Native </li>
               <li>English - Bilingual Proficiency</li>
             </ul>
-            <h2>Strength</h2>
+            <h2>Strengths</h2>
             <ul>
               <li>Front-end development</li>
               <li> ProjectManagement </li>
