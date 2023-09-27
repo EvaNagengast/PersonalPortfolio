@@ -17,7 +17,7 @@ export default function Aboume() {
             <div className="aboutImage">
               <img
                 src={AboutImage}
-                alt="Eva Nagengast profile"
+                alt="Eva Nagengast Profile"
                 className="img-fluid"
               ></img>
               <figcaption>

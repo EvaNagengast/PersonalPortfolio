@@ -6,10 +6,9 @@ import {
   NavLink,
 } from "react-router-dom";
 import Home from "./Home";
-
 import AboutMe from "./Aboutme";
 import Contact from "./Contact";
-import Projects from "./Projects";
+
 import Cv from "./Cv";
 import Error from "./Error";
 import Logo from "../media/smalllogo.png";
@@ -32,7 +31,7 @@ export default function Navbar() {
       <Router>
         <nav className="navigation">
           <NavLink to="/" id="main">
-            <img src={Logo} alt="logo"></img>
+            <img src={Logo} alt="Logo Eva Nagengast"></img>
           </NavLink>
           <NavLink to="/" id="main">
             HOME
@@ -40,9 +39,10 @@ export default function Navbar() {
           <NavLink to="/aboutme">ABOUT</NavLink>
           <NavLink to="/contact">CONTACT</NavLink>
           <NavLink to="/projects">PROJECTS</NavLink>
-       
-            <NavLink to="/cv"className="navbutton">RESUME</NavLink>
-          
+
+          <NavLink to="/cv" className="navbutton">
+            RESUME
+          </NavLink>
         </nav>
         {routes}
       </Router>

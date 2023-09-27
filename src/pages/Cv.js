@@ -25,7 +25,7 @@ export default function Cv() {
             </div>
             <div className="col">
               <div className="cvimage">
-                <img src={monoimage} />
+                <img src={monoimage} alt="Eva Nagengast" />
                 <div>
                   <span className="subheader">I'm </span>
                   <span className="highlightred">

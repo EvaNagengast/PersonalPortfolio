@@ -32,11 +32,15 @@ export default function Projects() {
     <div className="Projects">
       <div className="projectspage text-center">
         <h1 className="text-start">Projects</h1>
-        <img></img>
+
         <div className="row ">
           <div className="col-4  ">
             <div class="card">
-              <img class="card-img-top" src={London} alt="Card   cap" />
+              <img
+                class="card-img-top"
+                src={London}
+                alt="Musical London Journey"
+              />
               <div class="card-body">
                 <p className="cardText">Musical London Journey </p>
                 <p className="cardicon">
@@ -62,7 +66,7 @@ export default function Projects() {
           </div>
           <div className="col-4 ">
             <div class="card">
-              <img class="card-img-top" src={Dictionary} alt="Card   cap" />
+              <img class="card-img-top" src={Dictionary} alt="Dictionary App" />
               <div class="card-body">
                 <p className="cardText">Dictionary App</p>
                 <p className="cardicon">
@@ -89,7 +93,7 @@ export default function Projects() {
           </div>
           <div className="col-4 ">
             <div class="card">
-              <img class="card-img-top" src={Pigeons} alt="Card   cap" />
+              <img class="card-img-top" src={Pigeons} alt="Pigeon Showcase" />
               <div class="card-body">
                 <p className="cardText">Pigeon Showcase</p>
                 <p className="cardicon">
@@ -117,7 +121,7 @@ export default function Projects() {
         <div className="row ">
           <div className="col-4  ">
             <div class="card">
-              <img class="card-img-top" src={Magic} alt="Card   cap" />
+              <img class="card-img-top" src={Magic} alt="Magical Weather App" />
               <div class="card-body">
                 <p className="cardText">Magical Weather App</p>
                 <p className="cardicon">
@@ -144,7 +148,7 @@ export default function Projects() {
           </div>
           <div className="col-4 ">
             <div class="card">
-              <img class="card-img-top" src={Weather} alt="Card   cap" />
+              <img class="card-img-top" src={Weather} alt="Weather App" />
               <div class="card-body">
                 <p className="cardText">Weather App</p>
                 <p className="cardicon">
@@ -170,7 +174,7 @@ export default function Projects() {
           </div>
           <div className="col-4 ">
             <div class="card">
-              <img class="card-img-top" src={Clock} alt="Card   cap" />
+              <img class="card-img-top" src={Clock} alt="World Clock" />
               <div class="card-body">
                 <p className="cardText">World Clock</p>
                 <p className="cardicon">
@@ -350,7 +354,7 @@ export default function Projects() {
                   href="https://steady-crepe-0282c0.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
-                  alt="Website for Tarot Themed Weather Application"
+                  alt="Website for Weather Application"
                   className="launchbutton text-decoration-none btn-base-light "
                 >
                   LAUNCH MAGIC WEATHER
@@ -428,7 +432,7 @@ export default function Projects() {
                   href="https://evas-world-clock.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
-                  alt="Website for Wolrd Clock"
+                  alt="Website for World Clock"
                   className="launchbutton text-decoration-none btn-base-light "
                 >
                   LAUNCH WORLD CLOCK APP
