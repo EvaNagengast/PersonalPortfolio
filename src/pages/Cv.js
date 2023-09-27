@@ -12,7 +12,7 @@ export default function Cv() {
           CLICK HERE FOR A PDF OF MY FULL RESUME
         </a>
         <main>
-          <div className="row">
+          <div className="row justify-content-between">
             <div className="col">
               <h1>
                 Eva <br />
@@ -20,52 +20,54 @@ export default function Cv() {
               </h1>
             </div>
             <div className="col">
-              <img src={monoimage} />
-              <div>
-                <span className="subheader">I'm </span>
-                <span className="highlightred">
-                  <TypeIt
-                    options={{
-                      speed: 150,
-                      waitUntilVisible: true,
-                      loop: true,
-                      loopDelay: 15000,
-                    }}
-                    getBeforeInit={(instance) => {
-                      instance
+              <div className="cvimage">
+                <img src={monoimage} />
+                <div>
+                  <span className="subheader">I'm </span>
+                  <span className="highlightred">
+                    <TypeIt
+                      options={{
+                        speed: 150,
+                        waitUntilVisible: true,
+                        loop: true,
+                        loopDelay: 15000,
+                      }}
+                      getBeforeInit={(instance) => {
+                        instance
 
-                        .type("a coder.")
-                        .pause(1000)
-                        .delete(8)
-                        .pause(700)
-                        .type("living in London.")
-                        .pause(1000)
-                        .delete(17)
-                        .pause(700)
-                        .type("from Germany.")
+                          .type("a coder.")
+                          .pause(1000)
+                          .delete(8)
+                          .pause(700)
+                          .type("living in London.")
+                          .pause(1000)
+                          .delete(17)
+                          .pause(700)
+                          .type("from Germany.")
 
-                        .pause(1000)
-                        .delete(13)
-                        .pause(700)
-                        .type("loving music.")
-                        .pause(1000)
-                        .delete(13)
-                        .pause(700)
+                          .pause(1000)
+                          .delete(13)
+                          .pause(700)
+                          .type("loving music.")
+                          .pause(1000)
+                          .delete(13)
+                          .pause(700)
 
-                        .type("Eva.");
-                      return instance;
-                    }}
-                  />
-                </span>
+                          .type("Eva.");
+                        return instance;
+                      }}
+                    />
+                  </span>
+                </div>
               </div>
             </div>
           </div>
           <h2> Career Summary</h2>
           <div className="row">
-            <div className="col">
+            <div className="col-8">
               <h3>AI Audio Content Evaluator - Linguist</h3>
             </div>
-            <div className="col">
+            <div className="col-4 text-end">
               <h3>From Apr 23</h3>
             </div>
           </div>
@@ -87,10 +89,10 @@ export default function Cv() {
             </ul>
           </p>
           <div className="row">
-            <div className="col">
+            <div className="col-8">
               <h3>Plant Technician</h3>
             </div>
-            <div className="col">
+            <div className="col-4 text-end">
               <h3>May 22 – Mar 23</h3>
             </div>
           </div>
@@ -112,10 +114,10 @@ export default function Cv() {
             </ul>
           </p>
           <div className="row">
-            <div className="col">
+            <div className="col-4">
               <h3>Assistant General Manager</h3>
             </div>
-            <div className="col">
+            <div className="col-8 text-end">
               <h3>Aug 18 – Apr 22</h3>
             </div>
           </div>
@@ -141,10 +143,10 @@ export default function Cv() {
             </ul>
           </p>
           <div className="row">
-            <div className="col">
+            <div className="col-8">
               <h3>Tour-Booking Assistant</h3>
             </div>
-            <div className="col">
+            <div className="col-4 text-end">
               <h3>Jan 18 – Jul 18</h3>
             </div>
           </div>
@@ -166,10 +168,10 @@ export default function Cv() {
             </ul>
           </p>
           <div className="row">
-            <div className="col">
+            <div className="col-8">
               <h3>Production Shift Manager, Team Leader</h3>
             </div>
-            <div className="col">
+            <div className="col-4 text-end">
               <h3> Sep 08 – Dec 17</h3>
             </div>
           </div>
@@ -196,84 +198,87 @@ export default function Cv() {
           </p>
           <h2>Projects</h2>
           <div className="row">
-            <div className="col">
+            <div className="col-8">
               <h4> Volunteering conservation work, nature education </h4>
             </div>
-            <div className="col">
+            <div className="col-4 text-end">
               <h4> From 2023 </h4>
             </div>
           </div>
           <p>Creekside Discovery Center, Nature Conservation- London</p>
           <div className="row">
-            <div className="col">
+            <div className="col-8">
               <h4> Founder, Distribution, Artist support, Accounting</h4>
             </div>
-            <div className="col">
+            <div className="col-4 text-end">
               <h4> 2014 - 2017 </h4>
             </div>
           </div>
           <p>Raptor Records, Label - Nuremberg</p>
           <div className="row">
-            <div className="col">
+            <div className="col-8">
               <h4> Event Management, local culture and music support</h4>
             </div>
-            <div className="col">
+            <div className="col-4 text-end">
               <h4> 2013 - 2016 </h4>
             </div>
           </div>
           <p>H&S Subculture events - Nuremberg </p>
-          <h2> Education</h2>
-          <div className="row">
-            <div className="col">
-              <h4> SheCodes</h4>
-            </div>
-            <div className="col">
-              <h4>Jul - Oct 23 </h4>
-            </div>
-          </div>
-          <p>Certificate in Front-End Development</p>
-          <div className="row">
-            <div className="col">
-              <h4> ILS Fernhochschule</h4>
-            </div>
-            <div className="col">
-              <h4> 2008-2012 </h4>
-            </div>
-          </div>
-          <p>BA, German</p>
-          <div className="row">
-            <div className="col">
-              <h4> Bosch GmbH </h4>
-            </div>
-            <div className="col">
-              <h4> 2008-2012 </h4>
-            </div>
-          </div>
-          <p> Apprenticeship + A-levels</p>
-          <h2>SKILLS/TOOLS</h2>
-          <ul>
-            <li>HTML + CSS</li>
-            <li>JavaScript</li>
 
-            <li>React</li>
-            <li>VS Code </li>
-            <li>Bootstrap and Responsive Development </li>
-            <li>Figma</li>
-            <li>Libraries and APIs </li>
-            <li>Adobe Illustrator, Fresco, PS</li>
-          </ul>
-          <h2>Languages</h2>
-          <ul>
-            <li>German - Native </li>
-            <li>English - Bilingual Proficiency</li>
-          </ul>
-          <h2>Strength</h2>
-          <ul>
-            <li>Front-end development</li>
-            <li> ProjectManagement </li>
-            <li> Creativity </li>
-            <li>Excellent Communication</li> <li>Adaptability</li>
-          </ul>
+          <div className="sideSection">
+            <h2> Education</h2>
+            <div className="row">
+              <div className="col-8">
+                <h4> SheCodes</h4>
+              </div>
+              <div className="col-4 text-end">
+                <h4>Jul - Oct 23 </h4>
+              </div>
+            </div>
+            <p>Certificate in Front-End Development</p>
+            <div className="row">
+              <div className="col-8">
+                <h4> ILS Fernhochschule</h4>
+              </div>
+              <div className="col-4 text-end">
+                <h4> 2008-2012 </h4>
+              </div>
+            </div>
+            <p>BA, German</p>
+            <div className="row">
+              <div className="col-8">
+                <h4> Bosch GmbH </h4>
+              </div>
+              <div className="col-4 text-end">
+                <h4> 2008-2012 </h4>
+              </div>
+            </div>
+            <p> Apprenticeship + A-levels</p>
+            <h2>SKILLS/TOOLS</h2>
+            <ul>
+              <li>HTML + CSS</li>
+              <li>JavaScript</li>
+
+              <li>React</li>
+              <li>VS Code </li>
+              <li>Bootstrap and Responsive Development </li>
+              <li>Figma</li>
+              <li>Libraries and APIs </li>
+              <li>Adobe Illustrator, Fresco, PS</li>
+            </ul>
+            <h2>Languages</h2>
+            <ul>
+              <li>German - Native </li>
+              <li>English - Bilingual Proficiency</li>
+            </ul>
+            <h2>Strength</h2>
+            <ul>
+              <li>Front-end development</li>
+              <li> ProjectManagement </li>
+              <li> Creativity </li>
+              <li>Excellent Communication</li> <li>Adaptability</li>
+            </ul>
+          </div>
         </main>
       </div>
     </div>

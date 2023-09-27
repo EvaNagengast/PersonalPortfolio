@@ -3,6 +3,7 @@ redundant checked o unchecked x
 double css checked o unchecked x  */
 .Cv {
   background-color: var(---base);
+  color: var(---basedark);
 }
 
 .Cv .cvpage {
@@ -13,6 +14,7 @@ double css checked o unchecked x  */
 }
 .Cv main {
   margin: 15px 80px;
+  padding: 0 10px 10px 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.295);
   background-color: #fdfcf4;
 }
@@ -21,7 +23,38 @@ double css checked o unchecked x  */
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
   color: var(---basedark);
-  letter-spacing: -7px;
+  letter-spacing: -6px;
+}
+.Cv h2 {
+  font-size: 40px;
+  font-weight: 900;
+  font-family: "Montserrat", sans-serif;
+  color: var(---baselight);
+  letter-spacing: -2px;
+}
+.Cv h4 {
+  font-size: 20px;
+}
+.Cv li {
+  font-size: 18px;
+}
+
+.Cv .subheader {
+  margin-left: 7px;
+  font-size: 20px;
+  color: var(---basedark);
+  letter-spacing: 2px;
+}
+.Cv .highlightred {
+  margin-left: 7px;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(---baselight);
+  letter-spacing: 2px;
+}
+.Cv .cvimage {
+  margin: 15px;
+  float: right;
 }
 .Cv .downloadbutton {
   display: block;
@@ -38,20 +71,8 @@ double css checked o unchecked x  */
   text-decoration: none;
   transition: all 0.4s ease;
 }
-.Cv .subheader {
-  margin-left: 7px;
-  font-size: 20px;
-  color: var(---basedark);
-  letter-spacing: 2px;
-}
-.Cv .highlightred {
-  margin-left: 7px;
-  font-size: 20px;
-  font-weight: 400;
-  color: var(---baselight);
-  letter-spacing: 2px;
-}
 .Cv .downloadbutton:hover {
   background-color: var(---baselight);
   color: var(---base);
 }
+.Cv .sideSection ul{list-style: none;}
