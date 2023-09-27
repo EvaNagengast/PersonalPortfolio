@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-import Profilepic from "../../media/profilepic.png";
+import Profilepic from "../../media/profilepic2.png";
 import { motion, useAnimation, useInView } from "framer-motion";
 import "./Aboutsection.css";
 
@@ -15,8 +15,8 @@ export default function Aboutsection() {
   }, [isInView, mainControls]);
   let navigate = useNavigate();
   return (
-    <div className="Aboutsection">
-      <div className="aboutbox" ref={ref}>
+    <div className="Aboutsection"ref={ref}>
+      <div className="aboutbox" >
         <div className="row">
           <div className="col-3">
             <motion.img

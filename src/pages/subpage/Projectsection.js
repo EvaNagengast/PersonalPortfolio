@@ -56,7 +56,7 @@ export default function Projectsection() {
                 related images for a search term. It becomes fun and engaging as
                 the play button talks to the user with a simple click. Behind
                 the scenes, I employed loops and React's mapping capabilities to
-                seamlessly fetch and present the data
+                seamlessly fetch and present the data.
                 <div className="projectTools">
                   Built with HTML, CSS, React.js, APIs & npm Libraries
                 </div>
@@ -90,7 +90,7 @@ export default function Projectsection() {
                 conceived as a model showcase, I carefully and accurately
                 translated the Figma design into a unique appreciation of
                 pigeons, all while paying close attention to SEO to improve its
-                online visibility
+                online visibility.
                 <div className="projectTools">
                   Built with HTML, CSS, JavaScript & Figma
                 </div>

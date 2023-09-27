@@ -51,7 +51,7 @@ export default function Homepage() {
             <Aboutsection />
           </div>
 
-          <div className="projectsection pt-5">
+          <div className="projectsection  ">
             <Projectsection />
           </div>
           <div className="contactsection">
