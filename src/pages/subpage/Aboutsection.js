@@ -16,7 +16,7 @@ export default function Aboutsection() {
   }, [isInView, mainControls]);
   let navigate = useNavigate();
   return (
-    <div className="Aboutsection" ref={ref}>
+    <div className="Aboutsection mt-2 mb-5" ref={ref}>
       <div className="aboutbox">
         <div className="row">
           <div className="col-3">
@@ -43,6 +43,7 @@ export default function Aboutsection() {
                   onClick={() => {
                     navigate("./aboutme");
                   }}
+                  className="px-2 pb-1"
                 >
                   about me
                 </button>

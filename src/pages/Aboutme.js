@@ -13,14 +13,14 @@ export default function Aboume() {
           <h1>Hi I'm Eva</h1>
         </div>
         <main>
-          <div className="aboutInfo">
+          <div className="aboutInfo px-2 pt-1">
             <div className="aboutImage">
               <img
                 src={AboutImage}
                 alt="Eva Nagengast Profile"
                 className="img-fluid"
               ></img>
-              <figcaption>
+              <figcaption className="py-1 px-2">
                 AUDIO ENGINEERING A PODCAST AT READING FESTIVAL '23
               </figcaption>
             </div>
@@ -62,7 +62,7 @@ export default function Aboume() {
               onClick={() => {
                 navigate("../contact");
               }}
-              className=" btn-base-dark"
+              className=" btn-base-dark px-3 py-1 mx-3 mb-4 mt-2"
             >
               CONTACT ME
             </button>
@@ -70,7 +70,7 @@ export default function Aboume() {
               onClick={() => {
                 navigate("../projects");
               }}
-              className=" btn-base-dark"
+              className=" btn-base-dark px-3 py-1 "
             >
               SEE MY PROJECTS
             </button>

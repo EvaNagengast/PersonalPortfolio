@@ -19,12 +19,7 @@ double css checked o unchecked x  */
   font-family: "Montserrat", sans-serif;
   letter-spacing: -7px;
 }
-.Contact h2 {
-  font-size: 30px;
-  font-weight: 100;
-  color: var(---baselight);
-  letter-spacing: 3px;
-}
+
 .Contact a {
   color: rgb(0, 0, 0);
 }
@@ -35,7 +30,7 @@ double css checked o unchecked x  */
 /* contact */
 .Contact .contactbox {
   width: max-content;
-   border: 8px double var(---baselight);
+  border: 8px double var(---baselight);
   text-align: left;
   line-height: 3;
   list-style: none;
@@ -43,8 +38,26 @@ double css checked o unchecked x  */
 }
 
 .Contact .highlight {
-  padding: 0 5px 0 0;
   font-weight: 100;
   color: var(---baselight) !important;
   letter-spacing: 2px;
 }
+@media (max-width: 1023px) {
+  .Contact h1 {
+    font-size: 110px;
+  }
+}
+@media (max-width: 960px) {
+  .Contact .contactbox {
+    line-height: 60px;
+    font-size: 24px;
+    font-weight: 100;
+  }
+}
+@media (max-width: 768px) {  .Contact h1 {
+    font-size: 90px;
+  }}
+  @media (max-width: 576px) {
+  .Contact h1 {
+    font-size: 65px;
+  }}

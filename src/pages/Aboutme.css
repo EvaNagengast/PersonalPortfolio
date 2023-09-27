@@ -33,7 +33,6 @@
 
 .Aboutme .aboutInfo {
   margin: 30px 100px 50px 100px;
-  padding: 8px;
   box-shadow: 2px 1px 5px 1px #4e59612f;
   background-color: var(---base);
   text-align: left;
@@ -46,7 +45,6 @@
 }
 .Aboutme figcaption {
   max-width: 360px;
-  padding: 5px;
   background-color: var(---basedark);
   text-wrap: wrap;
   font-size: 10px;
@@ -56,8 +54,7 @@
 }
 .Aboutme button {
   display: inline-block;
-  margin: 20px;
-  padding: 5px 10px;
+
   box-shadow: 2px 1px 5px 1px #4e59612f;
   font-size: 16px;
 }
@@ -73,3 +70,19 @@
 }
 
 /*  */
+@media (max-width: 1024px) {
+  .Aboutme h1 {
+    font-size: 110px;
+  }
+  .Aboutme img {
+    max-width: 270px;
+  }
+  .Aboutme figcaption {
+    max-width: 270px;
+  }
+}
+@media (max-width: 768px) {
+  .Aboutme h1 {
+    font-size: 90px;
+  }
+}

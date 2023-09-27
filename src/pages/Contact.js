@@ -13,8 +13,7 @@ export default function Contact() {
       <div className="contactpage">
         <h1>Contact me!</h1>
         <div className="row ">
-          <div            className="col-auto  col-lg-6"
-          >
+          <div className="col-auto  col-lg-6">
             <div
               className="contactbox py-2 px-4 ms-5
             "
@@ -27,7 +26,7 @@ export default function Contact() {
                   rel="noreferrer"
                   alt="Click to write a Mail"
                 >
-                  <span className="highlight">
+                  <span className="highlight pe-3">
                     <LuMailbox /> MAIL
                   </span>
                   eva.nagengast.dev@gmail.com
@@ -41,7 +40,7 @@ export default function Contact() {
                   alt="Evas LinkedIn page"
                   className="text-decoration-none"
                 >
-                  <span className="highlight">
+                  <span className="highlight pe-3">
                     <PiLinkedinLogo /> LINKEDIN
                   </span>
                   linkedin.com/in/evanagengast/
@@ -55,7 +54,7 @@ export default function Contact() {
                   alt="Evas Github Profile"
                   className="text-decoration-none"
                 >
-                  <span className="highlight">
+                  <span className="highlight pe-3">
                     <LuGithub /> GITHUB
                   </span>
                   github.com/EvaNagengast
@@ -71,7 +70,7 @@ export default function Contact() {
                   className="text-decoration-none"
                 >
                   {" "}
-                  <span className="highlight">
+                  <span className="highlight pe-3">
                     <LuFileHeart /> CV
                   </span>
                   click here to see or download my CV

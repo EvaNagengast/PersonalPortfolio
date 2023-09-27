@@ -34,7 +34,7 @@ double css checked o unchecked x  */
   display: inline-block;
   max-width: 320px;
   margin-bottom: 40px;
-  padding: 20px 20px 5px 20px;
+  padding: 15px 15px 5px 15px;
   outline: 5px solid var(---basedark);
   outline-offset: -10px;
   background-color: var(---base);
@@ -82,3 +82,31 @@ double css checked o unchecked x  */
   background-color: var(---baselight);
   color: var(---base);
 }
+
+@media (max-width: 1024px) {
+  .Projects h1 {
+    font-size: 110px;
+  }
+  .Popup .popupText {
+    font-size: 15px;
+  }
+  .Popup h2 {
+    font-size: 3px;
+  }
+}
+
+@media (max-width: 768px) {
+  .Projects h1 {
+    font-size: 90px;
+  }
+  .Projects .cardicon {
+    font-size: 16px;
+  }
+  /* .Projects .cardText {
+    font-size: 14px;
+  } */
+}
+@media (max-width: 576px) {
+  .Projects h1 {
+    font-size: 65px;
+  }}

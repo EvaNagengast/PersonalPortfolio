@@ -47,7 +47,7 @@ export default function Projectsection() {
                   target="_blank"
                   rel="noreferrer"
                   alt="London Music Journey Webdite "
-                  className="btn-dark-base"
+                  className="btn-dark-base mt-3"
                 >
                   go to page
                 </a>
@@ -73,7 +73,7 @@ export default function Projectsection() {
                   target="_blank"
                   rel="noreferrer"
                   alt="Dictionary Website"
-                  className="btn-dark-base"
+                  className="btn-dark-base mt-3"
                 >
                   go to page
                 </a>
@@ -115,7 +115,7 @@ export default function Projectsection() {
                   target="_blank"
                   rel="noreferrer"
                   alt="Pigeon Showcase Website"
-                  className="btn-dark-base"
+                  className="btn-dark-base mt-3"
                 >
                   go to page
                 </a>
@@ -139,7 +139,7 @@ export default function Projectsection() {
                   target="_blank"
                   rel="noreferrer"
                   alt="World Clock Website"
-                  className="btn-dark-base"
+                  className="btn-dark-base mt-3"
                 >
                   go to page
                 </a>

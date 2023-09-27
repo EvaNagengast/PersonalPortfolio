@@ -37,7 +37,7 @@ double css checked o unchecked x  */
   font-weight: 900;
   font-family: "Montserrat", sans-serif;
   color: var(---basedark);
-  letter-spacing: -7px;
+  letter-spacing: -6px;
 }
 .Home .hero h2 {
   font-size: 50px;
@@ -65,4 +65,19 @@ double css checked o unchecked x  */
   border: none;
   background-color: var(---baselight);
   color: var(---base);
+}
+@media (max-width: 1023px) {
+  .Home .hero {
+    padding-top: 150px;
+  }
+  .Home .hero h1 {
+    font-size: 110px;
+    letter-spacing: -5px;
+  }
+  .Home .hero h2 {
+    font-size: 46px;
+  }
+  .Home .hero h3 {
+    font-size: 36px;
+  }
 }

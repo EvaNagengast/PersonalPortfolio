@@ -3,8 +3,8 @@ import "./Mailsection.css";
 export default function Mailsection() {
   return (
     <div className="Mailsection">
-      <div className="mail m-lg-0 my-lg-0 mx-5 my-3">
-        <h2 className="text-start ps-3">SAY HELLO</h2>
+      <div className="mail m-lg-0 my-lg-0 mx-5 mt-5 mb-4">
+        <h2 className="text-start ps-3 mb-3 mb-lg-2">SAY HELLO</h2>
         <form
           target="_blank"
           action="https://formsubmit.co/eva.nagengast.dev@gmail.com"
@@ -12,7 +12,7 @@ export default function Mailsection() {
         >
           <div className="form-group">
             <div className="row">
-              <div className="col-6 mb-2 forminput name">
+              <div className="col-6 mb-3 mb-lg-2  forminput name">
                 <input
                   type="text"
                   name="name"
@@ -32,7 +32,7 @@ export default function Mailsection() {
               </div>
             </div>
           </div>
-          <div className="form-group mb-2">
+          <div className="form-group mb-3 mb-lg-2">
             <textarea
               placeholder="Your Message"
               className="form-control"

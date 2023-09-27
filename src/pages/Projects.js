@@ -34,7 +34,7 @@ export default function Projects() {
         <h1 className="text-start">Projects</h1>
 
         <div className="row px-3 ">
-          <div className="col-4  ">
+          <div className="col-sm-6 col-lg-4">
             <div className="card">
               <img
                 className="card-img-top"
@@ -42,7 +42,10 @@ export default function Projects() {
                 alt="Musical London Journey"
               />
               <div className="card-body">
-                <p className="cardText">Musical London Journey </p>
+                <p className="cardText">
+                  Musical London <br className="d-block d-lg-none" />
+                  Journey{" "}
+                </p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <LuCode />
                 </p>
@@ -64,7 +67,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="col-4 ">
+          <div className="col-sm-6 col-lg-4 ">
             <div className="card">
               <img
                 className="card-img-top"
@@ -72,7 +75,10 @@ export default function Projects() {
                 alt="Dictionary App"
               />
               <div className="card-body">
-                <p className="cardText">Dictionary App</p>
+                <p className="cardText">
+                  Dictionary <br className="d-block d-lg-none" />
+                  App
+                </p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <SiReact />{" "}
                   <RiBootstrapLine /> <LuLibrary />
@@ -95,7 +101,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="col-4 ">
+          <div className="col-sm-6 col-lg-4 ">
             <div className="card">
               <img
                 className="card-img-top"
@@ -103,7 +109,10 @@ export default function Projects() {
                 alt="Pigeon Showcase"
               />
               <div className="card-body">
-                <p className="cardText">Pigeon Showcase</p>
+                <p className="cardText">
+                  Pigeon <br className="d-block d-lg-none" />
+                  Showcase
+                </p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />
                 </p>
@@ -125,9 +134,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="row  px-3">
-          <div className="col-4  ">
+          <div className="col-sm-6 col-lg-4 d-block d-lg-none ">
             <div className="card">
               <img
                 className="card-img-top"
@@ -135,7 +142,10 @@ export default function Projects() {
                 alt="Magical Weather App"
               />
               <div className="card-body">
-                <p className="cardText">Magical Weather App</p>
+                <p className="cardText">
+                  Magical <br className="d-block d-lg-none" />
+                  Weather App
+                </p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <SiReact />{" "}
                   <RiBootstrapLine />
@@ -158,11 +168,50 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="col-4 ">
+        </div>
+        <div className="row  px-3">
+          <div className="col-sm-6 col-lg-4 d-none d-lg-block">
+            <div className="card">
+              <img
+                className="card-img-top"
+                src={Magic}
+                alt="Magical Weather App"
+              />
+              <div className="card-body">
+                <p className="cardText">
+                  Magical <br className="d-block d-lg-none" />
+                  Weather App
+                </p>
+                <p className="cardicon">
+                  <PiFileHtml /> <PiFileCss /> <PiFileJs /> <SiReact />{" "}
+                  <RiBootstrapLine />
+                </p>
+                <a
+                  href="https://steady-crepe-0282c0.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Magical Weather Application"
+                  className="visitButton text-decoration-none btn-base-dark"
+                >
+                  visit page
+                </a>
+                <button
+                  onClick={() => setPopupFour(true)}
+                  className="popupButton btn-base-dark"
+                >
+                  learn more
+                </button>
+              </div>
+            </div>
+          </div>
+          <div className="col-sm-6 col-lg-4 ">
             <div className="card">
               <img className="card-img-top" src={Weather} alt="Weather App" />
               <div className="card-body">
-                <p className="cardText">Weather App</p>
+                <p className="cardText">
+                  Weather <br className="d-block d-lg-none" />
+                  App
+                </p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />
                 </p>
@@ -184,11 +233,14 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="col-4 ">
+          <div className="col-sm-6 col-lg-4 ">
             <div className="card">
               <img className="card-img-top" src={Clock} alt="World Clock" />
               <div className="card-body">
-                <p className="cardText">World Clock</p>
+                <p className="cardText">
+                  World
+                  <br className="d-block d-lg-none" /> Clock
+                </p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />{" "}
                   <LuLibrary />
@@ -214,7 +266,7 @@ export default function Projects() {
         </div>
       </div>
       <Footer />
-      <div className="Popups">
+      <div className="popups">
         <Popup trigger={popupOne} setTrigger={setPopupOne}>
           <div className="row">
             <div className="col-5">

@@ -43,3 +43,9 @@ double css checke o unchecked x  */
 .popup-inner .close-btn:hover {
   font-weight: 900;
 }
+
+@media (max-width: 1024px) {
+  .Popup {
+    top: 25px;
+  }
+}
