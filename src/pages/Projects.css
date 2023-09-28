@@ -91,7 +91,7 @@ double css checked o unchecked x  */
     font-size: 15px;
   }
   .Popup h2 {
-    font-size: 3px;
+    font-size: 30px;
   }
 }
 
@@ -109,4 +109,16 @@ double css checked o unchecked x  */
 @media (max-width: 576px) {
   .Projects h1 {
     font-size: 65px;
-  }}
+  }
+}
+@media (max-width: 400px) {
+  .Popup .popupText {
+    font-size: 12px;
+  }
+  .Popup h2 {
+    font-size: 30px;
+  }
+  .Popup .launchbutton {
+    font-size: 12px;
+  }
+}

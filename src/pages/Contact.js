@@ -13,9 +13,9 @@ export default function Contact() {
       <div className="contactpage">
         <h1>Contact me!</h1>
         <div className="row ">
-          <div className="col-auto  col-lg-6">
+          <div className="col-12  col-lg-6 ">
             <div
-              className="contactbox py-2 px-4 ms-5
+              className="contactbox py-2 p-2 px-sm-4 ms-4 ms-sm-5
             "
             >
               <li>
@@ -29,6 +29,7 @@ export default function Contact() {
                   <span className="highlight pe-3">
                     <LuMailbox /> MAIL
                   </span>
+                  <br className="d-block d-sm-none" />
                   eva.nagengast.dev@gmail.com
                 </a>
               </li>
@@ -42,7 +43,8 @@ export default function Contact() {
                 >
                   <span className="highlight pe-3">
                     <PiLinkedinLogo /> LINKEDIN
-                  </span>
+                  </span>{" "}
+                  <br className="d-block d-sm-none" />
                   linkedin.com/in/evanagengast/
                 </a>
               </li>
@@ -56,7 +58,8 @@ export default function Contact() {
                 >
                   <span className="highlight pe-3">
                     <LuGithub /> GITHUB
-                  </span>
+                  </span>{" "}
+                  <br className="d-block d-sm-none" />
                   github.com/EvaNagengast
                 </a>
               </li>
@@ -72,13 +75,14 @@ export default function Contact() {
                   {" "}
                   <span className="highlight pe-3">
                     <LuFileHeart /> CV
-                  </span>
+                  </span>{" "}
+                  <br className="d-block d-sm-none" />
                   click here to see or download my CV
                 </a>
               </li>
             </div>
           </div>
-          <div className=" col-auto col-md-7  col-lg-6        ps-3 ps-lg-0 ps-xl-0">
+          <div className=" col-12  col-md-8  col-lg-6  p-0       ps-md-3 ps-lg-0 ps-xl-0">
             <Mailsection />
           </div>
         </div>

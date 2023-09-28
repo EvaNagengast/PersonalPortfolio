@@ -269,19 +269,19 @@ export default function Projects() {
       <div className="popups">
         <Popup trigger={popupOne} setTrigger={setPopupOne}>
           <div className="row">
-            <div className="col-5">
+            <div className="col-5 d-none d-lg-block">
               <img
                 src={XLlondon}
                 className="xlimage"
                 alt="webpage about london"
               />
             </div>
-            <div className="col-7">
+            <div className="col col-lg-7 m-4 m-lg-0 ">
               <h2>Musical Journey through London</h2>
               <div className="popupText">
                 <div className="popuphighlight text-decoration-underline ">
                   Objective:
-                </div>{" "}
+                </div>
                 Learn how to use embeds, grids, and tables effectively. <br />
                 <div className="popuphighlight text-decoration-underline mt-2">
                   Achieved:
@@ -309,14 +309,14 @@ export default function Projects() {
         </Popup>
         <Popup trigger={popupTwo} setTrigger={setPopupTwo}>
           <div className="row">
-            <div className="col-5">
+            <div className="col-5 d-none d-lg-block">
               <img
                 src={XLdictionary}
                 className="xlimage"
                 alt="dictionary webpage"
               />
             </div>
-            <div className="col-7">
+            <div className="col col-lg-7 m-4 m-lg-0 ">
               <h2>Dictionary App</h2>
               <div className="popupText">
                 <div className="popuphighlight text-decoration-underline">
@@ -348,16 +348,16 @@ export default function Projects() {
         </Popup>
         <Popup trigger={popupThree} setTrigger={setPopupThree}>
           <div className="row">
-            <div className="col-5">
+            <div className="col-5 d-none d-lg-block">
               <img
                 src={XLpigeons}
                 className="xlimage"
                 alt="webpage about pigeons"
               />
             </div>
-            <div className="col-7">
+            <div className="col col-lg-7 m-4 m-lg-0 ">
               <h2>Pigeon Showcase</h2>
-              <div className="popupText">
+              <div className="popupText ">
                 <div className="popuphighlight text-decoration-underline">
                   Objective:
                 </div>{" "}
@@ -387,14 +387,14 @@ export default function Projects() {
         </Popup>
         <Popup trigger={popupFour} setTrigger={setPopupFour}>
           <div className="row">
-            <div className="col-5">
+            <div className="col-5 d-none d-lg-block">
               <img
                 src={XLmagic}
                 className="xlimage"
                 alt="weather application"
               />
             </div>
-            <div className="col-7">
+            <div className="col col-lg-7 m-4 m-lg-0 ">
               <h2>
                 Magic <br />
                 Weather App
@@ -429,14 +429,14 @@ export default function Projects() {
         </Popup>
         <Popup trigger={popupFive} setTrigger={setPopupFive}>
           <div className="row">
-            <div className="col-5">
+            <div className="col-5 d-none d-lg-block">
               <img
                 src={XLweather}
                 className="xlimage"
                 alt="weather application"
               />
             </div>
-            <div className="col-7">
+            <div className="col col-lg-7 m-4 m-lg-0 ">
               <h2>Weather App</h2>
               <div className="popupText">
                 <div className="popuphighlight text-decoration-underline">
@@ -471,10 +471,10 @@ export default function Projects() {
         </Popup>
         <Popup trigger={popupSix} setTrigger={setPopupSix}>
           <div className="row">
-            <div className="col-5">
+            <div className="col-5 d-none d-lg-block">
               <img src={XLclock} className="xlimage" alt="worldclock app" />
             </div>
-            <div className="col-7">
+            <div className="col col-lg-7 m-4 m-lg-0 ">
               <h2>World Clock</h2>
               <div className="popupText">
                 <div className="popuphighlight text-decoration-underline">
