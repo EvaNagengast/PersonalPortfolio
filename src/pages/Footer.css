@@ -18,4 +18,9 @@ double css checked o unchecked x  */
    font-size: 12px;
   }
   
+}@media (max-width: 400px) {
+  .Footer  {
+   font-size: 9px;
+  }
+  
 }
