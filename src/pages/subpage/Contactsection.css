@@ -22,3 +22,4 @@ double css checked o unchecked x  */
   background-color: var(---baselight);
   color: var(---base);
 }
+@media (max-width: 960px) {}

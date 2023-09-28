@@ -81,3 +81,7 @@ double css checked o unchecked x  */
     font-size: 36px;
   }
 }
+@media (max-width: 960px) { .Home .hero h1 {
+    font-size: 105px;
+    letter-spacing: -5px;
+  }}

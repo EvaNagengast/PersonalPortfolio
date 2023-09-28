@@ -5,7 +5,6 @@ double css checked o unchecked x  */
   padding-bottom: 40px;
   background-color: var(---basedark);
   color: var(---base);
-  font-size: 16px;
 }
 
 .Projectsection h4 {
@@ -30,7 +29,7 @@ double css checked o unchecked x  */
   border: 1px solid var(---basedark);
   color: var(---basedark);
 }
-.Projectsection .negativeMargin {
+.Projectsection .projectmargin {
   align-items: center;
   margin-top: -10px;
 }
@@ -69,3 +68,23 @@ double css checked o unchecked x  */
   color: var(---basedark);
 }
 
+@media (max-width: 960px) {
+  .Projectsection .projectdescription {
+    font-size: 12px;
+  }
+  .Projectsection .projectmargin {
+    margin-top: -2px;
+  }
+  .Projectsection .projectTextleft {
+    padding-left: 100px;
+  }
+  .Projectsection .projectTextright {
+    padding-right: 100px;
+  }
+}
+
+@media (max-width: 800px) {
+  .Projectsection a {
+    font-size: 10px;
+  }
+}

@@ -11,9 +11,9 @@ export default function Projectsection() {
     <div className="Projectsection">
       <div className="projectbox">
         <h4 className="pt-4 pb-2">Projects</h4>
-        <p className="projectIntro mt-3 mb-5">
-          Browse through some assorted projects I created, or find all of my
-          projects
+        <p className="projectIntro  mt-3 mb-5">
+          Browse through some assorted projects I created,
+          <br className="d-block d-md-none" /> or find all of my projects
           <button
             onClick={() => {
               navigate("/projects");
@@ -23,7 +23,7 @@ export default function Projectsection() {
           </button>
         </p>
         <div>
-          <div className="projectOne negativeMargin row ">
+          <div className="projectOne projectmargin row ">
             <div className="col-5">
               <img
                 src={ProjectOneImg}
@@ -33,7 +33,7 @@ export default function Projectsection() {
             </div>
             <div className="col-7 text-start projectTextright">
               <h5>London Music Journey</h5>
-              <div>
+              <div className="projectdescription">
                 Explore London through a musical journey - this web page
                 combines embedded songs and maps, with grid layouts and
                 responsive media queries. I illustrated the London
@@ -55,10 +55,10 @@ export default function Projectsection() {
               <br />
             </div>
           </div>
-          <div className="projectTwo negativeMargin row">
+          <div className="projectTwo projectmargin row">
             <div className="col-7 text-end projectTextleft ">
               <h5>Dictionary</h5>
-              <div>
+              <div className="projectdescription">
                 Built using Java Script React and enhanced with the capabilities
                 of APIs and npm libraries, this page offers word definitions and
                 related images for a search term. It becomes fun and engaging as
@@ -88,7 +88,7 @@ export default function Projectsection() {
               />
             </div>
           </div>
-          <div className="projectThree negativeMargin row">
+          <div className="projectThree projectmargin row">
             <div className="col-5">
               {" "}
               <img
@@ -99,7 +99,7 @@ export default function Projectsection() {
             </div>
             <div className="col-7 text-start projectTextright">
               <h5>Pigeon Showcase</h5>
-              <div>
+              <div className="projectdescription">
                 From a concept to web reality, this Pigeon Showcase was
                 carefully crafted using Bootstrap, media queries, and flexboxfor
                 a responsive and visually appealing website. Originally
@@ -122,10 +122,10 @@ export default function Projectsection() {
               </div>
             </div>
           </div>
-          <div className="projectFour negativeMargin row">
+          <div className="projectFour projectmargin row">
             <div className="col-7 text-end projectTextleft">
               <h5>World Clock</h5>
-              <div>
+              <div className="projectdescription">
                 With this World Clock App, users can effortlessly explore global
                 time zones. This app uses HTML, CSS, and JavaScript and seamless
                 API integration, to efficiently retrieves and display precise

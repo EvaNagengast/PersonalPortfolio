@@ -16,7 +16,7 @@ export default function Aboutsection() {
   }, [isInView, mainControls]);
   let navigate = useNavigate();
   return (
-    <div className="Aboutsection mt-2 mb-5" ref={ref}>
+    <div className="Aboutsection mt-2 mb-4 mb-md-5" ref={ref}>
       <div className="aboutbox">
         <div className="row">
           <div className="col-3">
@@ -50,7 +50,7 @@ export default function Aboutsection() {
               </p>
             </div>
 
-            <div className="codeimage text-start ">
+            <div className="codeimage d-none d-md-block text-start ">
               <span className="colorthree">.location: </span>
               <span className="colorone">{"{"}</span>
               <span className="colortwo">London</span>
@@ -128,6 +128,84 @@ export default function Aboutsection() {
               <span className="colortwo"> "GitHub"</span>
               <span className="colorone">]</span>
             </div>
+          </div>
+          <div className="codeimagetwo d-block d-md-none  text-start ">
+            <span className="colorthree">.location: </span>
+            <span className="colorone">{"{"}</span>
+            <span className="colortwo">London</span>
+            <span className="colorone">{"}"}</span>
+            <br />
+            <span className="colorthree"> onClick(contact) </span>
+            <span className="colorone">{"{"}</span>
+            <a
+              className="text-decoration-none"
+              href="mailto:eva.nagengast.dev@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              alt="Click to write a Mail"
+            >
+              <span className="colortwo ">Mail</span>
+            </a>
+            <span className="colorone">,</span>
+            <a
+              href="https://www.linkedin.com/in/evanagengast/"
+              target="_blank"
+              rel="noreferrer"
+              alt="Evas LinkedIn page"
+              className="text-decoration-none"
+            >
+              <span className="colortwo "> LinkedIn </span>
+            </a>
+            <span className="colorone">,</span>
+            <a
+              href="https://github.com/EvaNagengast"
+              target="_blank"
+              rel="noreferrer"
+              alt="Evas Github Profile"
+              className="text-decoration-none"
+            >
+              <span className="colortwo "> GitHub </span>
+            </a>
+            <span className="colorone">{"}"}</span>
+            <br />
+            <span className="colorthree"> show(CV) </span>
+            <span className="colorone">{"{"}</span>
+            <a
+              href={pdf}
+              target="_blank"
+              rel="noreferrer"
+              alt="PDF of Evas Resume"
+              className="text-decoration-none"
+            >
+              <span className="colortwo">EvaNagengast.pdf</span>
+            </a>
+
+            <span className="colorone">{"}"}</span>
+            <br />
+            <span className="colorthree"> likes = </span>
+            <span className="colorone">[</span>
+            <span className="colortwo">”Coding"</span>
+            <span className="colorone">,</span>
+            <span className="colortwo"> "Music"</span>
+            <span className="colorone">,</span>
+            <span className="colortwo"> "Squirrels"</span>
+            <span className="colorone">,</span>
+            <span className="colortwo"> "Crafts"</span>
+            <span className="colorone">]</span>
+            <br />
+            <span className="colorthree">skills = </span>
+            <span className="colorone">[</span>
+            <span className="colortwo">"HTML"</span>
+            <span className="colorone">&&</span>
+            <span className="colortwo">"CSS"</span>
+            <span className="colorone">,</span>
+            <span className="colortwo"> "React.JS"</span>
+            <span className="colorone">,</span>
+            <br />
+            <span className="colortwo ps-5"> "JavaScript"</span>
+            <span className="colorone">,</span>
+            <span className="colortwo"> "GitHub"</span>
+            <span className="colorone">]</span>
           </div>
         </div>
       </div>

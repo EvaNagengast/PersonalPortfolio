@@ -36,8 +36,7 @@ double css checked o unchecked x  */
 }
 /* code CODE code */
 .Aboutsection .codeimage {
-  position: relative;
-  margin: 25px 0 0 80px;
+  margin: -25px 0 0 80px;
   padding: 60px 0 0 20px;
   height: 292px;
   width: 468px;
@@ -51,13 +50,28 @@ double css checked o unchecked x  */
   letter-spacing: 1.4px;
   z-index: 1;
 }
-.Aboutsection .codeimage .colorone {
+.Aboutsection .codeimagetwo {
+  margin: -43px 0 0 156px;
+  padding: 60px 0 0 20px;
+  height: 292px;
+  width: 468px;
+  background-image: url("../../media/codelight.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 33px;
+  font-family: "Patrick Hand SC", cursive;
+  letter-spacing: 1.4px;
+  z-index: 1;
+}
+.Aboutsection .colorone {
   color: var(---basedark);
 }
-.Aboutsection .codeimage .colortwo {
+.Aboutsection .colortwo {
   color: var(---baselight);
 }
-.Aboutsection .codeimage .colorthree {
+.Aboutsection .colorthree {
   color: var(---secondary);
 }
 
@@ -66,3 +80,49 @@ double css checked o unchecked x  */
     padding: 0 50px;
   }
 }
+@media (max-width: 960px) {
+  .Aboutsection .aboutbox {
+    padding: 0;
+  }
+  .Aboutsection .abouttext p {
+    padding: 60px 120px 0 140px;
+  }
+}
+@media (max-width: 800px) {
+  .Aboutsection .abouttext p {
+    padding: 25px 86px 0 172px;
+  }
+
+  .Aboutsection .codeimage {
+    margin: 51px 0 0 14px;
+  }
+}
+
+@media (max-width: 720px) {
+  .Aboutsection .abouttext p {
+    padding: 25px 86px 0 172px;
+  }
+
+  .Aboutsection .codeimage {
+    margin: 51px 0 0 14px;
+  }
+  .Aboutsection .profilepicture {
+    height: 280px;
+      filter: drop-shadow(-11px -6px 1px var(---baselight));
+  }
+}
+
+/* .Aboutsection .codeimage {
+  margin: 51px 0 0 14px;
+  position: relative;
+
+  padding: 60px 0 0 20px;
+  height: 292px;
+  width: 468px;
+
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 33px;
+
+  letter-spacing: 1.4px;
+} */
