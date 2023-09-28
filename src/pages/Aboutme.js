@@ -72,7 +72,7 @@ export default function Aboume() {
               }}
               className=" btn-base-dark px-3 py-1 "
             >
-              SEE MY PROJECTS
+              PROJECTS
             </button>
           </div>
         </main>

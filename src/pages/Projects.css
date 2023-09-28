@@ -83,7 +83,7 @@ double css checked o unchecked x  */
   color: var(---base);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .Projects h1 {
     font-size: 110px;
   }
@@ -95,6 +95,11 @@ double css checked o unchecked x  */
   }
 }
 
+@media (max-width: 960px) {
+  .Aboutme h1 {
+    margin-bottom: 20px;
+  }
+}
 @media (max-width: 768px) {
   .Projects h1 {
     font-size: 90px;
@@ -102,12 +107,15 @@ double css checked o unchecked x  */
   .Projects .cardicon {
     font-size: 16px;
   }
-  /* .Projects .cardText {
-    font-size: 14px;
-  } */
 }
 @media (max-width: 576px) {
   .Projects h1 {
+    font-size: 65px;
+  }
+}
+
+@media (max-width: 480px) {
+  .Aboutme h1 {
     font-size: 65px;
   }
 }
@@ -120,5 +128,12 @@ double css checked o unchecked x  */
   }
   .Popup .launchbutton {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 380px) {
+  .Aboutme h1 {
+    font-size: 50px;
+    letter-spacing: -3px;
   }
 }

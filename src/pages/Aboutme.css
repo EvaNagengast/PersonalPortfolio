@@ -54,7 +54,6 @@
 }
 .Aboutme button {
   display: inline-block;
-
   box-shadow: 2px 1px 5px 1px #4e59612f;
   font-size: 16px;
 }
@@ -70,19 +69,89 @@
 }
 
 /*  */
-@media (max-width: 1024px) {
+@media (max-width: 1023px) {
   .Aboutme h1 {
     font-size: 110px;
   }
-  .Aboutme img {
-    max-width: 270px;
-  }
+  .Aboutme img,
   .Aboutme figcaption {
     max-width: 270px;
+  }
+
+  .Aboutme .aboutInfo {
+    margin: 30px 80px 50px 80px;
+  }
+}
+@media (max-width: 960px) {
+  .Aboutme h1 {
+    margin-bottom: 20px;
+  }
+  .Aboutme .aboutInfo {
+    margin: 15px 70px 50px 70px;
   }
 }
 @media (max-width: 768px) {
   .Aboutme h1 {
     font-size: 90px;
   }
+  .Aboutme img,
+  .Aboutme figcaption {
+    max-width: 180px;
+  }
+  .Aboutme button {
+    font-size: 14px;
+  }
+  .Aboutme .aboutInfo {
+    margin: 5px 70px 40px 70px;
+  }
+  .Aboutme figcaption {
+    font-size: 8px;
+  }
 }
+@media (max-width: 576px) {
+  .Aboutme h1 {
+    font-size: 65px;
+    letter-spacing: -3px;
+  }
+  .Aboutme img,
+  .Aboutme figcaption {
+    max-width: 140px;
+  }
+  .Aboutme button {
+    font-size: 13px;
+  }
+  .Aboutme .aboutInfo {
+    margin: 5px 50px 30px 50px;
+  }
+  .Aboutme figcaption {
+    font-size: 5px;
+  }
+}
+@media (max-width: 480px) {
+  .Aboutme .aboutInfo {
+    margin: 5px 20px 30px 20px;
+    font-size: 14px;
+  }
+  .Aboutme .aboutImage {
+    float: right;
+    margin: -15px -17px 10px 2px;
+  }
+  .Aboutme h1 {
+    font-size: 65px;
+  }
+  .Aboutme button {
+    font-size: 11px;
+  }
+}
+@media (max-width: 380px) {
+  .Aboutme h1 {
+    font-size: 50px;
+    letter-spacing: -3px;
+  }
+  .Aboutme button {
+     font-size: 8px;
+  }
+}
+/*  */
+/*  */
+/*  */
