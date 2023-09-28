@@ -20,7 +20,7 @@ double css checked o unchecked x  */
   margin: 10px;
   padding: 7px 12px;
   box-shadow: 2px 1px 4px 3px #001a323b;
-  font-size: 12px;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -34,10 +34,11 @@ double css checked o unchecked x  */
   margin-top: -10px;
 }
 .Projectsection .projectIntro {
-  font-size: 20px;
+  font-size: 26px;
 }
 .Projectsection .projectTools {
   opacity: 0.7;
+  font-size: 18px;
 }
 .Projectsection .projectImageright {
   float: right;
@@ -47,12 +48,15 @@ double css checked o unchecked x  */
   float: left;
   margin-left: 50px;
 }
-
+.Projectsection .projectTextleft,
+.projectTextright {
+  font-size: 18px;
+}
 .Projectsection .projectTextleft {
-  padding-left: 150px;
+  padding-left: 140px;
 }
 .Projectsection .projectTextright {
-  padding-right: 150px;
+  padding-right: 140px;
 }
 .Projectsection .projectIntro button {
   padding: 0 12px;
@@ -67,10 +71,18 @@ double css checked o unchecked x  */
   background-color: var(---base);
   color: var(---basedark);
 }
-
+@media (max-width: 1023px) {
+  .Projectsection .projectTextleft,
+  .projectTextright {
+    font-size: 17px;
+  }
+  .Projectsection .projectmargin {
+    margin-top: -4px;
+  }
+}
 @media (max-width: 960px) {
   .Projectsection .projectdescription {
-    font-size: 12px;
+    font-size: 13px;
   }
   .Projectsection .projectmargin {
     margin-top: -2px;
@@ -79,7 +91,13 @@ double css checked o unchecked x  */
     padding-left: 100px;
   }
   .Projectsection .projectTextright {
-    padding-right: 100px;
+    padding-right: 80px;
+  }
+  .Projectsection .projectTools {
+    font-size: 13px;
+  }
+  .Projectsection a {
+    font-size: 11px;
   }
 }
 
@@ -88,3 +106,51 @@ double css checked o unchecked x  */
     font-size: 10px;
   }
 }
+@media (max-width: 720px) {
+  .Projectsection .projectTextright {
+    padding-right: 35px;
+  }
+  .Projectsection .projectTextleft {
+    padding-left: 35px;
+  }
+  .Projectsection img {
+    max-width: 80%;
+  }
+  .Projectsection .projectImageright {
+    margin-right: 10px;
+  }
+  .Projectsection .projectImageleft {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 600px) {
+  .Projectsection .projectIntro {
+    font-size: 20px;
+  }
+  .Projectsection .projectmargin {
+    margin-top: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .Projectsection .projectImageright {
+    margin-right: 10px;
+    max-height: 350px;
+  }
+  .Projectsection .projectImageleft {
+    margin-left: 10px;
+  }
+  .Projectsection .projectIntro {
+    font-size: 17px;
+  }
+  .Projectsection .projectdescription {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+} @media (max-width: 420px){
+    .Projectsection h4{
+      font-size: 55px;
+    }.Projectsection .projectIntro {
+    font-size: 14px;
+  }
+
+  }

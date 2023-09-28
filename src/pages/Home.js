@@ -24,7 +24,7 @@ export default function Homepage() {
     <div className="Home">
       <div className="homepage">
         <div className="hero">
-          <h1>Eva Nagengast</h1>
+          <h1 className="m-3 mt-md-4">Eva Nagengast</h1>
           <motion.div
             variants={{
               noshow: { opacity: 0, y: 100 },

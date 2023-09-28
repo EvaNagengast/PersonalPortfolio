@@ -22,4 +22,19 @@ double css checked o unchecked x  */
   background-color: var(---baselight);
   color: var(---base);
 }
-@media (max-width: 960px) {}
+@media (max-width: 576px) {
+  .Contactsection h4 {
+    font-size: 60px;
+  }
+  .Contactsection button {
+    font-size: 16px;
+  }
+}
+@media (max-width: 420px) {
+  .Contactsection h4 {
+    font-size: 44px;
+  }
+  .Contactsection button {
+    font-size: 12px;
+  }
+}

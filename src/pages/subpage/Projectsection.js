@@ -4,6 +4,11 @@ import ProjectOneImg from "../../media/projectOne.png";
 import ProjectTwoImg from "../../media/projectTwo.png";
 import ProjectThreeImg from "../../media/ProjectThree.png";
 import ProjectFourImg from "../../media/ProjectFour.png";
+import ProjectOnesmall from "../../media/ProjectOneSmall.png";
+import ProjectTwosmall from "../../media/ProjectTwoSmall.png";
+import ProjectThreesmall from "../../media/ProjectThreeSmall.png";
+import ProjectFoursmall from "../../media/ProjectFourSmall.png";
+
 import "./Projectsection.css";
 export default function Projectsection() {
   let navigate = useNavigate();
@@ -11,9 +16,9 @@ export default function Projectsection() {
     <div className="Projectsection">
       <div className="projectbox">
         <h4 className="pt-4 pb-2">Projects</h4>
-        <p className="projectIntro  mt-3 mb-5">
+        <p className="projectIntro  mt-2 mt-sm-3 mb-sm-5">
           Browse through some assorted projects I created,
-          <br className="d-block d-md-none" /> or find all of my projects
+          <br className="d-block d-lg-none" /> or find all of my projects
           <button
             onClick={() => {
               navigate("/projects");
@@ -22,16 +27,23 @@ export default function Projectsection() {
             here
           </button>
         </p>
-        <div>
+        <div className="pt-3 pt-sm-4">
           <div className="projectOne projectmargin row ">
-            <div className="col-5">
+            <div className="col-12 col-sm-5 d-none d-sm-block">
               <img
                 src={ProjectOneImg}
                 alt="project example"
                 className="img-fluid projectImageright"
               />
             </div>
-            <div className="col-7 text-start projectTextright">
+            <div className="col-12 col-sm-5  d-block d-sm-none">
+              <img
+                src={ProjectOnesmall}
+                alt="project example"
+                className="img-fluid projectimgsmall pb-3"
+              />
+            </div>
+            <div className="col-12 col-sm-7 text-sm-end projectTextright">
               <h5>London Music Journey</h5>
               <div className="projectdescription">
                 Explore London through a musical journey - this web page
@@ -56,15 +68,15 @@ export default function Projectsection() {
             </div>
           </div>
           <div className="projectTwo projectmargin row">
-            <div className="col-7 text-end projectTextleft ">
+            <div className="col-12 col-sm-7  text-sm-end projectTextleft order-2 order-sm-1">
               <h5>Dictionary</h5>
               <div className="projectdescription">
-                Built using Java Script React and enhanced with the capabilities
-                of APIs and npm libraries, this page offers word definitions and
-                related images for a search term. It becomes fun and engaging as
-                the play button talks to the user with a simple click. Behind
-                the scenes, I employed loops and React's mapping capabilities to
-                seamlessly fetch and present the data.
+                Built using Java Script React and enhanced with APIs and npm
+                libraries, this page offers word definitions and related images
+                for a search term. It becomes fun and engaging as the animated
+                play button talks to the user. Behind the scenes, I employed
+                loops and React's mapping capabilities to fetch and present the
+                data.
                 <div className="projectTools">
                   Built with HTML, CSS, React.js, APIs & npm Libraries
                 </div>
@@ -79,17 +91,23 @@ export default function Projectsection() {
                 </a>
               </div>
             </div>
-            <div className="col-5">
-              {" "}
+            <div className="col-12 col-sm-5 d-none d-sm-block order-1 order-sm-2">
               <img
                 src={ProjectTwoImg}
                 alt="project example "
                 className="img-fluid projectImageleft"
               />
             </div>
+            <div className="col-12 col-sm-5  d-block d-sm-none">
+              <img
+                src={ProjectTwosmall}
+                alt="project example"
+                className="img-fluid projectimgsmall pb-3"
+              />
+            </div>
           </div>
           <div className="projectThree projectmargin row">
-            <div className="col-5">
+            <div className="col-12 col-sm-5 d-none d-sm-block">
               {" "}
               <img
                 src={ProjectThreeImg}
@@ -97,16 +115,22 @@ export default function Projectsection() {
                 className="img-fluid projectImageright"
               />
             </div>
-            <div className="col-7 text-start projectTextright">
+            <div className="col-12 col-sm-5  d-block d-sm-none">
+              <img
+                src={ProjectThreesmall}
+                alt="project example"
+                className="img-fluid projectimgsmall pb-3"
+              />
+            </div>
+            <div className="col-12 col-sm-7 text-sm-end projectTextright">
               <h5>Pigeon Showcase</h5>
               <div className="projectdescription">
-                From a concept to web reality, this Pigeon Showcase was
-                carefully crafted using Bootstrap, media queries, and flexboxfor
-                a responsive and visually appealing website. Originally
-                conceived as a model showcase, I carefully and accurately
-                translated the Figma design into a unique appreciation of
-                pigeons, all while paying close attention to SEO to improve its
-                online visibility.
+                From a concept to web reality, this Pigeon Showcase was built
+                using Bootstrap, media queries, and flexbox for a responsive and
+                beautiful website. Originally conceived as a model showcase, I
+                carefully and accurately translated the Figma design into a
+                unique appreciation of pigeons, all while paying close attention
+                to SEO.
                 <div className="projectTools">
                   Built with HTML, CSS, JavaScript & Figma
                 </div>
@@ -123,14 +147,14 @@ export default function Projectsection() {
             </div>
           </div>
           <div className="projectFour projectmargin row">
-            <div className="col-7 text-end projectTextleft">
+            <div className="col-12 col-sm-7    text-sm-end projectTextleft order-2 order-sm-1">
               <h5>World Clock</h5>
               <div className="projectdescription">
-                With this World Clock App, users can effortlessly explore global
-                time zones. This app uses HTML, CSS, and JavaScript and seamless
-                API integration, to efficiently retrieves and display precise
-                city times from all around the world. It's designed to be
-                user-friendly and intuitive for a smooth experience.
+                With this World Clock App, users can explore global time zones.
+                This app uses HTML+CSS, JavaScript and seamless API integration,
+                to efficiently retrieve and display city times from all around
+                the world. It's designed to be intuitive and easy to use for a
+                smooth user-experience.
                 <div className="projectTools">
                   Built with HTML, CSS, JavaScript & APIs
                 </div>
@@ -145,11 +169,18 @@ export default function Projectsection() {
                 </a>
               </div>
             </div>
-            <div className="col-5 ">
+            <div className="col-12 col-sm-5 d-none d-sm-block order-1 order-sm-2">
               <img
                 src={ProjectFourImg}
                 alt="project example"
                 className="img-fluid projectImageleft"
+              />
+            </div>
+            <div className="col-12 col-sm-5  d-block d-sm-none order-1">
+              <img
+                src={ProjectFoursmall}
+                alt="project example"
+                className="img-fluid projectimgsmall pb-3"
               />
             </div>
           </div>

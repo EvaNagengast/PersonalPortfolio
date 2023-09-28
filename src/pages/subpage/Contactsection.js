@@ -5,7 +5,7 @@ import "./Contactsection.css";
 export default function Contactsection() {
   let navigate = useNavigate();
   return (
-    <div className="Contactsection p-4">
+    <div className="Contactsection p-2 p-sm-4">
       <div className="contactsectionbox">
         <h4> Contact me</h4>
         <button

@@ -16,7 +16,7 @@ export default function Aboutsection() {
   }, [isInView, mainControls]);
   let navigate = useNavigate();
   return (
-    <div className="Aboutsection mt-2 mb-4 mb-md-5" ref={ref}>
+    <div className="Aboutsection mt-2 mt-sm-4 mt-md-2 mb-4 mb-md-5" ref={ref}>
       <div className="aboutbox">
         <div className="row">
           <div className="col-3">
