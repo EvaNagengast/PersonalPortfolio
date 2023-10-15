@@ -19,7 +19,6 @@
 .Aboutsection .abouttext button {
   display: inline-block;
   margin: 0 auto;
-
   border: none;
   background-color: #00000000;
   color: var(---baselight);
@@ -38,14 +37,10 @@
   height: 352px;
   width: 558px;
   background-image: url("../../media/codelight.png");
-  background-repeat: no-repeat;
-  background-size: cover;
   font-size: 24px;
   font-weight: 800;
   line-height: 38px;
-  font-family: "Patrick Hand SC", cursive;
   letter-spacing: 1.5px;
-  z-index: 1;
 }
 .Aboutsection .codeimagetwo {
   margin: -53px 0 0 246px;
@@ -57,6 +52,9 @@
   line-height: 34px;
   letter-spacing: 1.4px;
   background-image: url("../../media/codelightsmall.png");
+}
+.Aboutsection .codeimage,
+.Aboutsection .codeimagetwo {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Patrick Hand SC", cursive;
@@ -94,11 +92,14 @@
   }
 }
 @media (max-width: 960px) {
+  .Aboutsection .profilepicture {
+    margin-left: -10px;
+  }
   .Aboutsection .aboutbox {
     padding: 0;
   }
   .Aboutsection .abouttext p {
-    padding: 60px 120px 0 140px;
+    padding: 38px 80px 0 155px;
   }
 }
 @media (max-width: 800px) {
@@ -131,7 +132,7 @@
 }
 @media (max-width: 600px) {
   .Aboutsection .abouttext p {
-    padding: 0 13px 0 105px;
+    padding: 0px 5px 0 123px;
   }
 
   .Aboutsection .codeimagetwo {
@@ -142,6 +143,9 @@
     font-weight: 400;
     line-height: 27px;
     letter-spacing: 1.1px;
+  }
+  .Aboutsection .profilepicture {
+    margin-left: -20px;
   }
 }
 @media (max-width: 540px) {
@@ -167,13 +171,14 @@
     margin-top: 20px;
   }
   .Aboutsection .profilepicture {
-    height: 150px; margin-left: -5px;
+    height: 150px;
+    margin-left: -24px;
     filter: drop-shadow(-9px -4px 1px var(---baselight));
   }
- 
+
   .Aboutsection .codeimagetwo {
-    margin: -17px 0 0 54px;
-    padding: 26px 0 0 13px;
+    margin: -22px 0 0 34px;
+    padding: 26px 0 0 10px;
     height: 155px;
     width: 270px;
     font-size: 11px;
@@ -185,17 +190,3 @@
     font-size: 12px;
   }
 }
-/* .Aboutsection .codeimage {
-  margin: 51px 0 0 14px;
-  position: relative;
-
-  padding: 60px 0 0 20px;
-  height: 292px;
-  width: 468px;
-
-  font-size: 20px;
-  font-weight: 800;
-  line-height: 33px;
-
-  letter-spacing: 1.4px;
-} */

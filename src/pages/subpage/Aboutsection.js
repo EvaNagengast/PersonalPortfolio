@@ -16,9 +16,9 @@ export default function Aboutsection() {
   }, [isInView, mainControls]);
   let navigate = useNavigate();
   return (
-    <div className="Aboutsection mt-2 mt-sm-4 mt-md-2 mb-4 mb-md-5" ref={ref}>
+    <div className="mt-2 mt-sm-4 mt-md-2 mb-4 mb-md-5 Aboutsection" ref={ref}>
       <div className="aboutbox">
-        <div className="row">
+        <div className="row m-auto">
           <div className="col-3">
             <motion.img
               src={Profilepic}
@@ -50,8 +50,8 @@ export default function Aboutsection() {
               </p>
             </div>
 
-            <div className="codeimage d-none d-md-block text-start ">
-              <span className="colorthree">.location: </span>
+            <div className="d-none d-md-block text-start codeimage">
+              <span className="colorthree">.location:</span>
               <span className="colorone">{"{"}</span>
               <span className="colortwo">London</span>
               <span className="colorone">{"}"}</span>
@@ -103,7 +103,7 @@ export default function Aboutsection() {
 
               <span className="colorone">{"}"}</span>
               <br />
-              <span className="colorthree"> likes = </span>
+              <span className="colorthree"> likes=</span>
               <span className="colorone">[</span>
               <span className="colortwo">”Coding"</span>
               <span className="colorone">,</span>
@@ -114,13 +114,13 @@ export default function Aboutsection() {
               <span className="colortwo"> "Crafts"</span>
               <span className="colorone">]</span>
               <br />
-              <span className="colorthree">skills = </span>
+              <span className="colorthree">skills=</span>
               <span className="colorone">[</span>
               <span className="colortwo">"HTML"</span>
               <span className="colorone">&&</span>
               <span className="colortwo">"CSS"</span>
               <span className="colorone">,</span>
-              <span className="colortwo"> "React.JS"</span>
+              <span className="colortwo"> "React.js"</span>
               <span className="colorone">,</span>
               <br />
               <span className="colortwo ps-5"> "JavaScript"</span>
@@ -129,8 +129,8 @@ export default function Aboutsection() {
               <span className="colorone">]</span>
             </div>
           </div>
-          <div className="codeimagetwo d-block d-md-none  text-start ">
-            <span className="colorthree">.location: </span>
+          <div className="d-block d-md-none  text-start codeimagetwo">
+            <span className="colorthree">.location:</span>
             <span className="colorone">{"{"}</span>
             <span className="colortwo">London</span>
             <span className="colorone">{"}"}</span>
@@ -144,7 +144,7 @@ export default function Aboutsection() {
               rel="noreferrer"
               alt="Click to write a Mail"
             >
-              <span className="colortwo ">Mail</span>
+              <span className="colortwo">Mail</span>
             </a>
             <span className="colorone">,</span>
             <a
@@ -182,7 +182,7 @@ export default function Aboutsection() {
 
             <span className="colorone">{"}"}</span>
             <br />
-            <span className="colorthree"> likes = </span>
+            <span className="colorthree"> likes=</span>
             <span className="colorone">[</span>
             <span className="colortwo">”Coding"</span>
             <span className="colorone">,</span>
@@ -193,13 +193,13 @@ export default function Aboutsection() {
             <span className="colortwo"> "Crafts"</span>
             <span className="colorone">]</span>
             <br />
-            <span className="colorthree">skills = </span>
+            <span className="colorthree">skills=</span>
             <span className="colorone">[</span>
             <span className="colortwo">"HTML"</span>
             <span className="colorone">&&</span>
             <span className="colortwo">"CSS"</span>
             <span className="colorone">,</span>
-            <span className="colortwo"> "React.JS"</span>
+            <span className="colortwo"> "React.js"</span>
             <span className="colorone">,</span>
             <br />
             <span className="colortwo ps-5"> "JavaScript"</span>

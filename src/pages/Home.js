@@ -41,10 +41,13 @@ export default function Homepage() {
               onClick={() => {
                 navigate("./contact");
               }}
+              className="m-2 px-2 py-1"
             >
               LET'S CONNECT
             </button>
-            <button onClick={() => handleClick()}>EXPLORE MY PAGE</button>
+            <button onClick={() => handleClick()} className="m-2  px-2 py-1">
+              EXPLORE MY PAGE
+            </button>
           </motion.div>
         </div>
         <main>

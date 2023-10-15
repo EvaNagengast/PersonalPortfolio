@@ -1,6 +1,3 @@
-/* CSS checked o unchecked x 
-redundant checked o unchecked x 
-double css checked o unchecked x  */
 .Projectsection {
   padding-bottom: 40px;
   background-color: var(---basedark);
@@ -17,9 +14,7 @@ double css checked o unchecked x  */
 
 .Projectsection a {
   display: inline-block;
-  margin: 10px;
-  padding: 7px 12px;
-  box-shadow: 2px 1px 4px 3px #001a323b;
+   box-shadow: 2px 1px 4px 3px #001a323b;
   font-size: 18px;
   text-decoration: none;
 }
@@ -146,11 +141,12 @@ double css checked o unchecked x  */
     font-size: 14px;
     padding: 0 10px;
   }
-} @media (max-width: 420px){
-    .Projectsection h4{
-      font-size: 55px;
-    }.Projectsection .projectIntro {
+}
+@media (max-width: 420px) {
+  .Projectsection h4 {
+    font-size: 55px;
+  }
+  .Projectsection .projectIntro {
     font-size: 14px;
   }
-
-  }
+}

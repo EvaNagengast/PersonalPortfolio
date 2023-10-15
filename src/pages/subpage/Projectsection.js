@@ -16,7 +16,7 @@ export default function Projectsection() {
     <div className="Projectsection">
       <div className="projectbox">
         <h4 className="pt-4 pb-2">Projects</h4>
-        <p className="projectIntro  mt-2 mt-sm-3 mb-sm-5">
+        <p className="mt-2 mt-sm-3 mb-sm-5 projectIntro">
           Browse through some assorted projects I created,
           <br className="d-block d-lg-none" /> or find all of my projects
           <button
@@ -28,7 +28,7 @@ export default function Projectsection() {
           </button>
         </p>
         <div className="pt-3 pt-sm-4">
-          <div className="projectOne projectmargin row ">
+          <div className="row m-auto projectOne projectmargin">
             <div className="col-12 col-sm-5 d-none d-sm-block">
               <img
                 src={ProjectOneImg}
@@ -36,30 +36,30 @@ export default function Projectsection() {
                 className="img-fluid projectImageright"
               />
             </div>
-            <div className="col-12 col-sm-5  d-block d-sm-none">
+            <div className="col-12 col-sm-5 d-block d-sm-none">
               <img
                 src={ProjectOnesmall}
                 alt="project example"
-                className="img-fluid projectimgsmall pb-3"
+                className="img-fluid pb-3 projectimgsmall "
               />
             </div>
             <div className="col-12 col-sm-7 text-sm-end projectTextright">
               <h5>London Music Journey</h5>
               <div className="projectdescription">
-                Explore London through a musical journey - this web page
-                combines embedded songs and maps, with grid layouts and
-                responsive media queries. I illustrated the London
-                Underground-themed icons to enhance the user experience and to
-                spawn a connection with this beautiful city.
+                Explore London through a musical journey! This web page combines
+                embedded songs and maps, with grid layouts and responsive media
+                queries. I illustrated the London Underground-themed icons to
+                enhance the user experience and to spawn a connection with this
+                beautiful city.
                 <div className="projectTools">
-                  Built with HTML, CSS, JavaScript, Embeds, Bootstrap
+                  Built with HTML, CSS, JavaScript, Embeds & Bootstrap
                 </div>
                 <a
                   href="https://bucolic-faun-a689bb.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   alt="London Music Journey Webdite "
-                  className="btn-dark-base mt-3"
+                  className="m-3 px-3 py-1 btn-dark-base"
                 >
                   go to page
                 </a>
@@ -67,12 +67,12 @@ export default function Projectsection() {
               <br />
             </div>
           </div>
-          <div className="projectTwo projectmargin row">
-            <div className="col-12 col-sm-7  text-sm-end projectTextleft order-2 order-sm-1">
+          <div className="row m-auto projectTwo projectmargin ">
+            <div className="col-12 col-sm-7 text-sm-end order-2 order-sm-1 projectTextleft">
               <h5>Dictionary</h5>
               <div className="projectdescription">
-                Built using Java Script React and enhanced with APIs and npm
-                libraries, this page offers word definitions and related images
+                Built using React.js with the help of npm libraries and enhanced
+                with APIs, this page offers word definitions and related images
                 for a search term. It becomes fun and engaging as the animated
                 play button talks to the user. Behind the scenes, I employed
                 loops and React's mapping capabilities to fetch and present the
@@ -85,7 +85,7 @@ export default function Projectsection() {
                   target="_blank"
                   rel="noreferrer"
                   alt="Dictionary Website"
-                  className="btn-dark-base mt-3"
+                  className="m-3 px-3 py-1 btn-dark-base"
                 >
                   go to page
                 </a>
@@ -98,28 +98,27 @@ export default function Projectsection() {
                 className="img-fluid projectImageleft"
               />
             </div>
-            <div className="col-12 col-sm-5  d-block d-sm-none">
+            <div className="col-12 col-sm-5 d-block d-sm-none">
               <img
                 src={ProjectTwosmall}
                 alt="project example"
-                className="img-fluid projectimgsmall pb-3"
+                className="img-fluid pb-3 projectimgsmall"
               />
             </div>
           </div>
-          <div className="projectThree projectmargin row">
+          <div className="row m-auto projectmargin projectThree">
             <div className="col-12 col-sm-5 d-none d-sm-block">
-              {" "}
               <img
                 src={ProjectThreeImg}
                 alt="project example"
                 className="img-fluid projectImageright"
               />
             </div>
-            <div className="col-12 col-sm-5  d-block d-sm-none">
+            <div className="col-12 col-sm-5 d-block d-sm-none">
               <img
                 src={ProjectThreesmall}
                 alt="project example"
-                className="img-fluid projectimgsmall pb-3"
+                className="img-fluid pb-3 projectimgsmall"
               />
             </div>
             <div className="col-12 col-sm-7 text-sm-end projectTextright">
@@ -139,18 +138,18 @@ export default function Projectsection() {
                   target="_blank"
                   rel="noreferrer"
                   alt="Pigeon Showcase Website"
-                  className="btn-dark-base mt-3"
+                  className="m-3 px-3 py-1 btn-dark-base "
                 >
                   go to page
                 </a>
               </div>
             </div>
           </div>
-          <div className="projectFour projectmargin row">
-            <div className="col-12 col-sm-7    text-sm-end projectTextleft order-2 order-sm-1">
+          <div className="row m-auto projectFour projectmargin ">
+            <div className="col-12 col-sm-7 text-sm-end order-2 order-sm-1 projectTextleft">
               <h5>World Clock</h5>
               <div className="projectdescription">
-                With this World Clock App, users can explore global time zones.
+                With the World Clock App, users can explore global time zones.
                 This app uses HTML+CSS, JavaScript and seamless API integration,
                 to efficiently retrieve and display city times from all around
                 the world. It's designed to be intuitive and easy to use for a
@@ -163,7 +162,7 @@ export default function Projectsection() {
                   target="_blank"
                   rel="noreferrer"
                   alt="World Clock Website"
-                  className="btn-dark-base mt-3"
+                  className="m-3 px-3 py-1 btn-dark-base"
                 >
                   go to page
                 </a>
@@ -176,11 +175,11 @@ export default function Projectsection() {
                 className="img-fluid projectImageleft"
               />
             </div>
-            <div className="col-12 col-sm-5  d-block d-sm-none order-1">
+            <div className="col-12 col-sm-5 d-block d-sm-none order-1">
               <img
                 src={ProjectFoursmall}
                 alt="project example"
-                className="img-fluid projectimgsmall pb-3"
+                className="img-fluid pb-3 projectimgsmall"
               />
             </div>
           </div>
