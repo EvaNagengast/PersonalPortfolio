@@ -4,7 +4,6 @@ import { PiLinkedinLogo } from "react-icons/pi";
 import pdf from "../media/EvaNagengastResume.pdf";
 import Footer from "./Footer";
 import Mailsection from "./subpage/Mailsection";
-
 import "./Contact.css";
 
 export default function Contact() {
@@ -12,10 +11,10 @@ export default function Contact() {
     <div className="Contact">
       <div className="contactpage">
         <h1>Contact me!</h1>
-        <div className="row ">
-          <div className="col-12  col-lg-6 ">
+        <div className="row m-auto ms-2 me-2">
+          <div className="col-12  col-lg-7 col-xl-6">
             <div
-              className="contactbox py-2 p-2 px-sm-4 ms-4 ms-sm-5
+              className="contactbox m-0
             "
             >
               <li>
@@ -77,12 +76,13 @@ export default function Contact() {
                     <LuFileHeart /> CV
                   </span>{" "}
                   <br className="d-block d-sm-none" />
-                  click here to see or download my CV
+                 see
+                  or download my CV
                 </a>
               </li>
             </div>
           </div>
-          <div className=" col-12  col-md-8  col-lg-6  p-0       ps-md-3 ps-lg-0 ps-xl-0">
+          <div className=" col-12  col-lg-5 col-xl-6 p-0 ps-md-3 ps-lg-0">
             <Mailsection />
           </div>
         </div>

@@ -7,7 +7,6 @@ import Aboutsection from "./subpage/Aboutsection";
 import Projectsection from "./subpage/Projectsection";
 import Contactsection from "./subpage/Contactsection";
 import Footer from "./Footer";
-
 import "./Home.css";
 
 export default function Homepage() {
@@ -41,11 +40,14 @@ export default function Homepage() {
               onClick={() => {
                 navigate("./contact");
               }}
-              className="m-2 px-2 py-1"
+              className="m-2 px-2 py-1 btn-base-dark"
             >
               LET'S CONNECT
             </button>
-            <button onClick={() => handleClick()} className="m-2  px-2 py-1">
+            <button
+              onClick={() => handleClick()}
+              className="m-2  px-2 py-1 btn-base-dark"
+            >
               EXPLORE MY PAGE
             </button>
           </motion.div>
@@ -55,17 +57,14 @@ export default function Homepage() {
             {" "}
             <Aboutsection />
           </div>
-
           <div className="projectsection  ">
             <Projectsection />
           </div>
           <div className="contactsection">
-            {" "}
             <Contactsection />
           </div>
         </main>
       </div>
-
       <Footer />
     </div>
   );

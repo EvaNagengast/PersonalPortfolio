@@ -1,4 +1,3 @@
-/* CSS checked x unchecked o */
 .Aboutme {
   background-size: 100px 100px, 20px 20px;
   background-image: conic-gradient(
@@ -28,9 +27,6 @@
   color: var(---basedark);
   letter-spacing: -7px;
 }
-
-/*  */
-
 .Aboutme .aboutInfo {
   margin: 30px 100px 50px 100px;
   box-shadow: 2px 1px 5px 1px #4e59612f;
@@ -93,7 +89,7 @@
 @media (max-width: 768px) {
   .Aboutme h1 {
     font-size: 90px;
-      letter-spacing: -6px;
+    letter-spacing: -6px;
   }
   .Aboutme img,
   .Aboutme figcaption {
@@ -106,7 +102,8 @@
     margin: 5px 70px 40px 70px;
   }
   .Aboutme figcaption {
-    font-size: 9px;letter-spacing: 1px;
+    font-size: 9px;
+    letter-spacing: 1px;
   }
 }
 @media (max-width: 576px) {
@@ -124,8 +121,6 @@
   .Aboutme .aboutInfo {
     margin: 5px 50px 30px 50px;
   }
-   
- 
 }
 @media (max-width: 480px) {
   .Aboutme .aboutInfo {
@@ -136,9 +131,9 @@
     float: right;
     margin: -15px -17px 10px 2px;
   }
-  .Contact h1 {
+  .Aboutme h1 {
     font-size: 60px;
-       letter-spacing: -2px;
+    letter-spacing: -2px;
   }
   .Aboutme button {
     font-size: 11px;
@@ -147,10 +142,5 @@
 @media (max-width: 380px) {
   .Aboutme h1 {
     font-size: 55px;
-  
   }
-
 }
-/*  */
-/*  */
-/*  */

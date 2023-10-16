@@ -1,6 +1,3 @@
-/* CSS checked x unchecked o 
-redundant checked o unchecked x 
-double css checked o unchecked x  */
 .Contact {
   background-color: var(---base);
 }
@@ -11,11 +8,11 @@ double css checked o unchecked x  */
   text-align: center;
 }
 .Contact h1 {
-  margin: 0px 0 40px 10px;
+  margin: 0px 0 0px 10px;
   text-align: left;
   font-size: 120px;
-  color: var(---baselight);
   font-weight: 900;
+  color: var(---baselight);
   font-family: "Montserrat", sans-serif;
   letter-spacing: -6px;
 }
@@ -30,11 +27,14 @@ double css checked o unchecked x  */
 /* contact */
 .Contact .contactbox {
   width: max-content;
+  padding: 5px 50px 10px 10px;
   border: 8px double var(---baselight);
   text-align: left;
-  line-height: 3;
   list-style: none;
-  font-size: 18px;
+  line-height: 60px;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 3;
 }
 
 .Contact .highlight {
@@ -42,58 +42,51 @@ double css checked o unchecked x  */
   color: var(---baselight) !important;
   letter-spacing: 2px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 992px) {
   .Contact h1 {
-    font-size: 110px;
+    margin-bottom: 50px;
   }
 }
-@media (max-width: 960px) {
-  .Contact h1 {
-    margin-bottom: 20px;
-  }
 
-  .Contact .contactbox {
-    line-height: 60px;
-    font-size: 24px;
-    font-weight: 100;
-  }
-}
 @media (max-width: 768px) {
   .Contact h1 {
+    margin-bottom: 30px;
     font-size: 90px;
-      letter-spacing: -6px;
+    letter-spacing: -4px;
   }
   .Contact .contactbox {
+    font-size: 24px;
     line-height: 55px;
-    font-size: 20px;
   }
 }
 @media (max-width: 576px) {
   .Contact h1 {
-    font-size: 65px;
-      letter-spacing: -3px;
+    font-size: 73px;
+    letter-spacing: -3px;
   }
   .Contact .contactbox {
+    padding: 20px 80px 20px 30px;
     line-height: 40px;
   }
 }
 @media (max-width: 480px) {
   .Contact h1 {
-    font-size: 60px;
-       letter-spacing: -2px;
+    font-size: 63px;
+    letter-spacing: -2px;
   }
   .Contact .contactbox {
+    padding: 10px 10px 15px 20px;
+    font-size: 22px;
     line-height: 38px;
-    font-size: 18px;
   }
 }
 @media (max-width: 380px) {
   .Contact h1 {
     font-size: 55px;
-  
   }
   .Contact .contactbox {
+    padding: 5px 7px 10px 10px;
+    font-size: 19px;
     line-height: 38px;
-    font-size: 14px;
   }
 }

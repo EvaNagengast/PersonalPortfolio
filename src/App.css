@@ -11,31 +11,25 @@
 /* generic className */
 .btn-base-dark {
   border: 1px solid var(---basedark);
-  border-radius: 10px;
   background-color: var(---base);
-  font-weight: 100;
   color: var(---basedark);
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  transition: all 0.4s ease;
 }
 .btn-dark-base {
   border: 1px solid var(---base);
-  border-radius: 10px;
   background-color: var(---basedark);
-  font-weight: 100;
   color: var(---base);
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  transition: all 0.4s ease;
 }
 
 .btn-base-light {
   border: 1px solid var(---baselight);
-  border-radius: 10px;
   background-color: var(---base);
-  font-weight: 100;
   color: var(---baselight);
+}
+.btn-base-dark,
+.btn-dark-base,
+.btn-base-light {
+  border-radius: 10px;
+  font-weight: 100;
   letter-spacing: 3px;
   text-transform: uppercase;
   transition: all 0.4s ease;

@@ -4,13 +4,11 @@
   min-height: 100vh;
   text-align: center;
 }
-
 .Home .homepage {
   max-width: 100%;
   margin: 0;
   padding: 0;
 }
-
 .Home .hero {
   min-height: 600px;
   margin-top: -100px;
@@ -27,7 +25,6 @@
     );
   background-size: 100px 100px, 20px 20px;
 }
-
 .Home .hero h1 {
   font-size: 120px;
   font-weight: 900;
@@ -41,20 +38,11 @@
 .Home .hero h3 {
   font-size: 40px;
 }
-
 .Home .hero button {
   display: inline-block;
   box-shadow: 2px 1px 5px 1px #4e59612f;
-  border: 1px solid var(---basedark);
-  border-radius: 10px;
-  background-color: var(---base);
   font-size: 20px;
-  font-weight: 100;
-  color: var(---basedark);
-  letter-spacing: 2px;
-  transition: all 0.4s ease;
 }
-
 .Home .hero button:hover {
   border: none;
   background-color: var(---baselight);

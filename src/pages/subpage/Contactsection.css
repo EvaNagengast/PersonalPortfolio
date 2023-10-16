@@ -1,5 +1,3 @@
-
-
 .Contactsection .contactsectionbox {
   border: 8px solid var(---baselight);
 }
@@ -10,8 +8,8 @@
 }
 .Contactsection button {
   display: inline-block;
-  margin-bottom: 15px;
   width: fit-content;
+  margin-bottom: 15px;
   padding: 3px 10px;
   box-shadow: 2px 1px 5px 1px #752b2b25;
   font-size: 20px;

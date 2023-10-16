@@ -25,7 +25,7 @@ export default function Aboume() {
               </figcaption>
             </div>
 
-            <p className="aboutText ">
+            <p className="aboutText">
               My journey has been a winding road filled with diverse
               experiences, each contributing to my unique perspective and
               skillset. I've worn many hats and tackled a variety of roles,
@@ -42,20 +42,20 @@ export default function Aboume() {
               <br />
               Today, I'm a Junior Front-End Developer, and I've found my true
               passion in bringing digital experiences to life. Fueled by my
-              infectious enthusiasm, immense dedication, and passion for
-              frontend development, I seek to create user-friendly and visually
-              stunning websites and apps. <br />
+              infectious enthusiasm, immense dedication, and passion for coding,
+              I seek to create user-friendly and visually stunning websites and
+              apps. <br />
               <br />
-              When I'm not deeply working on a new project, you'll often find me
-              volunteering at local conservation sites, where I'm committed to
+              When I'm not working on a new project, you'll often find me
+              volunteering at conservation sites, where I'm committed to
               preserving our local natural habitat. I frequently attend music
-              venues and gigs, making it a habit to go to concerts supoort the
+              venues and gigs, making it a habit to go to concerts support the
               local subculture . Additionally, I look after the local squirrel
               and bird population, trying to take care of all members of our
               community.
               <br />
               <br /> I'm excited for the future and can't wait to have a chat
-              about your ideas and projects
+              about your ideas and projects.
             </p>
             <button
               onClick={() => {

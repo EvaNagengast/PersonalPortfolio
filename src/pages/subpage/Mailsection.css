@@ -1,7 +1,3 @@
-/* CSS checked x unchecked o 
-redundant checked o unchecked x 
-double css checked o unchecked x  */
-
 .Mailsection h2 {
   font-size: 30px;
   font-weight: 100;
@@ -10,7 +6,6 @@ double css checked o unchecked x  */
 }
 .Mailsection button {
   width: fit-content;
-  padding: 3px 10px;
   box-shadow: 2px 1px 5px 1px #ee6c6c2f;
   font-size: 20px;
 }
@@ -40,18 +35,26 @@ double css checked o unchecked x  */
   max-width: 90%;
 }
 
-.Mailsection form .name {
-  width: 30%;
-}
-.Mailsection form .forminput {
-  display: inline-block;
-  text-align: left;
-}
-@media (max-width: 960px) {
-  .Mailsection h2 {
-    font-size: 30px;
+@media (max-width: 992px) {
+  .Mailsection {
+    max-width: 65%;
   }
   .Mailsection form .form-group {
-
-  max-width: 100%;}
+    max-width: 100%;
+  }
+}
+@media (max-width: 740px) {
+  .Mailsection {
+    max-width: 80%;
+  }
+}
+@media (max-width: 600px) {
+  .Mailsection {
+    max-width: 95%;
+  }
+  .Mailsection button {
+    width: fit-content;
+    box-shadow: 2px 1px 5px 1px #ee6c6c2f;
+    font-size: 18px;
+  }
 }

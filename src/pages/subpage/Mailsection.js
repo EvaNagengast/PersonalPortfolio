@@ -2,9 +2,10 @@ import React from "react";
 import "./Mailsection.css";
 export default function Mailsection() {
   return (
-    <div className="Mailsection">
-      <div className="mail m-lg-0 my-lg-0 mx-5 mt-5 mb-4">
-        <h2 className="text-start ps-3 mb-3 mb-lg-2">SAY HELLO</h2>
+    <div className="Mailsection ps-2">
+      
+      <div className=" my-5 my-lg-2 mail">
+        <h2 className="text-start mb-3 mb-lg-2 ps-3">SAY HELLO</h2>
         <form
           target="_blank"
           action="https://formsubmit.co/eva.nagengast.dev@gmail.com"
@@ -12,7 +13,7 @@ export default function Mailsection() {
         >
           <div className="form-group">
             <div className="row">
-              <div className="col-6 mb-3 mb-lg-2  forminput name">
+              <div className="col-7 col-sm-5 mb-3 mb-lg-2  forminput">
                 <input
                   type="text"
                   name="name"
@@ -21,7 +22,8 @@ export default function Mailsection() {
                   required
                 />
               </div>
-              <div className="col-6 mb-2 forminput">
+
+              <div className="col-12 col-sm-7 mb-3 forminput">
                 <input
                   type="email"
                   name="email"
@@ -37,14 +39,14 @@ export default function Mailsection() {
               placeholder="Your Message"
               className="form-control"
               name="message"
-              rows="4"
+              rows="5"
               required
             ></textarea>
           </div>
           <div>
             <button
               type="submit"
-              className="form-control align-start btn-base-light"
+              className="form-control px-3 align-start btn-base-light"
             >
               SEND
             </button>
