@@ -11,7 +11,7 @@ export default function Cv() {
         <a
           href={pdf}
           alt="PDF of Evas Resume"
-          className="downloadbutton btn-dark-base mx-auto mt-4 mb-2 px-3 py-2"
+          className="mx-auto mt-4 mb-2 px-3 py-2 btn-dark-base downloadbutton"
         >
           CLICK HERE FOR PDF-View
         </a>
@@ -24,7 +24,7 @@ export default function Cv() {
               </h1>
             </div>
             <div className="col-12 col-md  order-1 order-md-2">
-              <div className="cvimage  float-md-end mt-2 mt-lg-4 me-0 me-lg-4 ">
+              <div className="mt-2 mt-lg-4 me-0 me-lg-4 float-md-end cvimage">
                 <img src={monoimage} alt="Eva Nagengast" />
                 <div className="imgcaption">
                   <span className="subheader">I'm </span>
@@ -69,10 +69,10 @@ export default function Cv() {
           <h2> Career Summary</h2>
           <div className="row mb-2 mb-md-0 pt-1 ">
             <div className="col-12 col-md-9 ">
-              <h3 className="mb-0 ">AI Audio Content Evaluator - Linguist</h3>
+              <h3 className="mb-0">AI Audio Content Evaluator - Linguist</h3>
             </div>
             <div className="col-12 col-md-3 text-start text-md-end">
-              <h3 className=" mb-0">From Apr 23</h3>
+              <h3 className="mb-0">From Apr 23</h3>
             </div>
           </div>
           <h4 className="mb-2">DeepZen lt. - Freelance - Remote</h4>
@@ -92,15 +92,15 @@ export default function Cv() {
             </li>
           </ul>
 
-          <div className="row mb-2 mb-md-0 pt-1">
+          <div className="row mb-2 mb-md-0 pt-3">
             <div className="col-12 col-md-8">
-              <h3 className="mb-0 ">Plant Technician</h3>
+              <h3 className="mb-0">Plant Technician</h3>
             </div>
             <div className="col-12 col-md-4 text-start text-md-end">
-              <h3 className=" mb-0">May 22 – Mar 23</h3>
+              <h3 className="mb-0">May 22 - Mar 23</h3>
             </div>
           </div>
-          <h4 className=" mb-2">Plant Plan - Leicester/London</h4>
+          <h4 className="mb-2">Plant Plan - Leicester/London</h4>
 
           <ul>
             <li>
@@ -117,15 +117,15 @@ export default function Cv() {
             </li>
           </ul>
 
-          <div className="row mb-2 mb-md-0 pt-1 ">
+          <div className="row mb-2 mb-md-0 pt-3">
             <div className="col-12 col-md-8">
-              <h3 className="mb-0 ">Assistant General Manager</h3>
+              <h3 className="mb-0">Assistant General Manager</h3>
             </div>
             <div className="col-12 col-md-4 text-start text-md-end">
-              <h3 className="mb-0 ">Aug 18 – Apr 22</h3>
+              <h3 className="mb-0">Aug 18 - Apr 22</h3>
             </div>
           </div>
-          <h4 className="mb-2 ">Honest Burgers - London</h4>
+          <h4 className="mb-2">Honest Burgers - London</h4>
 
           <ul>
             <li>
@@ -146,15 +146,15 @@ export default function Cv() {
             </li>
           </ul>
 
-          <div className="row mb-2 mb-md-0 pt-1 ">
-            <div className="col-12 col-md-8 ">
-              <h3 className="mb-0 ">Tour-Booking Assistant</h3>
+          <div className="row mb-2 mb-md-0 pt-3">
+            <div className="col-12 col-md-8">
+              <h3 className="mb-0">Tour-Booking Assistant</h3>
             </div>
             <div className="col-12 col-md-4 text-start text-md-end">
-              <h3 className="mb-0 ">Jan 18 – Jul 18</h3>
+              <h3 className="mb-0">Jan 18 - Jul 18</h3>
             </div>
           </div>
-          <h4 className="mb-2 ">
+          <h4 className="mb-2">
             Destiny Tourbooking - Berlin (6 Month contract)
           </h4>
 
@@ -173,12 +173,12 @@ export default function Cv() {
             </li>
           </ul>
 
-          <div className="row mb-2 mb-md-0 pt-1">
+          <div className="row mb-2 mb-md-0 pt-3">
             <div className="col-12 col-md-8">
-              <h3 className="mb-0 ">Production Shift Manager, Team Leader</h3>
+              <h3 className="mb-0">Production Shift Manager, Team Leader</h3>
             </div>
             <div className="col-12 col-md-4 text-start text-md-end">
-              <h3 className="mb-0 "> Sep 08 – Dec 17</h3>
+              <h3 className="mb-0"> Sep 08 - Dec 17</h3>
             </div>
           </div>
           <h4 className="mb-2">Robert Bosch GmbH - Bamberg</h4>
@@ -232,7 +232,6 @@ export default function Cv() {
           <div className="row pt-2">
             <div className="col-12 col-sm-8">
               <h4 className="pt-2 mb-0">
-                {" "}
                 Event Management, local culture and music support
               </h4>
             </div>
@@ -245,29 +244,35 @@ export default function Cv() {
           <div className="sideSection">
             <h2 className="pt-3"> Education</h2>
             <div className="row pt-2">
-              <div className="col-12 col-sm-8">
-                <h4> SheCodes</h4>
+              <div className="col-12 col-sm-8 ">
+                <h4 className="mb-0"> SheCodes</h4>
               </div>
               <div className="col-12 col-sm-4 text-end">
-                <h4 className="pt-2 text-start text-sm-end">Jul - Oct 23 </h4>
+                <h4 className="mb-1 mb-sm-0 text-start text-sm-end">
+                  Jul - Oct 23
+                </h4>
               </div>
             </div>
             <p>Certificate in Front-End Development</p>
-            <div className="row pt-2">
+            <div className="row pt-3 pt-sm-2">
               <div className="col-12 col-sm-8">
-                <h4> ILS Fernhochschule</h4>
+                <h4 className="mb-0"> ILS Fernhochschule</h4>
               </div>
               <div className="col-12 col-sm-4 text-end">
-                <h4 className="pt-2 text-start text-sm-end"> 2008-2012 </h4>
+                <h4 className="mb-1 mb-sm-0  text-start text-sm-end">
+                  2008-2012
+                </h4>
               </div>
             </div>
             <p>BA, German</p>
             <div className="row pt-2">
-              <div className="col-12 col-sm-8">
-                <h4> Bosch GmbH </h4>
+              <div className="col-12 col-sm-8 pt-3 pt-sm-2">
+                <h4 className="mb-0"> Bosch GmbH </h4>
               </div>
               <div className="col-12 col-sm-4 text-end">
-                <h4 className="pt-2 text-start text-sm-end"> 2008-2012 </h4>
+                <h4 className="mb-1 mb-sm-0 text-start text-sm-end">
+                  2008-2012
+                </h4>
               </div>
             </div>
             <p> Apprenticeship + A-levels</p>
@@ -285,15 +290,18 @@ export default function Cv() {
             </ul>
             <h2 className="pt-3">Languages</h2>
             <ul className="ps-1">
+            
               <li>German - Native </li>
               <li>English - Bilingual Proficiency</li>
+              <li>Spanish - Beginner</li>
             </ul>
             <h2 className="pt-3">Strengths</h2>
             <ul className="ps-1">
-              <li>Front-end development</li>
-              <li> ProjectManagement </li>
+              <li>Front-End Development</li>
+              <li> Project Management </li>
               <li> Creativity </li>
-              <li>Excellent Communication</li> <li>Adaptability</li>
+              <li>Excellent Communication</li>
+              <li>Adaptability</li>
             </ul>
           </div>
         </main>
