@@ -1,14 +1,11 @@
-/* CSS checked x unchecked o 
-redundant checked o unchecked x 
-double css checke o unchecked x  */
 .Popup {
   display: flex;
   position: fixed;
   top: 0;
   left: 0;
-  justify-content: center;
   width: 100%;
   height: 100vh;
+  justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -22,23 +19,17 @@ double css checke o unchecked x  */
   background-color: var(---base);
 }
 .popup-inner .close-btn {
+  display: block;
   position: absolute;
   top: 0;
   right: 0;
-  display: block;
   width: fit-content;
   margin: 10px;
   padding: 3px 10px;
-  box-shadow: 1px 1px 5px 1px #1b2e472f;
-  border: 1px solid var(---baselight);
-  border-radius: 10px;
+  box-shadow: 2px 1px 5px 1px #752b2b25;
   background-color: var(---baselight);
   font-size: 12px;
-  font-weight: 100;
   color: var(---base);
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  transition: all 0.4s ease;
 }
 .popup-inner .close-btn:hover {
   font-weight: 900;
@@ -50,8 +41,10 @@ double css checke o unchecked x  */
   }
 }
 @media (max-width: 400px) {
- .Popup {
+  .Popup {
     top: 30px;
   }
-  .popup-inner .close-btn{font-size: 10px;}
+  .popup-inner .close-btn {
+    font-size: 10px;
+  }
 }

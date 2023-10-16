@@ -30,10 +30,10 @@ export default function Projects() {
   let [popupSix, setPopupSix] = useState(false);
   return (
     <div className="Projects">
-      <div className="projectspage text-center">
+      <div className="text-center projectspage">
         <h1 className="text-start">Projects</h1>
 
-        <div className="row px-3 ">
+        <div className="row m-auto px-3 ">
           <div className="col-sm-6 col-lg-4">
             <div className="card">
               <img
@@ -43,8 +43,8 @@ export default function Projects() {
               />
               <div className="card-body">
                 <p className="cardText">
-                  Musical London <br className="d-block d-lg-none" />
-                  Journey{" "}
+                  London Music <br className="d-block d-lg-none" />
+                  Journey
                 </p>
                 <p className="cardicon">
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <LuCode />
@@ -54,13 +54,13 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   alt="Musical Journey through London Webpage"
-                  className="visitButton text-decoration-none btn-base-dark"
+                  className="btn-base-dark text-decoration-none visitButton"
                 >
                   visit page
                 </a>
                 <button
                   onClick={() => setPopupOne(true)}
-                  className="popupButton btn-base-dark"
+                  className="btn-base-dark popupButton"
                 >
                   learn more
                 </button>
@@ -88,13 +88,13 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   alt="Dictionary Application"
-                  className="visitButton text-decoration-none btn-base-dark"
+                  className="btn-base-dark text-decoration-none visitButton"
                 >
                   visit page
                 </a>
                 <button
                   onClick={() => setPopupTwo(true)}
-                  className="popupButton btn-base-dark"
+                  className="btn-base-dark popupButton"
                 >
                   learn more
                 </button>
@@ -121,13 +121,13 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   alt="Pigeon Showcase Webpage"
-                  className="visitButton text-decoration-none btn-base-dark"
+                  className="text-decoration-none btn-base-dark visitButton"
                 >
                   visit page
                 </a>
                 <button
                   onClick={() => setPopupThree(true)}
-                  className="popupButton btn-base-dark"
+                  className="btn-base-dark popupButton"
                 >
                   learn more
                 </button>
@@ -155,13 +155,13 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   alt="Magical Weather Application"
-                  className="visitButton text-decoration-none btn-base-dark"
+                  className="btn-base-dark text-decoration-none visitButton"
                 >
                   visit page
                 </a>
                 <button
                   onClick={() => setPopupFour(true)}
-                  className="popupButton btn-base-dark"
+                  className="btn-base-dark popupButton"
                 >
                   learn more
                 </button>
@@ -169,7 +169,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-        <div className="row  px-3">
+        <div className="row m-auto px-3">
           <div className="col-sm-6 col-lg-4 d-none d-lg-block">
             <div className="card">
               <img
@@ -191,13 +191,13 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   alt="Magical Weather Application"
-                  className="visitButton text-decoration-none btn-base-dark"
+                  className="btn-base-dark text-decoration-none visitButton "
                 >
                   visit page
                 </a>
                 <button
                   onClick={() => setPopupFour(true)}
-                  className="popupButton btn-base-dark"
+                  className="btn-base-dark popupButton"
                 >
                   learn more
                 </button>
@@ -242,7 +242,7 @@ export default function Projects() {
                   <br className="d-block d-lg-none" /> Clock
                 </p>
                 <p className="cardicon">
-                  <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />{" "}
+                  <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />
                   <LuLibrary />
                 </p>
                 <a
@@ -250,13 +250,13 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   alt="World Clock Webpage"
-                  className="visitButton text-decoration-none btn-base-dark"
+                  className="btn-base-dark text-decoration-none visitButton"
                 >
                   visit page
                 </a>
                 <button
                   onClick={() => setPopupSix(true)}
-                  className="popupButton btn-base-dark"
+                  className="btn-base-dark popupButton"
                 >
                   learn more
                 </button>
@@ -279,18 +279,18 @@ export default function Projects() {
             <div className="col col-lg-7 m-4 m-lg-0 ">
               <h2>Musical Journey through London</h2>
               <div className="popupText">
-                <div className="popuphighlight text-decoration-underline ">
+                <div className="text-decoration-underline popuphighlight">
                   Objective:
                 </div>
                 Learn how to use embeds, grids, and tables effectively. <br />
-                <div className="popuphighlight text-decoration-underline mt-2">
+                <div className="mt-2 text-decoration-underline popuphighlight">
                   Achieved:
                 </div>
                 My favourite project so far, this page was a joy to develop and
                 a fun exploration of London's music culture. I spent hours
-                listening to songs songs named after London streets and boroughs
-                while designing and curating the content. I illustrated playful
-                elements like the "way out" button and a moving TfL-Ticket,
+                listening to songs named after London streets and boroughs while
+                designing and curating the content. I illustrated playful
+                elements like the "Way Out" button, and a moving TfL-Ticket
                 after a 1991 travel card. It also features embeds, grids, and
                 tables, all seamlessly rendered responsive with the use of media
                 queries.
@@ -299,7 +299,7 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   alt="Website for Musical Journey"
-                  className="launchbutton text-decoration-none  btn-base-light "
+                  className="text-decoration-none btn-base-light launchbutton"
                 >
                   LAUNCH MUSICAL JOURNEY
                 </a>
@@ -319,26 +319,27 @@ export default function Projects() {
             <div className="col col-lg-7 m-4 m-lg-0 ">
               <h2>Dictionary App</h2>
               <div className="popupText">
-                <div className="popuphighlight text-decoration-underline">
+                <div className="text-decoration-underline popuphighlight">
                   Objective:
                 </div>{" "}
-                Deepen knowledge about React, looping, mapping through objects,
-                and utilizing APIs with npm libraries. <br />
-                <div className="popuphighlight text-decoration-underline  mt-2">
+                Deepen knowledge about React.js, looping, mapping through
+                objects, and utilising APIs and npm libraries. <br />
+                <div className="mt-2 text-decoration-underline popuphighlight">
                   Achieved:
                 </div>
-                This project helped me to expand my expertise in React, focusing
-                on looping and mapping through objects. It involved the creation
-                of a dictionary app, rich with features like an animated play
-                buttons that talks to the user. The development process was a
-                fun and educational journey, helping me to experiment with
-                various npm libraries and practice my React skills.
+                This project helped me to expand my expertise in React.js,
+                focusing on looping and mapping through objects. It involved the
+                creation of a dictionary app, rich with features like images
+                related to the search term and an animated play buttons that
+                talks to the user. The development process was a fun and
+                educational journey, helping me to experiment with various npm
+                libraries and to dive deeper into the functionality of React.
                 <a
                   href="https://evas-dictionary.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
-                  alt="Website for Fistionary Application"
-                  className="launchbutton text-decoration-none btn-base-light "
+                  alt="Website for Dictionary Application"
+                  className="text-decoration-none btn-base-light launchbutton"
                 >
                   LAUNCH DICTIONARY
                 </a>
@@ -358,17 +359,17 @@ export default function Projects() {
             <div className="col col-lg-7 m-4 m-lg-0 ">
               <h2>Pigeon Showcase</h2>
               <div className="popupText ">
-                <div className="popuphighlight text-decoration-underline">
+                <div className="text-decoration-underline popuphighlight">
                   Objective:
                 </div>{" "}
                 I aimed to create a website that closely resembled a Figma
                 design, incorporating grids and ensuring responsiveness. <br />
-                <div className="popuphighlight text-decoration-underline mt-2">
+                <div className="mt-2 text-decoration-underline popuphighlight">
                   Achieved:
                 </div>
                 This project challenged me to dive into the world of responsive
                 design. I recreated a webpage based on a Figma design, striving
-                to stay as close to the original as possible while personalizing
+                to stay as close to the original as possible while personalising
                 the content as a tribute to pigeons. Using a combination of
                 Bootstrap and media queries, I ensured that the site stays
                 responsive and beautiful across all devices.
@@ -377,9 +378,18 @@ export default function Projects() {
                   target="_blank"
                   rel="noreferrer"
                   alt="Webpage for Pigeon Showcase"
-                  className="launchbutton text-decoration-none btn-base-light "
+                  className="text-decoration-none btn-base-light launchbutton"
                 >
                   lAUNCH PIGEON SHOWCASE
+                </a>
+                <a
+                  href="   https://www.figma.com/file/75qiS02LnC22SnhSeHxgZZ/Untitled?type=design&node-id=0%3A1&mode=design&t=38NHFtYczyVb1fMB-1"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Figma Design for Model Showcase"
+                  className="text-decoration-none btn-base-light launchbutton"
+                >
+                  Find Original Design Reference
                 </a>
               </div>
             </div>
@@ -400,26 +410,26 @@ export default function Projects() {
                 Weather App
               </h2>
               <div className="popupText">
-                <div className="popuphighlight text-decoration-underline">
+                <div className="text-decoration-underline popuphighlight">
                   Objective:
                 </div>
-                Learn to use React and implement multiple components
+                Learn to use React.js and implement multiple components
                 <br />{" "}
-                <div className="popuphighlight text-decoration-underline mt-2">
+                <div className="mt-2 text-decoration-underline popuphighlight">
                   {" "}
                   Achieved:
                 </div>
-                As my first React project I built a second Weather app. Learning
-                to use React was a steep learning curve. Very quickly I enjoyed
-                building all the components and putting them together like a
-                Puzzle. To add a unique touch and because autumn is near, I
-                created individual Tarot-themed weather icons.
+                As my first React project I built a second Weather Application.
+                Learning to use React was a steep learning curve. Very quickly I
+                enjoyed building all the components and putting them together
+                like a Puzzle. To add a unique touch and because autumn is near,
+                I created individual Tarot-themed weather icons.
                 <a
                   href="https://steady-crepe-0282c0.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   alt="Website for Weather Application"
-                  className="launchbutton text-decoration-none btn-base-light "
+                  className="text-decoration-none btn-base-light launchbutton"
                 >
                   LAUNCH MAGIC WEATHER
                 </a>
@@ -439,29 +449,29 @@ export default function Projects() {
             <div className="col col-lg-7 m-4 m-lg-0 ">
               <h2>Weather App</h2>
               <div className="popupText">
-                <div className="popuphighlight text-decoration-underline">
+                <div className="text-decoration-underline popuphighlight">
                   {" "}
                   Objective:
                 </div>{" "}
                 Build a functioning application, learn how to implement APIs and
                 make a responsive website using Bootstrap.
-                <div className="popuphighlight text-decoration-underline mt-2">
+                <div className="mt-2 text-decoration-underline popuphighlight">
                   <br />
                   Achieved:
                 </div>
                 Building upon my previously-gained knowledge I constructed a
                 Weather App. This project helped me to learn how to integrate
                 and understand APIs, real-life development workflows, hosting,
-                and gain a deeper understanding of JavaScript. The App allows
+                and to gain a deeper understanding of JavaScript. The App allows
                 users to easily access up-to-date weather conditions and
-                forecasts for locations all around the world. I had lots of fun,
+                forecasts for locations all around the world. I had lots of fun
                 styling the website with a Californian vibe in mind.
                 <a
                   href="https://eva-weather-app-1.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   alt="Website for Weather Application"
-                  className="launchbutton text-decoration-none btn-base-light "
+                  className="text-decoration-none btn-base-light launchbutton"
                 >
                   LAUNCH WEATHER APP
                 </a>
@@ -477,21 +487,22 @@ export default function Projects() {
             <div className="col col-lg-7 m-4 m-lg-0 ">
               <h2>World Clock</h2>
               <div className="popupText">
-                <div className="popuphighlight text-decoration-underline">
+                <div className="text-decoration-underline popuphighlight">
                   {" "}
                   Objective:
                 </div>{" "}
-                Gain more experience with APIs, ans especially handling and
-                processing local local times. <br />
-                <div className="popuphighlight text-decoration-underline mt-2">
+                Gain more experience with APIs, and especially handling and
+                processing local times. <br />
+                <div className="mt-2 text-decoration-underline popuphighlight">
                   Achieved:
                 </div>
-                My second big project was the development of a Java Script World
+                My second big project was the development of a JavaScript World
                 Clock App, also built using Bootstrap. This project helped me to
                 deepen my API knowledge and refine my development skills.
                 Implementing the time first seemed very hard, but I loved
                 reading about calculations around UTC, how to work with it and
-                to solve challenges creatively.
+                to solve challenges creatively. I animated an indicator to show
+                the seconds and move around the main spplication like a clock.
                 <a
                   href="https://evas-world-clock.netlify.app/"
                   target="_blank"

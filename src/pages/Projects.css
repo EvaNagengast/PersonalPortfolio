@@ -1,10 +1,6 @@
-/* CSS checked o unchecked x 
-redundant checked o unchecked x 
-double css checked o unchecked x  */
 .Projects {
   background-color: var(---basedark);
 }
-
 .Projects .projectspage {
   display: flex;
   flex-direction: column;
@@ -14,14 +10,15 @@ double css checked o unchecked x  */
 .Projects h1 {
   margin: 140px 0 35px 10px;
   font-size: 120px;
-  color: var(---base);
   font-weight: 900;
+  color: var(---base);
   font-family: "Montserrat", sans-serif;
   letter-spacing: -7px;
 }
 .Projects .popuphighlight {
-  font-weight: bolder;
+  font-weight: 900;
   color: var(---baselight);
+  text-transform: uppercase;
 }
 .Projects .cardText {
   margin: 0;
@@ -29,7 +26,6 @@ double css checked o unchecked x  */
   font-weight: 900;
   color: var(---basedark);
 }
-
 .Projects .card {
   display: inline-block;
   max-width: 320px;
@@ -52,13 +48,12 @@ double css checked o unchecked x  */
   box-shadow: 1px 1px 5px 1px #1b2e472f;
   font-size: 14px;
 }
-
 .Projects .visitButton:hover,
 .popupButton:hover {
   background-color: var(---basedark);
   color: var(---base);
 }
-/*   */
+/*  Popups  */
 .Popup h2 {
   margin-right: 80px;
   font-size: 40px;
@@ -75,7 +70,7 @@ double css checked o unchecked x  */
   width: fit-content;
   margin: 20px auto 5px;
   padding: 3px 10px;
-  box-shadow: 1px 1px 5px 1px #1b2e472f;
+  box-shadow: 2px 1px 5px 1px #752b2b25;
   font-size: 14px;
 }
 .Popup .launchbutton:hover {
@@ -96,7 +91,7 @@ double css checked o unchecked x  */
 }
 
 @media (max-width: 960px) {
-  .Aboutme h1 {
+  .Projects h1 {
     margin-bottom: 20px;
   }
 }
@@ -117,22 +112,23 @@ double css checked o unchecked x  */
 }
 
 @media (max-width: 480px) {
-  .Contact h1 {
+  .Projects h1 {
     font-size: 60px;
     letter-spacing: -2px;
   }
 }
 @media (max-width: 400px) {
-  .Contact h1 {
+  .Projects h1 {
     font-size: 55px;
     letter-spacing: -2px;
-  }
-  .Popup .popupText {
-    font-size: 12px;
   }
   .Popup h2 {
     font-size: 30px;
   }
+  .Popup .popupText {
+    font-size: 12px;
+  }
+
   .Popup .launchbutton {
     font-size: 12px;
   }
