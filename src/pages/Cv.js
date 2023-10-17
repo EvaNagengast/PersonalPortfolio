@@ -290,7 +290,6 @@ export default function Cv() {
             </ul>
             <h2 className="pt-3">Languages</h2>
             <ul className="ps-1">
-            
               <li>German - Native </li>
               <li>English - Bilingual Proficiency</li>
               <li>Spanish - Beginner</li>

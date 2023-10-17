@@ -5,6 +5,7 @@ import {
   Route,
   NavLink,
 } from "react-router-dom";
+import { RxHamburgerMenu } from "react-icons/rx";
 import Home from "./Home";
 import AboutMe from "./Aboutme";
 import Contact from "./Contact";
@@ -29,20 +30,57 @@ export default function Navbar() {
   return (
     <div className="Navbar">
       <Router>
-        <nav className="navigation">
-          <NavLink to="/" id="main">
-            <img src={Logo} alt="Logo Eva Nagengast" className=" d-none d-sm-inline-block" />
-          </NavLink>
-          <NavLink to="/" id="main">
-            HOME
-          </NavLink>
-          <NavLink to="/aboutme">ABOUT</NavLink>
-          <NavLink to="/contact">CONTACT</NavLink>
-          <NavLink to="/projects">PROJECTS</NavLink>
-
-          <NavLink to="/cv" className="navbutton">
-            RESUME
-          </NavLink>
+        <nav className="navbar navbar-expand-sm">
+          <div className="container-fluid">
+            <NavLink to="/" id="main">
+              <img src={Logo} alt="Logo Eva Nagengast"></img>
+            </NavLink>
+            <button
+              className="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span className="navbar-toggler-icon">
+                <RxHamburgerMenu />
+              </span>
+            </button>
+            <div
+              className="collapse navbar-collapse"
+              id="navbarSupportedContent"
+            >
+              <ul className="navbar-nav ">
+                <li className="nav-item">
+                  <NavLink to="/" className="nav-link">
+                    Home
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/aboutme" className="nav-link">
+                    About
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/contact" className="nav-link">
+                    Contact
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/projects" className="nav-link">
+                    Projects
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink to="/cv" className="mb-2 mb-sm-0 nav-link navbutton">
+                    Resumé
+                  </NavLink>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
         {routes}
       </Router>

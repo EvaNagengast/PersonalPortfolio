@@ -42,7 +42,7 @@ export default function Contact() {
                 >
                   <span className="highlight pe-3">
                     <PiLinkedinLogo /> LINKEDIN
-                  </span>{" "}
+                  </span>
                   <br className="d-block d-sm-none" />
                   linkedin.com/in/evanagengast/
                 </a>

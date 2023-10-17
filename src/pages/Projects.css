@@ -77,6 +77,9 @@
   background-color: var(---baselight);
   color: var(---base);
 }
+.Popup .popupcontent {
+  padding: 10px;
+}
 
 @media (max-width: 1023px) {
   .Projects h1 {
@@ -86,7 +89,10 @@
     font-size: 15px;
   }
   .Popup h2 {
-    font-size: 30px;
+    font-size: 35px;
+  }
+  .Popup .popupcontent {
+    padding: 20px;
   }
 }
 
@@ -103,11 +109,24 @@
   .Projects .cardicon {
     font-size: 16px;
   }
+
+  /*  */
+
+  .Popup h2 {
+    font-size: 30px;
+  }
 }
 @media (max-width: 576px) {
   .Projects h1 {
     font-size: 65px;
     letter-spacing: -3px;
+  }
+  .Projects .visitButton,
+  .popupButton {
+    font-size: 12px;
+  }
+  .Popup .popupcontent {
+    padding: 0 15px 0 18px;
   }
 }
 

@@ -37,12 +37,15 @@
 
 @media (max-width: 1024px) {
   .Popup {
-    top: 25px;
+    top: 45px;
   }
 }
-@media (max-width: 400px) {
-  .Popup {
-    top: 30px;
+@media (max-width: 470px) {
+ 
+  .popup-inner {
+    padding: 0px;
+    max-width: 90%;
+    border: 10px double var(---baselight);
   }
   .popup-inner .close-btn {
     font-size: 10px;

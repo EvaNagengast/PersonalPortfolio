@@ -1,35 +1,36 @@
-/* CSS checked x unchecked o 
-redundant checked o unchecked x 
-double css checked o unchecked x  */
-
 .Navbar nav {
   position: sticky;
   top: 0;
   height: fit-content;
-  padding: 7px 0;
+  padding: 2px 0;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.237);
   background-image: linear-gradient(
     to bottom,
     #fffcec,
-    #fffcece0,
-    #fffceccc,
-    #fffcecba,
-    #fffcec90
+    #fffcecf1,
+    #fffcece5,
+    #fffcecd8,
+    #fffcecb5
   );
   z-index: 10;
 }
 .Navbar nav a {
   padding: 5px;
-  color: black;
+  color: var(---basedark);
   letter-spacing: 2px;
   text-decoration: none;
+  text-transform: uppercase;
 }
 .Navbar nav a:hover {
   color: var(---baselight);
   text-decoration: none;
 }
+.Navbar nav a.active {
+  color: var(---baselight);
+  letter-spacing: 1px;
+}
 .Navbar nav img {
-  height: 45px;
+  height: 50px;
   margin: -5px 0 0 5px;
 }
 
@@ -46,24 +47,20 @@ double css checked o unchecked x  */
   background-color: #155b9570;
   color: var(---base);
 }
-.Navbar .navigation a.active {
-  font-weight: 900;
+
+.Navbar .navbar-toggler-icon {
   color: var(---basedark);
-  letter-spacing: 1px;
 }
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 @media (max-width: 510px) {
   .Navbar nav img {
-    height: 32px;
-  }
-  .Navbar .navigation a {
-    font-size: 12px;
-  }
-}
-@media (max-width: 410px) {
-  .Navbar nav img {
-    height: 28px;
-  }
-  .Navbar .navigation a {
-    font-size: 10px;
+    height: 40px;
   }
 }

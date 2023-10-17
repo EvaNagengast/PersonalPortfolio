@@ -276,7 +276,7 @@ export default function Projects() {
                 alt="webpage about london"
               />
             </div>
-            <div className="col col-lg-7 m-4 m-lg-0 ">
+            <div className="col col-lg-7 popupcontent">
               <h2>Musical Journey through London</h2>
               <div className="popupText">
                 <div className="text-decoration-underline popuphighlight">
@@ -316,7 +316,7 @@ export default function Projects() {
                 alt="dictionary webpage"
               />
             </div>
-            <div className="col col-lg-7 m-4 m-lg-0 ">
+            <div className="col col-lg-7 popupcontent">
               <h2>Dictionary App</h2>
               <div className="popupText">
                 <div className="text-decoration-underline popuphighlight">
@@ -356,7 +356,7 @@ export default function Projects() {
                 alt="webpage about pigeons"
               />
             </div>
-            <div className="col col-lg-7 m-4 m-lg-0 ">
+            <div className="col col-lg-7 popupcontent">
               <h2>Pigeon Showcase</h2>
               <div className="popupText ">
                 <div className="text-decoration-underline popuphighlight">
@@ -404,7 +404,7 @@ export default function Projects() {
                 alt="weather application"
               />
             </div>
-            <div className="col col-lg-7 m-4 m-lg-0 ">
+            <div className="col col-lg-7 popupcontent">
               <h2>
                 Magic <br />
                 Weather App
@@ -446,7 +446,7 @@ export default function Projects() {
                 alt="weather application"
               />
             </div>
-            <div className="col col-lg-7 m-4 m-lg-0 ">
+            <div className="col col-lg-7 popupcontent">
               <h2>Weather App</h2>
               <div className="popupText">
                 <div className="text-decoration-underline popuphighlight">
@@ -484,7 +484,7 @@ export default function Projects() {
             <div className="col-5 d-none d-lg-block">
               <img src={XLclock} className="xlimage" alt="worldclock app" />
             </div>
-            <div className="col col-lg-7 m-4 m-lg-0 ">
+            <div className="col col-lg-7 popupcontent">
               <h2>World Clock</h2>
               <div className="popupText">
                 <div className="text-decoration-underline popuphighlight">
