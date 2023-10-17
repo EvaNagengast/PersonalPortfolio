@@ -50,7 +50,7 @@ export default function Projects() {
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <LuCode />
                 </p>
                 <a
-                  href="https://bucolic-faun-a689bb.netlify.app/"
+                  href="https://london-music-journey.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   alt="Musical Journey through London Webpage"
@@ -117,7 +117,7 @@ export default function Projects() {
                   <PiFileHtml /> <PiFileCss /> <PiFileJs /> <RiBootstrapLine />
                 </p>
                 <a
-                  href="https://heartfelt-mermaid-f746f4.netlify.app/"
+                  href="https://evas-pigeon-portfolio.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   alt="Pigeon Showcase Webpage"
@@ -151,7 +151,7 @@ export default function Projects() {
                   <RiBootstrapLine />
                 </p>
                 <a
-                  href="https://steady-crepe-0282c0.netlify.app/"
+                  href="https://eva-weather-app-2.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   alt="Magical Weather Application"
@@ -187,7 +187,7 @@ export default function Projects() {
                   <RiBootstrapLine />
                 </p>
                 <a
-                  href="https://steady-crepe-0282c0.netlify.app/"
+                  href="https://eva-weather-app-2.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   alt="Magical Weather Application"
@@ -295,7 +295,7 @@ export default function Projects() {
                 tables, all seamlessly rendered responsive with the use of media
                 queries.
                 <a
-                  href="https://bucolic-faun-a689bb.netlify.app/"
+                  href="https://london-music-journey.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   alt="Website for Musical Journey"
@@ -374,7 +374,7 @@ export default function Projects() {
                 Bootstrap and media queries, I ensured that the site stays
                 responsive and beautiful across all devices.
                 <a
-                  href="https://heartfelt-mermaid-f746f4.netlify.app/"
+                  href="https://evas-pigeon-portfolio.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   alt="Webpage for Pigeon Showcase"
@@ -425,7 +425,7 @@ export default function Projects() {
                 like a Puzzle. To add a unique touch and because autumn is near,
                 I created individual Tarot-themed weather icons.
                 <a
-                  href="https://steady-crepe-0282c0.netlify.app/"
+                  href="https://eva-weather-app-2.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   alt="Website for Weather Application"
@@ -465,7 +465,7 @@ export default function Projects() {
                 and to gain a deeper understanding of JavaScript. The App allows
                 users to easily access up-to-date weather conditions and
                 forecasts for locations all around the world. I had lots of fun
-                styling the website with a Californian vibe in mind.
+                styling the website in a Pop Art style.
                 <a
                   href="https://eva-weather-app-1.netlify.app/"
                   target="_blank"

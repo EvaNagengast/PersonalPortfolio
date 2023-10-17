@@ -55,7 +55,7 @@ export default function Projectsection() {
                   Built with HTML, CSS, JavaScript, Embeds & Bootstrap
                 </div>
                 <a
-                  href="https://bucolic-faun-a689bb.netlify.app/"
+                  href="https://london-music-journey.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   alt="London Music Journey Webdite "
@@ -134,7 +134,7 @@ export default function Projectsection() {
                   Built with HTML, CSS, JavaScript & Figma
                 </div>
                 <a
-                  href="https://heartfelt-mermaid-f746f4.netlify.app/"
+                  href="https://evas-pigeon-portfolio.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                   alt="Pigeon Showcase Website"
