@@ -80,15 +80,15 @@ export default function Cv() {
           <ul>
             <li>
               Use of a specialised program to transform AI-generated audio into
-              realistic human-like speech.
+              realistic human-like speech
             </li>
             <li>
               Analysing, improving and fine-tuning the audio files with the
-              DeepZen Studio.
+              DeepZen Studio
             </li>
             <li>
               Making nuanced adjustments based on understanding of tone, pacing,
-              and inflection.
+              and inflection
             </li>
           </ul>
 
@@ -105,15 +105,15 @@ export default function Cv() {
           <ul>
             <li>
               Visited clients in London, Surrey, Essex, and Kent to maintain
-              live plant displays.
+              live plant displays
             </li>
             <li>
               Managed schedules, ordered plants and materials, and solved
-              practical challenges on-site.
+              practical challenges on-site
             </li>
             <li>
               Liaised professionally with customers and communicated with
-              managers, and stakeholders.
+              managers, and stakeholders
             </li>
           </ul>
 
@@ -130,7 +130,7 @@ export default function Cv() {
           <ul>
             <li>
               Offered a homely experience for customers, with an
-              old-school-hospitality mindset.
+              old-school-hospitality mindset
             </li>
             <li>
               Delivered and coordinated staff training, mentored new staff, and
@@ -142,7 +142,7 @@ export default function Cv() {
             </li>
             <li>
               Implemented craft exchange, saving the company 25% of costs on
-              external contractors.
+              external contractors
             </li>
           </ul>
 
@@ -161,15 +161,15 @@ export default function Cv() {
           <ul>
             <li>
               Collaborated with bands and promoters, efficiently exchanging tour
-              booking information.
+              booking information
             </li>
             <li>
               Drafted contracts and invoices, frequently releasing pre-sale
-              numbers and show announcements.
+              numbers and show announcements
             </li>
             <li>
               Developed an internal data exchange system to save time and
-              improve workflow.
+              improve workflow
             </li>
           </ul>
 
@@ -186,19 +186,19 @@ export default function Cv() {
           <ul>
             <li>
               Led large teams of up to 40 people, providing support, direction,
-              and coaching.
+              and coaching
             </li>
             <li>
               Coordinated maintenance projects with engineering departments
-              locally and overseas.
+              locally and overseas
             </li>
             <li>
               Implemented and maintained 5S Standards for a productive and safe
-              work environment.
+              work environment
             </li>
             <li>
               Improved intern storage space and reduced storage cost by 15%
-              through active research and SAP.
+              through active research and SAP
             </li>
           </ul>
 
