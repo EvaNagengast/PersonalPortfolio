@@ -87,7 +87,7 @@ export default function Cv() {
               DeepZen Studio
             </li>
             <li>
-              Making nuanced adjustments based on understanding of tone, pacing,
+              Making nuanced adjustments based on understanding of tone, pacing
               and inflection
             </li>
           </ul>
@@ -104,12 +104,12 @@ export default function Cv() {
 
           <ul>
             <li>
-              Visited clients in London, Surrey, Essex, and Kent to maintain
-              live plant displays
+              Visited clients to maintain live plant displays, to give advise
+              and improve installations
             </li>
             <li>
               Managed schedules, ordered plants and materials, and solved
-              practical challenges on-site
+              practical challenges on-site{" "}
             </li>
             <li>
               Liaised professionally with customers and communicated with
@@ -129,6 +129,7 @@ export default function Cv() {
 
           <ul>
             <li>
+              {" "}
               Offered a homely experience for customers, with an
               old-school-hospitality mindset
             </li>
@@ -165,7 +166,7 @@ export default function Cv() {
             </li>
             <li>
               Drafted contracts and invoices, frequently releasing pre-sale
-              numbers and show announcements
+              numbers and show announcements{" "}
             </li>
             <li>
               Developed an internal data exchange system to save time and
@@ -185,11 +186,11 @@ export default function Cv() {
 
           <ul>
             <li>
-              Led large teams of up to 40 people, providing support, direction,
+              Led large teams of up to 40 people, providing support, direction
               and coaching
             </li>
             <li>
-              Coordinated maintenance projects with engineering departments
+              Coordinated and carried out maintenance projects with engineers
               locally and overseas
             </li>
             <li>
@@ -198,7 +199,7 @@ export default function Cv() {
             </li>
             <li>
               Improved intern storage space and reduced storage cost by 15%
-              through active research and SAP
+              through active research and SAP.
             </li>
           </ul>
 
@@ -264,7 +265,7 @@ export default function Cv() {
                 </h4>
               </div>
             </div>
-            <p>BA, German</p>
+            <p>BA, German 2.1 part-time</p>
             <div className="row pt-2">
               <div className="col-12 col-sm-8 pt-3 pt-sm-2">
                 <h4 className="mb-0"> Bosch GmbH </h4>
@@ -275,6 +276,7 @@ export default function Cv() {
                 </h4>
               </div>
             </div>
+            <p>BTEC</p>
             <p> Apprenticeship + A-levels</p>
             <h2 className="pt-3">SKILLS/TOOLS</h2>
             <ul className="ps-1">
@@ -286,7 +288,7 @@ export default function Cv() {
               <li>Bootstrap and Responsive Development </li>
               <li>Figma</li>
               <li>Libraries and APIs </li>
-              <li>Adobe Illustrator, Fresco, PS</li>
+              <li>Adobe Illustrator, Fresco, Photoshop</li>
             </ul>
             <h2 className="pt-3">Languages</h2>
             <ul className="ps-1">
