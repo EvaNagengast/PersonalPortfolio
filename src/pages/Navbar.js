@@ -55,12 +55,24 @@ export default function Navbar() {
               <ul className="navbar-nav ">
                 <li className="nav-item">
                   <NavLink to="/" className="nav-link">
-                    Home
+                    <span
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                    >
+                      Home
+                    </span>
                   </NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="/aboutme" className="nav-link">
-                    About
+                    <span
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                    >
+                      About
+                    </span>
                   </NavLink>
                 </li>
                 <li className="nav-item">
@@ -70,12 +82,24 @@ export default function Navbar() {
                 </li>
                 <li className="nav-item">
                   <NavLink to="/projects" className="nav-link">
-                    Projects
+                    <span
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                    >
+                      Projects
+                    </span>
                   </NavLink>
                 </li>
                 <li className="nav-item">
                   <NavLink to="/cv" className="mb-2 mb-sm-0 nav-link navbutton">
-                    Resumé
+                    <span
+                      data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent"
+                      aria-controls="navbarSupportedContent"
+                    >
+                      Resume
+                    </span>
                   </NavLink>
                 </li>
               </ul>
