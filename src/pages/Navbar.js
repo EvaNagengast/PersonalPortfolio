@@ -1,6 +1,6 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
+
   Routes,
   Route,
   NavLink,
@@ -29,7 +29,7 @@ export default function Navbar() {
 
   return (
     <div className="Navbar">
-      <Router>
+  
         <nav className="navbar navbar-expand-sm">
           <div className="container-fluid">
             <NavLink to="/" id="main">
@@ -107,7 +107,7 @@ export default function Navbar() {
           </div>
         </nav>
         {routes}
-      </Router>
+
     </div>
   );
 }
