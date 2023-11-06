@@ -255,17 +255,8 @@ export default function Cv() {
               </div>
             </div>
             <p>Certificate in Front-End Development</p>
-            <div className="row pt-3 pt-sm-2">
-              <div className="col-12 col-sm-8">
-                <h4 className="mb-0"> ILS Fernhochschule</h4>
-              </div>
-              <div className="col-12 col-sm-4 text-end">
-                <h4 className="mb-1 mb-sm-0  text-start text-sm-end">
-                  2008-2012
-                </h4>
-              </div>
-            </div>
-            <p>BA, German 2.1 part-time</p>
+             
+      
             <div className="row pt-2">
               <div className="col-12 col-sm-8 pt-3 pt-sm-2">
                 <h4 className="mb-0"> Bosch GmbH </h4>
