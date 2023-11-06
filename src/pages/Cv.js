@@ -255,8 +255,7 @@ export default function Cv() {
               </div>
             </div>
             <p>Certificate in Front-End Development</p>
-             
-      
+
             <div className="row pt-2">
               <div className="col-12 col-sm-8 pt-3 pt-sm-2">
                 <h4 className="mb-0"> Bosch GmbH </h4>
@@ -269,6 +268,18 @@ export default function Cv() {
             </div>
             <p>BTEC</p>
             <p> Apprenticeship + A-levels</p>
+            <div className="row pt-2">
+              <div className="col-12 col-sm-8 pt-3 pt-sm-2">
+                <h4 className="mb-0">Realschule Hirschaid </h4>
+              </div>
+              <div className="col-12 col-sm-4 text-end">
+                <h4 className="mb-1 mb-sm-0 text-start text-sm-end">
+             until     2008 
+                </h4>
+              </div>
+            </div>
+      
+            <p>GCSEs (Language, Math, German, English)</p>
             <h2 className="pt-3">SKILLS/TOOLS</h2>
             <ul className="ps-1">
               <li>HTML + CSS</li>
@@ -279,7 +290,7 @@ export default function Cv() {
               <li>Bootstrap and Responsive Development </li>
               <li>Figma</li>
               <li>Libraries and APIs </li>
-              <li>Adobe Illustrator, Fresco, Photoshop</li>
+              <li>Adobe Illustrator, Fresco, Photoshop, Lightroom</li>
             </ul>
             <h2 className="pt-3">Languages</h2>
             <ul className="ps-1">
@@ -290,10 +301,11 @@ export default function Cv() {
             <h2 className="pt-3">Strengths</h2>
             <ul className="ps-1">
               <li>Front-End Development</li>
-              <li> Project Management </li>
-              <li> Creativity </li>
+              <li>Project Management </li>
+              <li>Creativity </li>
               <li>Excellent Communication</li>
               <li>Adaptability</li>
+              <li>Organisational skills</li>
             </ul>
           </div>
         </main>
