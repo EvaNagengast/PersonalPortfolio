@@ -1,12 +1,14 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 import ProjectOneImg from "../../media/projectOne.png";
-import ProjectTwoImg from "../../media/projectTwo.png";
-import ProjectThreeImg from "../../media/ProjectThree.png";
-import ProjectFourImg from "../../media/ProjectFour.png";
+
 import ProjectOnesmall from "../../media/ProjectOneSmall.png";
+import ProjectTwoImg from "../../media/projectTwo.png";
 import ProjectTwosmall from "../../media/ProjectTwoSmall.png";
+import ProjectThreeImg from "../../media/ProjectThree.png";
 import ProjectThreesmall from "../../media/ProjectThreeSmall.png";
+
+import ProjectFourImg from "../../media/ProjectFour.png";
 import ProjectFoursmall from "../../media/ProjectFourSmall.png";
 
 import "./Projectsection.css";
@@ -28,6 +30,45 @@ export default function Projectsection() {
           </button>
         </p>
         <div className="pt-3 pt-sm-4">
+          <div className="row m-auto projectFour projectmargin ">
+            <div className="col-12 col-sm-7 text-sm-end order-2 order-sm-1 projectTextleft">
+              <h5>Author Website and Portfolio</h5>
+              <div className="projectdescription">
+                This Website was built to showcase the newest work of the author
+                Jane Corry and to offer a unique glimpse into the author's
+                world. To catch the eye of the user, the landing page shows a
+                gloomy scene with animated flashing windows. The website also
+                features a dynamic slideshow and a typewriter animation.
+                <div className="projectTools">
+                  Built with HTML, CSS, JavaScript, React, Embeds, Bootstrap,
+                  npm Libraries
+                </div>
+                <a
+                  href="https://www.janecorryauthor.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Jane Corry Website"
+                  className="m-3 px-3 py-1 btn-dark-base"
+                >
+                  go to page
+                </a>
+              </div>
+            </div>
+            <div className="col-12 col-sm-5 d-none d-sm-block order-1 order-sm-2">
+              <img
+                src={ProjectFourImg}
+                alt="project example"
+                className="img-fluid projectImageleft"
+              />
+            </div>
+            <div className="col-12 col-sm-5 d-block d-sm-none order-1">
+              <img
+                src={ProjectFoursmall}
+                alt="project example"
+                className="img-fluid pb-3 projectimgsmall"
+              />
+            </div>
+          </div>
           <div className="row m-auto projectOne projectmargin">
             <div className="col-12 col-sm-5 d-none d-sm-block">
               <img
@@ -143,44 +184,6 @@ export default function Projectsection() {
                   go to page
                 </a>
               </div>
-            </div>
-          </div>
-          <div className="row m-auto projectFour projectmargin ">
-            <div className="col-12 col-sm-7 text-sm-end order-2 order-sm-1 projectTextleft">
-              <h5>World Clock</h5>
-              <div className="projectdescription">
-                With the World Clock App, users can explore global time zones.
-                This app uses HTML+CSS, JavaScript and seamless API integration,
-                to efficiently retrieve and display city times from all around
-                the world. It's designed to be intuitive and easy to use for a
-                smooth user-experience.
-                <div className="projectTools">
-                  Built with HTML, CSS, JavaScript & APIs
-                </div>
-                <a
-                  href="https://evas-world-clock.netlify.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  alt="World Clock Website"
-                  className="m-3 px-3 py-1 btn-dark-base"
-                >
-                  go to page
-                </a>
-              </div>
-            </div>
-            <div className="col-12 col-sm-5 d-none d-sm-block order-1 order-sm-2">
-              <img
-                src={ProjectFourImg}
-                alt="project example"
-                className="img-fluid projectImageleft"
-              />
-            </div>
-            <div className="col-12 col-sm-5 d-block d-sm-none order-1">
-              <img
-                src={ProjectFoursmall}
-                alt="project example"
-                className="img-fluid pb-3 projectimgsmall"
-              />
             </div>
           </div>
         </div>

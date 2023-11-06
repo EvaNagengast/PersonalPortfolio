@@ -67,6 +67,39 @@ export default function Projects() {
               </div>
             </div>
           </div>
+          <div className="col-sm-6 col-lg-4">
+            <div className="card">
+              <img
+                className="card-img-top"
+                src={London}
+                alt="Musical London Journey"
+              />
+              <div className="card-body">
+                <p className="cardText">
+                  London Music <br className="d-block d-lg-none" />
+                  Journey
+                </p>
+                <p className="cardicon">
+                  <PiFileHtml /> <PiFileCss /> <PiFileJs /> <LuCode />
+                </p>
+                <a
+                  href="https://london-music-journey.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Musical Journey through London Webpage"
+                  className="btn-base-dark text-decoration-none visitButton"
+                >
+                  visit page
+                </a>
+                <button
+                  onClick={() => setPopupOne(true)}
+                  className="btn-base-dark popupButton"
+                >
+                  learn more
+                </button>
+              </div>
+            </div>
+          </div>
           <div className="col-sm-6 col-lg-4 ">
             <div className="card">
               <img
@@ -168,8 +201,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="row m-auto px-3">
+
           <div className="col-sm-6 col-lg-4 d-none d-lg-block">
             <div className="card">
               <img
