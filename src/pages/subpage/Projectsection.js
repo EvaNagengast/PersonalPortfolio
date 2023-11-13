@@ -12,6 +12,10 @@ import ProjectFourImg from "../../media/ProjectFour.png";
 import ProjectFoursmall from "../../media/ProjectFourSmall.png";
 
 import "./Projectsection.css";
+
+import { motion } from "framer-motion";
+import "./Aboutsection.css";
+
 export default function Projectsection() {
   let navigate = useNavigate();
   return (
@@ -55,33 +59,45 @@ export default function Projectsection() {
               </div>
             </div>
             <div className="col-12 col-sm-5 d-none d-sm-block order-1 order-sm-2">
-              <img
+              <motion.img
                 src={ProjectFourImg}
                 alt="project example"
                 className="img-fluid projectImageleft"
+                initial={{ opacity: 0, scale: 0.8 }}
+                transition={{ duration: 2 }}
+                whileInView={{ opacity: 1, scale: 1 }}
               />
             </div>
             <div className="col-12 col-sm-5 d-block d-sm-none order-1">
-              <img
+              <motion.img
                 src={ProjectFoursmall}
                 alt="project example"
                 className="img-fluid pb-3 projectimgsmall"
+                initial={{ opacity: 0, scale: 0.8 }}
+                transition={{ duration: 2 }}
+                whileInView={{ opacity: 1, scale: 1 }}
               />
             </div>
           </div>
           <div className="row m-auto projectOne projectmargin">
             <div className="col-12 col-sm-5 d-none d-sm-block">
-              <img
+              <motion.img
                 src={ProjectOneImg}
                 alt="project example"
-                className="img-fluid projectImageright"
+                className="img-fluid py-4 projectImageright"
+                initial={{ opacity: 0, scale: 0.8 }}
+                transition={{ duration: 2 }}
+                whileInView={{ opacity: 1, scale: 1 }}
               />
             </div>
             <div className="col-12 col-sm-5 d-block d-sm-none">
-              <img
+              <motion.img
                 src={ProjectOnesmall}
                 alt="project example"
                 className="img-fluid pb-3 projectimgsmall "
+                initial={{ opacity: 0, scale: 0.8 }}
+                transition={{ duration: 2 }}
+                whileInView={{ opacity: 1, scale: 1 }}
               />
             </div>
             <div className="col-12 col-sm-7 text-sm-end projectTextright">
@@ -133,34 +149,46 @@ export default function Projectsection() {
               </div>
             </div>
             <div className="col-12 col-sm-5 d-none d-sm-block order-1 order-sm-2">
-              <img
+              <motion.img
                 src={ProjectTwoImg}
-                alt="project example "
+                alt="project example"
                 className="img-fluid projectImageleft"
+                initial={{ opacity: 0, scale: 0.8 }}
+                transition={{ duration: 2 }}
+                whileInView={{ opacity: 1, scale: 1 }}
               />
             </div>
             <div className="col-12 col-sm-5 d-block d-sm-none">
-              <img
+              <motion.img
                 src={ProjectTwosmall}
                 alt="project example"
                 className="img-fluid pb-3 projectimgsmall"
+                initial={{ opacity: 0, scale: 0.8 }}
+                transition={{ duration: 2 }}
+                whileInView={{ opacity: 1, scale: 1 }}
               />
             </div>
           </div>
           <div className="row m-auto projectmargin projectThree">
             <div className="col-12 col-sm-5 d-none d-sm-block">
-              <img
+              <motion.img
                 src={ProjectThreeImg}
                 alt="project example"
                 className="img-fluid projectImageright"
-              />
+                initial={{ opacity: 0, scale: 0.8 }}
+                transition={{ duration: 2 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+              />{" "}
             </div>
             <div className="col-12 col-sm-5 d-block d-sm-none">
-              <img
+              <motion.img
                 src={ProjectThreesmall}
                 alt="project example"
                 className="img-fluid pb-3 projectimgsmall"
-              />
+                initial={{ opacity: 0, scale: 0.8 }}
+                transition={{ duration: 2 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+              />{" "}
             </div>
             <div className="col-12 col-sm-7 text-sm-end projectTextright">
               <h5>Pigeon Showcase</h5>

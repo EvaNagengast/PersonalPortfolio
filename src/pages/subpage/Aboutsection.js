@@ -14,6 +14,7 @@ export default function Aboutsection() {
       mainControls.start("visible");
     }
   }, [isInView, mainControls]);
+
   let navigate = useNavigate();
   return (
     <div className="mt-2 mt-sm-4 mt-md-2 mb-4 mb-md-5 Aboutsection" ref={ref}>
@@ -205,6 +206,8 @@ export default function Aboutsection() {
             <span className="colortwo ps-5"> "JavaScript"</span>
             <span className="colorone">,</span>
             <span className="colortwo"> "GitHub"</span>
+            <span className="colorone">,</span>
+            <span className="colortwo"> "Bootstrap"</span>
             <span className="colorone">]</span>
           </div>
         </div>
