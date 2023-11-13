@@ -6,28 +6,34 @@ import { LuLibrary, LuCode } from "react-icons/lu";
 //
 import Popup from "./subpage/Popup";
 import Footer from "./Footer";
-import Dictionary from "../media/webdictionary.png";
-import London from "../media/weblondon.png";
-import Magic from "../media/webmagigweather.png";
-import Pigeons from "../media/webpigeons.png";
-import Weather from "../media/webweather.png";
+//
+import Ctfy from "../media/webctfy.png";
+import XLctfy from "../media/xlctfy.png";
 import Clock from "../media/webworldclock.png";
 import XLclock from "../media/xlclock.png";
+import Dictionary from "../media/webdictionary.png";
 import XLdictionary from "../media/xldictionary.png";
+import London from "../media/weblondon.png";
 import XLlondon from "../media/xllondon.png";
+import Magic from "../media/webmagigweather.png";
 import XLmagic from "../media/xlmagic.png";
+import Pigeons from "../media/webpigeons.png";
 import XLpigeons from "../media/xlpigeons.png";
+import Weather from "../media/webweather.png";
 import XLweather from "../media/xlweather.png";
 
 import "./Projects.css";
 
 export default function Projects() {
-  let [popupOne, setPopupOne] = useState(false);
-  let [popupTwo, setPopupTwo] = useState(false);
-  let [popupThree, setPopupThree] = useState(false);
-  let [popupFour, setPopupFour] = useState(false);
-  let [popupFive, setPopupFive] = useState(false);
-  let [popupSix, setPopupSix] = useState(false);
+  let [popupSeven, setPopupSeven] = useState(false);
+  let [popupSix, setpopupSix] = useState(false);
+  let [popupFive, setpopupFive] = useState(false);
+  let [popupFour, setpopupFour] = useState(false);
+  let [popupThree, setpopupThree] = useState(false);
+  let [popupTwo, setpopupTwo] = useState(false);
+  let [popupOne, setpopupOne] = useState(false);
+
+  //
   return (
     <div className="Projects">
       <div className="text-center projectspage">
@@ -38,28 +44,30 @@ export default function Projects() {
             <div className="card">
               <img
                 className="card-img-top"
-                src={London}
-                alt="Musical London Journey"
+                src={Ctfy}
+                alt="Jane Corry Author Website"
               />
               <div className="card-body">
                 <p className="cardText">
-                  London Music <br className="d-block d-lg-none" />
-                  Journey
+                  Jane Corry <br className="d-block d-lg-none" />
+                  Author
                 </p>
                 <p className="cardicon">
-                  <PiFileHtml /> <PiFileCss /> <PiFileJs /> <LuCode />
+                  <PiFileHtml /> <PiFileCss /> <PiFileJs /> <SiReact />{" "}
+                  <RiBootstrapLine /> <LuLibrary />
+                  <LuCode />
                 </p>
                 <a
-                  href="https://london-music-journey.netlify.app/"
+                  href="https://www.janecorryauthor.com/"
                   target="_blank"
                   rel="noreferrer"
-                  alt="Musical Journey through London Webpage"
+                  alt="Jane Correy - author personal website"
                   className="btn-base-dark text-decoration-none visitButton"
                 >
                   visit page
                 </a>
                 <button
-                  onClick={() => setPopupOne(true)}
+                  onClick={() => setPopupSeven(true)}
                   className="btn-base-dark popupButton"
                 >
                   learn more
@@ -92,7 +100,7 @@ export default function Projects() {
                   visit page
                 </a>
                 <button
-                  onClick={() => setPopupOne(true)}
+                  onClick={() => setpopupSix(true)}
                   className="btn-base-dark popupButton"
                 >
                   learn more
@@ -126,7 +134,7 @@ export default function Projects() {
                   visit page
                 </a>
                 <button
-                  onClick={() => setPopupTwo(true)}
+                  onClick={() => setpopupFive(true)}
                   className="btn-base-dark popupButton"
                 >
                   learn more
@@ -159,7 +167,7 @@ export default function Projects() {
                   visit page
                 </a>
                 <button
-                  onClick={() => setPopupThree(true)}
+                  onClick={() => setpopupFour(true)}
                   className="btn-base-dark popupButton"
                 >
                   learn more
@@ -193,7 +201,7 @@ export default function Projects() {
                   visit page
                 </a>
                 <button
-                  onClick={() => setPopupFour(true)}
+                  onClick={() => setpopupThree(true)}
                   className="btn-base-dark popupButton"
                 >
                   learn more
@@ -228,7 +236,7 @@ export default function Projects() {
                   visit page
                 </a>
                 <button
-                  onClick={() => setPopupFour(true)}
+                  onClick={() => setpopupThree(true)}
                   className="btn-base-dark popupButton"
                 >
                   learn more
@@ -257,7 +265,7 @@ export default function Projects() {
                   visit page
                 </a>
                 <button
-                  onClick={() => setPopupFive(true)}
+                  onClick={() => setpopupTwo(true)}
                   className="popupButton btn-base-dark"
                 >
                   learn more
@@ -287,7 +295,7 @@ export default function Projects() {
                   visit page
                 </a>
                 <button
-                  onClick={() => setPopupSix(true)}
+                  onClick={() => setpopupOne(true)}
                   className="btn-base-dark popupButton"
                 >
                   learn more
@@ -298,8 +306,50 @@ export default function Projects() {
         </div>
       </div>
       <Footer />
+      {/*  */}
+      {/*  */}
+      {/*  */}
+      {/*  */}
+      {/*  */}
+
       <div className="popups">
-        <Popup trigger={popupOne} setTrigger={setPopupOne}>
+        <Popup trigger={popupSeven} setTrigger={setPopupSeven}>
+          <div className="row">
+            <div className="col-5 d-none d-lg-block">
+              <img
+                src={XLctfy}
+                className="xlimage"
+                alt="webpage about london"
+              />
+            </div>
+            <div className="col col-lg-7 popupcontent">
+              <h2>Personal Author Website</h2>
+              <div className="popupText">
+                <div className="text-decoration-underline popuphighlight">
+                  Objective:
+                </div>
+                Build a beautiful Portfolio about published work and recent
+                releases <br />
+                <div className="mt-2 text-decoration-underline popuphighlight">
+                  Achieved:
+                </div>
+                I was lucky that Jane Corry trusted me to build her a personal
+                homepage as my first post-course project. The aim was to design the
+                page based on her latest novel, the colour scheme was dark and gloomy and to greet the visitor I constructed a flashing light in the windows of the lakehouse. I added a slideshow to showcase her Books and an extra section to present her re views, which ws important to her. During this project I learned a lot about Routers and Naviation and dived deep into the magic that can be created with React.
+                <a
+                  href="https://www.janecorryauthor.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  alt="Website for Jane Corry, Author, Books"
+                  className="text-decoration-none btn-base-light launchbutton"
+                >
+                  LAUNCH JANE CORRY WEBSITE
+                </a>
+              </div>
+            </div>
+          </div>
+        </Popup>
+        <Popup trigger={popupSix} setTrigger={setpopupSix}>
           <div className="row">
             <div className="col-5 d-none d-lg-block">
               <img
@@ -339,7 +389,7 @@ export default function Projects() {
             </div>
           </div>
         </Popup>
-        <Popup trigger={popupTwo} setTrigger={setPopupTwo}>
+        <Popup trigger={popupFive} setTrigger={setpopupFive}>
           <div className="row">
             <div className="col-5 d-none d-lg-block">
               <img
@@ -379,7 +429,7 @@ export default function Projects() {
             </div>
           </div>
         </Popup>
-        <Popup trigger={popupThree} setTrigger={setPopupThree}>
+        <Popup trigger={popupFour} setTrigger={setpopupFour}>
           <div className="row">
             <div className="col-5 d-none d-lg-block">
               <img
@@ -427,7 +477,7 @@ export default function Projects() {
             </div>
           </div>
         </Popup>
-        <Popup trigger={popupFour} setTrigger={setPopupFour}>
+        <Popup trigger={popupThree} setTrigger={setpopupThree}>
           <div className="row">
             <div className="col-5 d-none d-lg-block">
               <img
@@ -469,7 +519,7 @@ export default function Projects() {
             </div>
           </div>
         </Popup>
-        <Popup trigger={popupFive} setTrigger={setPopupFive}>
+        <Popup trigger={popupTwo} setTrigger={setpopupTwo}>
           <div className="row">
             <div className="col-5 d-none d-lg-block">
               <img
@@ -511,7 +561,7 @@ export default function Projects() {
             </div>
           </div>
         </Popup>
-        <Popup trigger={popupSix} setTrigger={setPopupSix}>
+        <Popup trigger={popupOne} setTrigger={setpopupOne}>
           <div className="row">
             <div className="col-5 d-none d-lg-block">
               <img src={XLclock} className="xlimage" alt="worldclock app" />
