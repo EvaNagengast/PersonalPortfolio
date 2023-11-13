@@ -334,8 +334,7 @@ export default function Projects() {
                   Achieved:
                 </div>
                 I was lucky that Jane Corry trusted me to build her a personal
-                homepage as my first post-course project. The aim was to design the
-                page based on her latest novel, the colour scheme was dark and gloomy and to greet the visitor I constructed a flashing light in the windows of the lakehouse. I added a slideshow to showcase her Books and an extra section to present her re views, which ws important to her. During this project I learned a lot about Routers and Naviation and dived deep into the magic that can be created with React.
+                homepage. The aim was to design the page based on her latest novel, the colour scheme was dark and gloomy and to greet the visitor I constructed a flashing light in the windows of the lakehouse, which proved harder than expected given the png wouldn't load before the flashing windows at first, but I was very proud, once it worked and gave the page a bit of a scary entry. Exactly what we planned for. I added a slideshow to showcase her Books and an extra section to present her reviews, which was important to her. During this project I learned a lot about Routers and Naviation and dived deep into the magic that can be created with React.
                 <a
                   href="https://www.janecorryauthor.com/"
                   target="_blank"
