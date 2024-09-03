@@ -73,9 +73,7 @@ export default function Cv() {
             <div className='col-12 col-md-9 '>
               <h3 className='mb-0'>Freelance</h3>
             </div>
-            <div className='col-12 col-md-3'>
-            
-            </div>
+            <div className='col-12 col-md-3'></div>
           </div>
           <div className='row mb-2 mb-md-0 pt-1 '>
             <div className='col-12 col-md-9 '>
@@ -310,7 +308,6 @@ export default function Cv() {
               </div>
             </div>
             <p>BTEC + Apprenticeship</p>
-
             <div className='row pt-2'>
               <div className='col-12 col-sm-8 pt-3 pt-sm-2'>
                 <h4 className='mb-0'>Adalbert Raps Schule </h4>
@@ -334,13 +331,13 @@ export default function Cv() {
             <h2 className='pt-3'>SKILLS</h2>
             <ul className='ps-1'>
               <li>Front-End Development - HTML + CSS, JavaScript, React.js</li>
-              <li>Version control - Git, GitHub</li>
+              <li>Version control - Git, GitHub, BitBucket</li>
 
               <li>Responsive and Agile Web Development</li>
-              <li>Frameworks - Next.js, Bootstrap</li>
+              <li>Frameworks - Next.js, Bootstrap, Tailwind </li>
               <li>CMS, Social Media, SEO</li>
               <li>Google Workspace, MS Office</li>
-              <li> Adobe - PhotoShop, Illustrator, Fresco, Lightroom</li>
+              <li> Adobe - PhotoShop, Illustrator, Audition, Fresco</li>
             </ul>
             <h2 className='pt-3'>Languages</h2>
             <ul className='ps-1'>
@@ -351,11 +348,11 @@ export default function Cv() {
             <h2 className='pt-3'>Strengths</h2>
             <ul className='ps-1'>
               <li>Excellent Communication</li>
-              <li>Quick Perception</li>
-              <li>Adaptability</li>
-              <li>Ingenuity and Creativity</li>
-              <li>Community- and Team-spirit</li>
-              <li>Organisational Skills </li>
+              <li>Adaptability and Flexibility</li>
+              <li>Ingenuity and Creativity </li>
+              <li>Communication and Teamwork</li>
+              <li> Quick Perception </li>
+              <li>Organisational Skills</li>
               <li>Workflow Efficiency</li>
             </ul>
           </div>
